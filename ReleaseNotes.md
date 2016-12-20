@@ -32,6 +32,7 @@
 - Improved Error Handling and User Notification.
 - Updated UI.
 - Fix for Effective Time validation when present in seconds format. 
+
 #### v.2.3.6.2 -08/19/2016   
 - Addition of Unique Instance Identifier rule in SCORECARD under Miscellaneous Section.
 - IG References for issues change dynamically based on type of document processed(R1.1, R2.1).
@@ -65,10 +66,8 @@
 #### v.2.3.2.1 - 07/08/2016
 - Applied Scorecard hotfix - Fixed null flavor with problem status code throwing service error
 
-
 #### v.2.3.2 - 06/28/2016
 - Updated Reference C-CDA Validator - Updated Reference Validator to display content errors based on certification test data scenarios
-
 
 #### 2.3.1 - 06/28/2016
 - ONC C-CDA Scorecard (Beta) release
