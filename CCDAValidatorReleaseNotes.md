@@ -1,4 +1,4 @@
-#C-CDA R2.1 Release Notes:
+# C-CDA R2.1 Release Notes:
 
 The SITE C-CDA R2.1 Validator Release for December 20th 2016, based on the [December 13th 2016 MDHT Release](https://github.com/mdht/mdht-models/releases/tag/v2.5.22.20161213_Consol2), contains the following fixes:
 
