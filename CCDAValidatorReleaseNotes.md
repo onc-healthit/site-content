@@ -1,6 +1,6 @@
 # C-CDA R2.1 Release Notes:
 
-The SITE C-CDA R2.1 Validator Release for December 20th 2016, based on the [December 13th 2016 MDHT Release](https://github.com/mdht/mdht-models/releases/tag/v2.5.22.20161213_Consol2), contains the following fixes:
+The **SITE C-CDA R2.1 Validator Release for December 20th 2016**, based on the [December 13th 2016 MDHT Release](https://github.com/mdht/mdht-models/releases/tag/v2.5.22.20161213_Consol2), contains the following fixes:
 
 *   The following defects identified in Google Groups for the TTT or ETT were corrected:
     *   See ERRATA 1220 update
@@ -42,7 +42,7 @@ The SITE C-CDA R2.1 Validator Release for December 20th 2016, based on the [Dece
 
 # C-CDA R1.1 Release Notes:
 
-The SITE C-CDA R1.1 Validator Release for September 2016, based on the [August 19th 2016 MDHT Release](https://github.com/mdht/mdht-models/releases/tag/v2.5.18.20160819_Consol1), contains the following fix:
+The **SITE C-CDA R1.1 Validator Release for September 2016**, based on the [August 19th 2016 MDHT Release](https://github.com/mdht/mdht-models/releases/tag/v2.5.18.20160819_Consol1), contains the following fix:
 
 *  Reverted Administrative Gender (HL7 V3) value set code UNK to UN
 
