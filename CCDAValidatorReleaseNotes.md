@@ -52,9 +52,9 @@ The SITE C-CDA R1.1 Validator Release for September 2016, based on the [August 1
 
 ***
 
-#Prior Releases:
+# Prior Releases:
 
-##Prior C-CDA R2.1 Releases
+## Prior C-CDA R2.1 Releases
 
 **Defects fixed in the SITE C-CDA R2.1 Validator Release for November 17th 2016 (November 15th 2016 MDHT Build):**
 
@@ -168,7 +168,7 @@ The SITE C-CDA R1.1 Validator Release for September 2016, based on the [August 1
 
 ***
 
-##Prior C-CDA R1.1 Releases
+## Prior C-CDA R1.1 Releases
 
 **Defects fixed in the March 23rd 2016 MDHT Build:**
 
