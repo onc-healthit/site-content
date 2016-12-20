@@ -1,6 +1,6 @@
-## C-CDA Validator Release Notes
+#### C-CDA Validator Release Notes
 
-### version 1.0.0 released 12/20/2016
+##### version 1.0.0 released 12/20/2016
 1. item one
   * item indented
   * another subitem
