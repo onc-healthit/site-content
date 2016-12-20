@@ -1,6 +1,14 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.0     - 12/20/2016
+- Updated CCDA Validator with new MDHT build
+- Scorecard fixes and enhancements
+ * Added the ability to score multiple C-CDA files
+ * toggle IG Conformance/Certification results
+ * improved proecessing time
+- New SITE UI released
+
 #### V 2.4     - 11/30/2016
 - Updated Reference C-CDA Validator to fix content validation for Labs/Vitals/Procedures/Immunizations.
 - Upated FHIR Sandbox to fix error handling and displaying appropriate error messages and editing of clients.
