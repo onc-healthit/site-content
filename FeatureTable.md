@@ -4,4 +4,4 @@
 | C-CDA Scorecard (Beta)   | Available
 | FHIR Sandbox   | Available
 | C-CDA Validator API Utility| Available
-| "One-Click Score"| CYQ4 2016
+| "One-Click Score"| CYQ1 2017
