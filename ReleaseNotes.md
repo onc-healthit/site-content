@@ -2,12 +2,16 @@
 ## Release Notes
 
 #### V 3.0     - 12/20/2016
-- Updated CCDA Validator with new MDHT build
+
+- Updated CCDA Validator with the following fixes
+* Relaxed the timing information validation for Problems, Medications, Allergies.
+* Updated new MDHT Release which includes the following ERRATA for C-CDA R2.1 (710, 806, 808, 872, 986, 1018, 1220)
 - Scorecard fixes and enhancements
  * Added the ability to score multiple C-CDA files
  * toggle IG Conformance/Certification results
  * improved proecessing time
 - New SITE UI released
+- Updated FHIR Sandbox with bug fixes idenified by ONC Testing.
 
 #### V 2.4     - 11/30/2016
 - Updated Reference C-CDA Validator to fix content validation for Labs/Vitals/Procedures/Immunizations.
