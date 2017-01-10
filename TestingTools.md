@@ -5,7 +5,6 @@
 * [HL7v2 Syndromic Surveillance Test Suite](http://hl7v2-ss-r2-testing.nist.gov/ss-r2/#/home)
 * [HL7v2 Electronic Laboratory Reporting (ELR) Validation Tool (2014 and 2015 Edition)](http://hl7v2-elr-testing.nist.gov/mu-elr/)
 * [HL7 CDA National Health Care Surveys Validator](http://cda-validation.nist.gov/cda-validation/muNHCS.html)
-* [Transport Testing Tool (TTT)](https://ttpedge.sitenv.org/ttp/#/home)
 * [ONC Edge Test Tool (ETT)(includes C-CDA, Direct, and SOAP)](https://ttpedge.sitenv.org/ttp/#/home)
 
 ## HL7 FHIR
