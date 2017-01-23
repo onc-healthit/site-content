@@ -40,7 +40,3 @@
 
 * [NLM rxNav](https://rxnav.nlm.nih.gov)
 
-
-<script>
-    window.open('http://www.example.com?ReportID=1', '_blank')[test];
-</script>
