@@ -41,5 +41,4 @@
 * [NLM rxNav](https://rxnav.nlm.nih.gov)
 
 ## non-working links
-<a href="http://healthit.gov/">Hello, world!</a>
-[HealthIT.GOV]: http://healthit.gov/
+<p> <a href="http://healthit.gov/" title=_blank>"Hello, world!"</a></p>
