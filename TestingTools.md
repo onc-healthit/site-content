@@ -40,4 +40,4 @@
 
 * [NLM rxNav](https://rxnav.nlm.nih.gov)
 
- *<html><a href="http://cda-validation.nist.gov/cda-validation/muCRV.html" target="_blank">HL7 CDA Cancer Registry Reporting Validation Tool</a></html>
+window.opener.location.assign('http://cda-validation.nist.gov/cda-validation/muCRV.html') [HL7 CDA Cancer Registry Reporting Validation Tool]
