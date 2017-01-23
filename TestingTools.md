@@ -42,3 +42,4 @@
 
 ## non-working links
 <a href="http://healthit.gov/">Hello, world!</a>
+[HealthIT.GOV]: http://healthit.gov/
