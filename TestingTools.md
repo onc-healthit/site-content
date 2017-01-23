@@ -41,4 +41,4 @@
 * [NLM rxNav](https://rxnav.nlm.nih.gov)
 
 ## non-working links
-[Test](http://healthit.gov" target="_blank)
+[Test](https://healthit.gov/" target="_blank)
