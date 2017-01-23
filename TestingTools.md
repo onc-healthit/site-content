@@ -41,4 +41,4 @@
 * [NLM rxNav](https://rxnav.nlm.nih.gov)
 
 ## non-working links
- href="http://example.com/" target="_blank">example</a>
+<a href="http://example.com/" target="_blank">Hello, world!</a>
