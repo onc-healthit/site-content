@@ -42,5 +42,5 @@
 
 
 <script>
-    window.open('http://www.example.com?ReportID=1', '_blank');
+    window.open('http://www.example.com?ReportID=1', '_blank')[test];
 </script>
