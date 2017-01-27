@@ -9,33 +9,33 @@
 
 ## HL7 FHIR
 
-* [Developer Information](http://wiki.hl7.org/index.php?title=FHIR)
+* <a href="http://wiki.hl7.org/index.php?title=FHIR" target="_blank">Developer Information</a>
 
 #### FHIR Servers
 
-* [Servers available for Testing](http://wiki.hl7.org/index.php?title=Publicly_Available_FHIR_Servers_for_testing)
-* [SITE FHIR Server](https://sitenv.org/web/site/fhir-sandbox)
+* <a href="http://wiki.hl7.org/index.php?title=Publicly_Available_FHIR_Servers_for_testing" target="_blank">Servers available for Testing</a>
+* <a href="https://sitenv.org/web/site/fhir-sandbox" target="_blank">SITE FHIR Server</a>
 
 ## HL7 CDA
 
-* [C32 Validation](http://cda-validation.nist.gov/cda-validation/validation.html)
-* [C-CDA R1.1 and C-CDA R2.1 Validators](http://sitenv.org/sandbox-ccda/ccda-validator)
+* <a href="http://cda-validation.nist.gov/cda-validation/validation.html" target="_blank">C32 Validation</a>
+* <a href="http://sitenv.org/sandbox-ccda/ccda-validator" target="_blank">C-CDA R1.1 and C-CDA R2.1 Validators</a>
 
 ## HL7 v2
 
-* [HL7 v2 Test Tools](http://healthcare.nist.gov/NIST-TOOLS/HL7%20v2/index.html)
-* [HL7 v2 Lab Test Tools](http://healthcare.nist.gov/NIST-TOOLS/Lab/index.html)
-* [HL7 v2 Public Health Tools](http://healthcare.nist.gov/NIST-TOOLS/Public%20Health/index.html)
+* <a href="http://healthcare.nist.gov/NIST-TOOLS/HL7%20v2/index.html" target="_blank">HL7 v2 Test Tools</a>
+* <a href="http://healthcare.nist.gov/NIST-TOOLS/Lab/index.html" target="_blank">HL7 v2 Lab Test Tools</a>
+* <a href="http://healthcare.nist.gov/NIST-TOOLS/Public%20Health/index.html" target="_blank">HL7 v2 Public Health Tools</a>
 
 ## IHE XDS 
 
-* [IHE XDS Test Tools](http://healthcare.nist.gov/NIST-TOOLS/XDS/index.html)
+* <a href="http://healthcare.nist.gov/NIST-TOOLS/XDS/index.html" target="_blank">IHE XDS Test Tools</a>
 
 ## ePrescribing
 
-* [ePrescribing Tools](http://healthcare.nist.gov/NIST-TOOLS/NCPDP/index.html)
+* <a href="http://healthcare.nist.gov/NIST-TOOLS/NCPDP/index.html" target="_blank">ePrescribing Tools</a>
 
 ## Vocabulary
 
-* [NLM rxNav](https://rxnav.nlm.nih.gov)
+* <a href="https://rxnav.nlm.nih.gov" target="_blank">NLM rxNav</a>
 
