@@ -20,7 +20,7 @@
 
 ##### Scorecard Updates:
 
-- Improvements
+###### Improvements
 * Updated Effective Date Time Rule to handle partial dates/times
 * Updated Unique Id rule to not apply on the header participants such as Author
 * Updated Display Name rule to not apply when display names are not present
@@ -47,7 +47,7 @@
   - Category headers black versus blue to match heatmap
   - Cert and IG black in heatmap and detailed results
   
-- Fixes
+###### Fixes
 *	Fixed heatmap category click/IG and Cert. links not opening detailed results if closed
 *	Fixed issue where a C-CDA IG Conformance Error could be identified as a 2015 Edition Certification Feedback issue in the heatmap
 * Fixed typos in a few locations
