@@ -1,6 +1,17 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.0 1/31/2017
+
+C-CDA Validator Updates:
+
+* The 2015 Edition C-CDA Validator has been updated to Release 1.0.11 with the following changes. 
+** Substance Reactant value set for Allergies has been updated to contain the full list of values. (Previously it was a partial list)
+** Improved performance of the vocabulary validation.
+** Updated underlying MDHT JAR files to support R1.1, R2.1, DS4P and other related validation in a single WAR file.
+** Also the updated MDHT JAR files have performance and multi-threading improvements.
+
+
 #### V 3.0     - 12/20/2016
 
 - Updated CCDA Validator with the following fixes
