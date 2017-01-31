@@ -11,6 +11,14 @@ C-CDA Validator Updates:
 * Updated underlying MDHT JAR files to support R1.1, R2.1, DS4P and other related validation in a single WAR file.
 * Also the updated MDHT JAR files have performance and multi-threading improvements.
 
+SITE UI Improvements:
+
+* Updated the Direct Transport Sandbox to use the new UI style and themes.
+* Removed Liferay Portlet infrastructure for Direct Sandbox and created new services for existing capabilities.
+* Added Breadcrumb navigation to the UI.
+* Changed NIST Tools page to Test Tools.
+
+Scorecard Updates:
 
 #### V 3.0     - 12/20/2016
 
