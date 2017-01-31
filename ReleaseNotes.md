@@ -3,7 +3,7 @@
 
 #### V 3.1.0 1/31/2017
 
-C-CDA Validator Updates:
+##### C-CDA Validator Updates:
 
 - The 2015 Edition C-CDA Validator has been updated to Release 1.0.11 with the following changes. 
 * Substance Reactant value set for Allergies has been updated to contain the full list of values. (Previously it was a partial list)
@@ -11,14 +11,47 @@ C-CDA Validator Updates:
 * Updated underlying MDHT JAR files to support R1.1, R2.1, DS4P and other related validation in a single WAR file.
 * Also the updated MDHT JAR files have performance and multi-threading improvements.
 
-SITE UI Improvements:
+##### SITE UI Improvements:
 
 * Updated the Direct Transport Sandbox to use the new UI style and themes.
 * Removed Liferay Portlet infrastructure for Direct Sandbox and created new services for existing capabilities.
 * Added Breadcrumb navigation to the UI.
 * Changed NIST Tools page to Test Tools.
 
-Scorecard Updates:
+##### Scorecard Updates:
+
+- Improvements
+* Updated Effective Date Time Rule to handle partial dates/times
+* Updated Unique Id rule to not apply on the header participants such as Author
+* Updated Display Name rule to not apply when display names are not present
+* Updated Text Reference Checking Rule to account for sub elements in tables in the narrative text
+*	Updated Scoring criteria to not apply rules to No Information or Null Sections which have no data or are completely absent
+*	Updated Try Me to support multiple files (a high and low scoring sample and a sample with errors) and provided new and updated data
+*	Updated top level results and summary UI layout
+*	Added ability to identify 2015 Edition Certification Feedback and Empty Sections in the heatmap
+*	For clarity, converted rubric sub-Description data ('Issues' and 'Best Practice') into tabs versus links
+*	Embolden heat map text by default and hover attributes so that categories are both easier to read upfront and understand the status of overall
+*	Added disabled option to the heatmap when categories have no issues to navigate to or are empty sections
+*	Updated Conformance and Certification section to display a related issue count in brackets
+*	Updated heatmap to jump to Certification or Conformance when a section has related issues versus jumping to a no-issue scorecard result
+* Categories (including Conformance and Certification) which have no issues are no longer shown in the detailed results which allows for a cleaner, more focused interface
+*	Updated IG/Cert. links to navigate via their label versus error count alone
+* Added C-CDA Document Type (e.g. CCD) scored
+* Each rubrics 'Issues' tab is now selected/expanded by default
+* Replaced loading text with animations
+* Reworded and moved 'Standard' option text to the end of each rubrics description versus in its own tab
+* Updated to not load 'Detailed Results' button on a full pass scenario (100/100)
+* Added 'Edition' to 2015 Certification Feedback
+*	Updated color schemes
+ 	- 3 colors only (green, yellow, red) for all grade results
+  - Category headers black versus blue to match heatmap
+  - Cert and IG black in heatmap and detailed results
+  
+- Fixes
+*	Fixed heatmap category click/IG and Cert. links not opening detailed results if closed
+*	Fixed issue where a C-CDA IG Conformance Error could be identified as a 2015 Edition Certification Feedback issue in the heatmap
+* Fixed typos in a few locations
+
 
 #### V 3.0     - 12/20/2016
 
