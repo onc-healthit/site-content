@@ -11,6 +11,9 @@
 * Updated underlying MDHT JAR files to support R1.1, R2.1, DS4P and other related validation in a single WAR file.
 * Also the updated MDHT JAR files have performance and multi-threading improvements.
 
+##### C-CDA Test Data Updates:
+[Test Data Update Details](https://groups.google.com/forum/#!topic/edge-test-tool/EK91BXBhLSY)
+
 ##### SITE UI Improvements:
 
 * Updated the Direct Transport Sandbox to use the new UI style and themes.
