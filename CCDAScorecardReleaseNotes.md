@@ -26,8 +26,8 @@
     21.  Added 'Edition' to 2015 Certification Feedback
     22.  Updated color schemes
         * 3 colors only (green, yellow, red) for all grade results
-        *   Category headers black versus blue to match heatmap
-        *   Cert and IG black in heatmap and detailed results
+        * Category headers black versus blue to match heatmap
+        * Cert and IG black in heatmap and detailed results
   
   * Fixes
     1.  Fixed heatmap category click/IG and Cert. links not opening detailed results if closed
