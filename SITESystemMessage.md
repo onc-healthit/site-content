@@ -6,4 +6,5 @@ You can use markdown tags to enhance the text displayed. for example...
 # SYSTEM MESSAGE 
 System will be down from 3:00 to 3:01 AM EST.
 --->
-  
+# SYSTEM MESSAGE 
+System will be down from 3:00 to 3:01 AM EST.
