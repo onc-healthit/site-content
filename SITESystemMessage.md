@@ -5,6 +5,7 @@ is styled to be a danger alert box in order to grab attention. ( http://www.w3sc
 You can use markdown tags to enhance the text displayed. for example...
 
 # SYSTEM MESSAGE 
-System will be down from 3:00 to 3:01 AM EST.
 --->
+System will be down from 3:00 to 3:01 AM EST.
+
 
