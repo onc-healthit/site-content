@@ -21,8 +21,16 @@
 
 ##### Scorecard Updates:
 
-* The Scorecard was updated to Beta Release 3. 
-* The Scorecard release notes can be accessed at ( https://github.com/siteadmin/SITE-Content/blob/master/CCDAScorecardReleaseNotes.md ) 
+- The Scorecard was updated with the following changes 
+* The One-Click Scorecard for HIMSS 2017 was configured.
+* The PDF Report was updated to have a summary and a interpretation guide.
+* The Scorecard Display Name Validation was updated to leverage all the possible names in the vocabulary.
+* The Conformance Errors were seperated from Certification Feedback.
+* Updated Effective Time Element handling of partial times.
+* Updated scoring logic to account for missing sections.
+* Updated scoring rule for Lab Result validation and Vital Signs validation to look for PQ data type and enforce UCUM rules.
+* Updated scoring rule for top 2000 LOINC codes. 
+* The detailed Scorecard release notes can be accessed at ( https://github.com/siteadmin/SITE-Content/blob/master/CCDAScorecardReleaseNotes.md ) 
 
 #### V 3.1.0  |   Released on: 1/31/2017
 
