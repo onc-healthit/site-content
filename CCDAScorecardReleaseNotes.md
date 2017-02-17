@@ -1,6 +1,6 @@
 #### Release Notes
 
-* Updates included in the **SITE 3.1.0 01/30/2017 Release** for the **C-CDA Scorecard 'Beta 3'**
+* Updates included in the **SITE 3.1.0. 1/30/2017 Release** for the **C-CDA Scorecard 'Beta 3'**
 
   * Improvements
     1.  Updated Effective Date Time Rule to handle partial dates/times
