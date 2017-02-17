@@ -1,36 +1,28 @@
 #### Release Notes
 
-* Updates included in the **SITE 3.1.0. 1/30/2017 Release** for the **C-CDA Scorecard 'Beta 3'**
+* Updates included in the **SITE 3.1.0.1 02/16/2017 Release** for the **C-CDA Scorecard 'HIMSS 2017'**
 
   * Improvements
-    1.  Updated Effective Date Time Rule to handle partial dates/times
-    2.  Updated Unique Id rule to not apply on the header participants such as Author
-    3.  Updated Display Name rule to not apply when display names are not present
-    4.  Updated Text Reference Checking Rule to account for sub elements in tables in the narrative text
-    5.  Updated Scoring criteria to not apply rules to No Information or Null Sections which have no data or are completely absent
-    6.  Updated Try Me to support multiple files (a high and low scoring sample and a sample with errors) and provided new and updated data
-    7.  Updated top level results and summary UI layout
-    8.  Added ability to identify 2015 Edition Certification Feedback and Empty Sections in the heatmap
-    9.  For clarity, converted rubric sub-Description data ('Issues' and 'Best Practice') into tabs versus links
-    10.  Embolden heat map text by default and hover attributes so that categories are both easier to read upfront and understand the status of overall
-    11.  Added disabled option to the heatmap when categories have no issues to navigate to or are empty sections
-    12.  Updated Conformance and Certification section to display a related issue count in brackets
-    13.  Updated heatmap to jump to Certification or Conformance when a section has related issues versus jumping to a no-issue scorecard result
-    14.  Categories (including Conformance and Certification) which have no issues are no longer shown in the detailed results which allows for a cleaner, more focused interface
-    15.  Updated IG/Cert. links to navigate via their label versus error count alone
-    16.  Added C-CDA Document Type (e.g. CCD) scored
-    17.  Each rubrics 'Issues' tab is now selected/expanded by default
-    18.  Replaced loading text with animations
-    19.  Reworded and moved 'Standard' option text to the end of each rubrics description versus in its own tab
-    20.  Updated to not load 'Detailed Results' button on a full pass scenario (100/100)
-    21.  Added 'Edition' to 2015 Certification Feedback
-    22.  Updated color schemes
-        * 3 colors only (green, yellow, red) for all grade results
-        * Category headers black versus blue to match heatmap
-        * Cert and IG black in heatmap and detailed results
+    * Added a new web service at endpoint savescorecardservicebackendsummary which drives the "One Click" scorecard for use with Direct by providing a comprehensive PDF report response
+      * This differs from the savescorecardservicebackend service in that it has its own specific format of the results (A summary, a dynamic results table, a static guide table with 'call outs', and a detailed key)
+    * Updated the Scorecard website to be consistent with the 2017 SITE UI
+    * Updated the Scorecard website to handle dynamic SITE content
+    * Removed IG-based results from 2015 Edition Certification Feedback results
+    * Updated 'Try Me' data (JSON) for all 3 samples and XML for the high scoring sample
+    * Added links with resources to some rule descriptions for help with best-practices, for example, the top 2000 LOINC codes for a related Lab Results issue
+    * Updated the save PDF report to incorporate conformance errors, certification errors, null, or empty results, per section
+      * Allows the report to display messages like:
+       * "This category was not scored as it is an empty section"
+       * "This category was not scored as it contains Certification Feedback"
+       * "This category was not scored as it contains Conformance Errors"
+    * Updated the save PDF report to not show or link to categories without issues and to include links to IG/Cert issues from the heatmap
+    * Updated all PDF services to use the latest HealthIt.gov SITE header
+    * Updated various rubric messages
   
   * Fixes
-    1.  Fixed heatmap category click/IG and Cert. links not opening detailed results if closed
-    2.  Fixed issue where a C-CDA IG Conformance Error could be identified as a 2015 Edition Certification Feedback issue in the heatmap
-    3.  Fixed typos
+    * Missing sections are now treated the same as null flavor sections
+    * Updated handling of effectiveTime element values
+    * Changed handling of templateId rule validation to consider only the IDs in the C-CDA IG
+    * Updated effectiveTime/@value rules to not reduce score when positive offsets are specified
+    * Updated HITSP Vital Sign result set to include additional values
     
