@@ -1,6 +1,29 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.0.1  |   Released on: 2/16/2017
+
+##### C-CDA Validator Updates:
+
+- The 2015 Edition C-CDA Validator has been updated to Release 1.0.12 with the following changes. 
+* CPT vocabulary validation has been added and Procedure entries can use CPT codes as part of their structured data. 
+* Updated Display Name validation API used by the scorecard.
+
+##### SITE UI Improvements:
+
+* C-CDA R1 validator now shows error messages returned from the service
+* Improved UI for small-screen devices where possible
+* System messages will display under the banner when the SITESystemMessage markdown has content. ( https://github.com/siteadmin/SITE-Content/blob/master/SITESystemMessage.md )
+* Upgraded to Angular 2.4.7
+* Build using AOT flag that uses ahead-of-time JavaScript compilation (new feature of Angular CLI BETA-31)
+* Installed and configured Google’s PageSpeed Module for Apache ( https://developers.google.com/speed/pagespeed/module/ )
+* Fixed sitenv.org Apache config to always forward to HTTPS
+
+##### Scorecard Updates:
+
+* The Scorecard was updated to Beta Release 3. 
+* The Scorecard release notes can be accessed at ( https://github.com/siteadmin/SITE-Content/blob/master/CCDAScorecardReleaseNotes.md ) 
+
 #### V 3.1.0  |   Released on: 1/31/2017
 
 ##### C-CDA Validator Updates:
