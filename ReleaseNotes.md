@@ -1,6 +1,33 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.1  |   Released on: 2/28/2017
+
+##### C-CDA Validator Updates: 
+
+- The 2015 Edition C-CDA Validator has been updated to Release 1.0.14 with the following changes.
+* Relaxed the Birth Sex validation to be a WARNING instead of an ERROR when it is missing in the Social History Section.
+* Relaxed the Previous Name validation to be a WARNING instead of an ERROR when the HL7 recommendation is not used to code a previous name.
+* Fixed the Reference C-CDA Validation to handle case sensitivity on Language Code. 
+* Fixed Patient Suffix validation to account for punctuations.
+* The C-CDA Validator Instances between SITE and ETT have been consolidated to have a single instance.
+* Updated the SITE C-CDA validator to use the ETT C-CDA validator.
+
+##### C-CDA Scorecard Updates: 
+* Updated the scorecard to use the ETT C-CDA Validator.
+
+##### SITE UI Improvements:
+* Direct Sandbox changes to remove unused tools.
+* Direct Sandbox changed to only contain the Direct Test Tool and XDR Test Tools.
+* FHIR Sandbox Header/Footer Updates.
+
+##### FHIR Sandbox Updates: 
+* Updated DAF-Core to US-Core
+* Updates to add Medication Data to Resources based on ONC Med List project.
+* Updates to support US-Core Queries in the FHIR Server.
+
+
+
 #### V 3.1.0.1  |   Released on: 2/16/2017
 
 ##### C-CDA Validator Updates:
