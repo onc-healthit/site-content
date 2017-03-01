@@ -26,6 +26,9 @@
 * Updates to add Medication Data to Resources based on ONC Med List project.
 * Updates to support US-Core Queries in the FHIR Server.
 
+##### DCDT Updates:
+* Updated DCDT to address mixed case issues. 
+* Updated DCDT to host anchors on port 80.
 
 
 #### V 3.1.0.1  |   Released on: 2/16/2017
