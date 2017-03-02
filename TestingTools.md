@@ -23,13 +23,11 @@
 
 ## HL7 v2
 
-* <a href="http://healthcare.nist.gov/NIST-TOOLS/HL7%20v2/index.html" target="_blank">HL7 v2 Test Tools</a>
-* <a href="http://healthcare.nist.gov/NIST-TOOLS/Lab/index.html" target="_blank">HL7 v2 Lab Test Tools</a>
-* <a href="http://healthcare.nist.gov/NIST-TOOLS/Public%20Health/index.html" target="_blank">HL7 v2 Public Health Tools</a>
+* <a href="https://www.nist.gov/itl/ssd/systems-interoperability-group/tools-portal-0" target="_blank">NIST Tools Portal</a>
 
-## IHE XDS 
+## IHE Tools 
 
-* <a href="http://healthcare.nist.gov/NIST-TOOLS/XDS/index.html" target="_blank">IHE XDS Test Tools</a>
+* <a href="https://www.ihe.net/Testing_Tools/" target="_blank">IHE Test Tools</a>
 
 ## ePrescribing
 
