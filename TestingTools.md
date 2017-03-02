@@ -5,7 +5,7 @@
 * <a href="http://hl7v2-ss-r2-testing.nist.gov/ss-r2/#/home" target="_blank">HL7v2 Syndromic Surveillance Test Suite</a>
 * <a href="http://hl7v2-elr-testing.nist.gov/mu-elr/" target="_blank">HL7v2 Electronic Laboratory Reporting (ELR) Validation Tool (2014 and 2015 Edition)</a>
 * <a href="http://cda-validation.nist.gov/cda-validation/muNHCS.html" target="_blank">HL7 CDA National Health Care Surveys Validator</a>
-* <a href="https://ttpedge.sitenv.org/ttp/#/home" target="_blank">ONC Edge Testing Tool (ETT)</a>
+* <a href="https://ttpedge.sitenv.org/ttp/#/home" target="_blank">Edge Testing Tool (ETT)</a>
 
 ## HL7 FHIR
 
