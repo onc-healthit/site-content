@@ -1,9 +1,6 @@
 
 Upcoming Updates:
 
-Release 3.1.1.1 (Targeted for 3/16/2017)
-* Direct RI Infrastructure consolidation
-
 Release 3.1.2 (Targeted for 3/27/2017)
 * FHIR Sandbox Updates
 * C-CDA Scorecard Release 1.0
