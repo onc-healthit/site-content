@@ -1,3 +1,26 @@
+# C-CDA R2.1/R1.1/MU2 Release Notes:
+
+The **SITE C-CDA R2.1 Validator Release for March 27th 2017**, based on the [March 23rd 2017 MDHT Release](https://github.com/mdht/mdht-models/releases/tag/v2.6.3.20170323_Consol2), contains the following fixes:
+
+*   The following defects identified in Google Groups for the TTT or ETT were corrected:
+    *   See ERRATA 596 relax/revert
+
+*   Other fixes and updates:
+    *   Performance improvements
+
+*   The following ERRATA were incorporated:
+    *   596 relax/revert
+    *   ERRATA 596 relax/revert
+        *   Relax Errata 596 in R1.1 Smoking Status Observation effectiveTime. Changed error to warning for use of TS attributes.
+
+**Known Issues in the release that impact users:**
+
+*   Using a Mental Status Organizer (V3) with a Mental Status Observation (V3) while simultaneously defining the R1.1 template Cognitive Status Result Organizer causes an error requiring conformance to the Mental Status Organizer (V3). To resolve this issue, either remove the R1.1 template II, or, place the observation directly in the Mental Status Section. Note: A future release will allow the R1.1 template II.
+
+***
+
+# Prior Releases:
+
 # C-CDA R2.1 Release Notes:
 
 The **SITE C-CDA R2.1 Validator Release for December 20th 2016**, based on the [December 13th 2016 MDHT Release](https://github.com/mdht/mdht-models/releases/tag/v2.5.22.20161213_Consol2), contains the following fixes:
@@ -51,10 +74,6 @@ The **SITE C-CDA R1.1 Validator Release for September 2016**, based on the [Augu
 *  None
 
 ***
-
-# Prior Releases:
-
-## Prior C-CDA R2.1 Releases
 
 **Defects fixed in the SITE C-CDA R2.1 Validator Release for November 17th 2016 (November 15th 2016 MDHT Build):**
 
@@ -167,8 +186,6 @@ The **SITE C-CDA R1.1 Validator Release for September 2016**, based on the [Augu
 *   Using a Mental Status Organizer (V3) with a Mental Status Observation (V3) while simultaneously defining the R1.1 template Cognitive Status Result Organizer causes an error requiring conformance to the Mental Status Organizer (V3). To resolve this issue, either remove the R1.1 template II, or, place the observation directly in the Mental Status Section. Note: A future release will allow the R1.1 template II.
 
 ***
-
-## Prior C-CDA R1.1 Releases
 
 **Defects fixed in the March 23rd 2016 MDHT Build:**
 
