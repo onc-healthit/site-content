@@ -1,6 +1,36 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.2  |   Released on: 3/28/2017
+
+##### C-CDA Validator Updates: 
+
+- The C-CDA validator was updated with the following changes:
+* Update to the latest code validator API that fixes a bug with loading SNOMED display names.
+* Update to the latest MDHT build which merges R11 and R21 validation.
+* Relaxed ERRATA #596 for R11 from an ERROR to a WARNING.
+* Updated to the latest content validator API to accomodate Procedure Activity Acts as entries for Procedure content validation.
+
+##### C-CDA Scorecard Updates: 
+* Update the 'Low scoring sample' in the 'Try Me' to a sample with more issues
+* Remove 'Beta' header to align with the 1.0 release
+* Implement system to force browser to always load the latest release for new deployments
+* Add error count per category to save report/UI-based PDF
+* Sort PDF Categories by score, null, certifcation, and IG results as a form of severity
+* Update to use TTP endpoints for referenceccdavalidator calls
+* Expand and improve source code testing, performance, and configuration
+- Defect Fixes
+* Remove 'Detailed Results' header in saved PDF if there are no results
+* Fix code system check for Null Pointer Exception.
+
+##### FHIR Sandbox Updates: 
+* Updated FHIR Sandbox with Medication Data Set from ONC MedList project.
+* Updated FHIR Server Capabiltiy Statement (Conformance Statement) for STU2 version.
+* Updated FHIR Server to support all Argonaut queries.
+
+##### SITE UI Improvements:
+* XDR Test Tool updated with the new UI themes, headers and footers.
+
 #### V 3.1.1  |   Released on: 2/28/2017
 
 ##### C-CDA Validator Updates: 
