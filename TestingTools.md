@@ -17,7 +17,7 @@
 
 ### FHIR Servers
 
-* <a href="http://wiki.hl7.org/index.php?title=Publicly_Available_FHIR_Servers_for_testing" target="_blank">Servers available for Testing</a>
+* <a href="http://wiki.hl7.org/index.php?title=Publicly_Available_FHIR_Servers_for_testing" target="_blank">Listing of servers available for Testing</a>
 * <a href="https://sitenv.org/web/site/fhir-sandbox" target="_blank">SITE FHIR Server</a>
 
 ### HL7 CDA
