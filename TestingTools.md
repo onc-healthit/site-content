@@ -11,6 +11,10 @@
 
 * <a href="http://wiki.hl7.org/index.php?title=FHIR" target="_blank">Developer Information</a>
 
+## FHIR Testing Tools
+* <a href="https://projectcrucible.org/" target="_blank"> Crucible</a>
+* <a href="http://www.aegis.net/touchstone.html" target="_blank"> Touchstone</a> 
+
 #### FHIR Servers
 
 * <a href="http://wiki.hl7.org/index.php?title=Publicly_Available_FHIR_Servers_for_testing" target="_blank">Servers available for Testing</a>
