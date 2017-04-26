@@ -1,6 +1,17 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.3  |   Released on: 4/25/2017
+
+##### C-CDA Validator Updates: 
+- The C-CDA validator was updated with the following changes:
+* Fixed defects related to the Content Validation for Care Plan criteria (b)(9), CIRI criteria (b)(2) and DS4P criteria (b)(7).
+* The defects were not validating the patient names correctly, the data in the document sections as needed for the criteria.
+
+##### FHIR Sandbox Updates: 
+* Updated FHIR Sandbox with to support STU3 server.
+* Updated FHIR Sandbox to add validation service for future integration with conformance tool.
+
 #### V 3.1.2  |   Released on: 3/28/2017
 
 ##### C-CDA Validator Updates: 
