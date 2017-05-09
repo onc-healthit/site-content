@@ -1,6 +1,19 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.3.1  |   Released on: 5/8/2017
+
+##### C-CDA Scorecard Updates: 
+- The C-CDA Scorecard was updated with the following changes:
+* Fixed defects related to display name validation for code systems that do not exist in the vocabulary database.
+* Fixed effective time handling related to patient lifespan when there is a nullFlavor for any of the times being compared. 
+* Fixed effective time handling when there are just a single timestamp value vs a low and high for comparison with other time intervals.
+
+##### FHIR Sandbox Updates: 
+* Corrected defects which was preventing the Observation related profiles from returning data.
+* Corrected defects to remove scopes from open server screens.
+* Added additional missing US Core profiles in the Query Tool.
+
 #### V 3.1.3  |   Released on: 4/25/2017
 
 ##### C-CDA Validator Updates: 
