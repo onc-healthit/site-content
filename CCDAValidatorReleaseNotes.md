@@ -1,9 +1,9 @@
 # C-CDA R2.1/R1.1/MU2 Release Notes:
 
-The **SITE C-CDA R2.1 Validator Release for May 30th 2017**, based on the [May 24th 2017 MDHT Release](https://github.com/mdht/mdht-models/releases/tag/v3.0.0.20170524_Consol2), contains the following fixes:
+The **SITE C-CDA R2.1 Validator Release for June 26th 2017**, based on the [June 22nd 2017 MDHT Release](https://github.com/mdht/mdht-models/releases/tag/v3.0.0.20170622_Consol2), contains the following fixes:
 
 *   The following defects identified in Google Groups for the TTT or ETT were corrected:
-    *   As a result of an issue noticed in Immunization Medication Information/manufacturedMaterial/code, Vaccine Administered Value Set no longer throws an error for the valid code '166'
+    *   Fixed 'CALLBCK' typeCode identification in Consultation Note (R2.1) participant
 
 **Known Issues in the release that impact users:**
 
@@ -14,6 +14,15 @@ The **SITE C-CDA R2.1 Validator Release for May 30th 2017**, based on the [May 2
 # Prior Releases:
 
 # C-CDA R2.1/R1.1/MU2 Release Notes:
+
+The **SITE C-CDA R2.1 Validator Release for May 30th 2017**, based on the [May 24th 2017 MDHT Release](https://github.com/mdht/mdht-models/releases/tag/v3.0.0.20170524_Consol2), contains the following fixes:
+
+*   The following defects identified in Google Groups for the TTT or ETT were corrected:
+    *   As a result of an issue noticed in Immunization Medication Information/manufacturedMaterial/code, Vaccine Administered Value Set no longer throws an error for the valid code '166'
+
+**Known Issues in the release that impact users:**
+
+*   Using a Mental Status Organizer (V3) with a Mental Status Observation (V3) while simultaneously defining the R1.1 template Cognitive Status Result Organizer causes an error requiring conformance to the Mental Status Organizer (V3). To resolve this issue, either remove the R1.1 template II, or, place the observation directly in the Mental Status Section. Note: A future release will allow the R1.1 template II.
 
 The **SITE C-CDA R2.1 Validator Release for March 27th 2017**, based on the [March 23rd 2017 MDHT Release](https://github.com/mdht/mdht-models/releases/tag/v2.6.3.20170323_Consol2), contains the following fixes:
 
