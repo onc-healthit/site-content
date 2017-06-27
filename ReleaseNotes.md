@@ -1,6 +1,27 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.5  |   Released on: 6/26/2017
+
+##### C-CDA Scorecard / One-Click Scorecard Updates: 
+* Corrected issues with Date of Birth Rubric timestamp validation.
+* Corrected defects with lifespan validation rubric when observations occured at the same time as patient's death.
+* Added rubric for Birth Sex Validation.
+* Added rubric for Patient's Alternative Name Validation.
+* Updated Metrics collection APIs to segregate One-Click Scorecard and UI.
+* Updated Metrics to collect section based scoring, document based scoring.
+
+##### C-CDA Validator Updates: 
+* Updated typeCode identification in ConsultationNote2 participant which was causing errors incorrectly.
+* Updated Problem Value Set from VSAC to accomodate Allergy Reaction codes.
+* Updated Content Validation to not have an error when the Severity has a nullFlavor value.
+* Updated Content Validation to produce WARNING instead of ERRORS when Allergy Reaction and Severity are not present or are present with Null Flavors.
+* Updated Content Validation to allow Lab Result Values without Units to use either PQ or ST data type.
+* Updated Content Validation to fix defect in PQ validation which was preventing errors when just value was not matching the test data.
+
+##### FHIR Sandbox Updates: 
+* Initial Release of FHIR Scopes checking.
+
 #### V 3.1.4  |   Released on: 6/1/2017
 
 ##### C-CDA Scorecard / One-Click Scorecard Updates: 
