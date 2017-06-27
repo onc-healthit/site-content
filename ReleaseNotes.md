@@ -23,6 +23,7 @@
 
 ##### FHIR Sandbox Updates: 
 * Initial Release of FHIR Scopes checking.
+* Added ability for FHIR Query Tool to call Secure FHIR Server.  
 
 ##### SITE UI: 
 * Updated Broken Link to NIST ETT to point to ONC ETT.
