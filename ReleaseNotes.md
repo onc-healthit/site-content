@@ -10,6 +10,8 @@
 * Added rubric for Patient's Alternative Name Validation.
 * Updated Metrics collection APIs to segregate One-Click Scorecard and UI.
 * Updated Metrics to collect section based scoring, document based scoring.
+* Changed Error Sample of Scorecard to get a C instead of A-.
+* Updated HL7 Templates to include DS4P Templates.
 
 ##### C-CDA Validator Updates: 
 * Updated typeCode identification in ConsultationNote2 participant which was causing errors incorrectly.
@@ -21,6 +23,9 @@
 
 ##### FHIR Sandbox Updates: 
 * Initial Release of FHIR Scopes checking.
+
+##### SITE UI: 
+* Updated Broken Link to NIST ETT to point to ONC ETT.
 
 #### V 3.1.4  |   Released on: 6/1/2017
 
