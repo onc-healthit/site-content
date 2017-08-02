@@ -1,5 +1,23 @@
 # C-CDA R2.1/R1.1/MU2 Release Notes:
 
+The **SITE C-CDA R2.1 Validator Release for Aug 1st 2017**, based on the [July 25th 2017 MDHT Release](https://github.com/mdht/mdht-models/releases/tag/v3.0.0.20170725_Consol2), contains the following fixes:
+
+*   The following defects identified in Google Groups for the TTT or ETT were corrected:
+    *   Using a Mental Status Organizer (V3) with a Mental Status Observation (V3) while simultaneously defining the R1.1 template Cognitive Status Result Organizer no longer causes an error requiring conformance to the Mental Status Organizer (V3). All past issues with the structure of Mental Status Observation (V3), Mental Status Organizer (V3), and Result Observation should be resolved.
+
+*   Other fixes and updates:
+    *   DS4P objectives are fully operational
+
+**Known Issues in the release that impact users:**
+
+*   Sending a non-DS4P document for DS4P validation (using a DS4P objective) returns a service error. Until this is resolved, please only test documents with DS4P data when selecting a DS4P objective.
+
+***
+
+# Prior Releases:
+
+# C-CDA R2.1/R1.1/MU2 Release Notes:
+
 The **SITE C-CDA R2.1 Validator Release for June 26th 2017**, based on the [June 22nd 2017 MDHT Release](https://github.com/mdht/mdht-models/releases/tag/v3.0.0.20170622_Consol2), contains the following fixes:
 
 *   The following defects identified in Google Groups for the TTT or ETT were corrected:
@@ -8,12 +26,6 @@ The **SITE C-CDA R2.1 Validator Release for June 26th 2017**, based on the [June
 **Known Issues in the release that impact users:**
 
 *   Using a Mental Status Organizer (V3) with a Mental Status Observation (V3) while simultaneously defining the R1.1 template Cognitive Status Result Organizer causes an error requiring conformance to the Mental Status Organizer (V3). To resolve this issue, either remove the R1.1 template II, or, place the observation directly in the Mental Status Section. Note: A future release will allow the R1.1 template II.
-
-***
-
-# Prior Releases:
-
-# C-CDA R2.1/R1.1/MU2 Release Notes:
 
 The **SITE C-CDA R2.1 Validator Release for May 30th 2017**, based on the [May 24th 2017 MDHT Release](https://github.com/mdht/mdht-models/releases/tag/v3.0.0.20170524_Consol2), contains the following fixes:
 
