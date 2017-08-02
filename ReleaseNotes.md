@@ -1,6 +1,25 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.6  |   Released on: 8/1/2017
+
+##### C-CDA Scorecard / One-Click Scorecard Updates: 
+* Corrected issues with Date of Death Rubric timestamp validation.
+* Added Rubric for Substance Administration Sig validation.
+* Corrected issues with data encoding and handling UTF-8.
+
+##### C-CDA Validator Updates: 
+* Fixed DS4P validation to kick in correctly based on objectives.
+* Updated Reference Validator to use 20170725 MDHT build and 20170707 DS4P build
+
+##### FHIR Sandbox Updates: 
+* Fixed error handling of Queries.
+* Made text changes to remove Alpha Release, Run US Core Tests, Public client, Confidential client.
+* Added Validation for STU3 Server in FHIR Query Tool.
+* Added initial validation for DSTU2 Server responses in FHIR Query Tool.
+* Updated data to trim white spaces for various FHIR data elements.
+
+
 #### V 3.1.5  |   Released on: 6/26/2017
 
 ##### C-CDA Scorecard / One-Click Scorecard Updates: 
