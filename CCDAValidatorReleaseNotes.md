@@ -10,6 +10,7 @@ The **SITE C-CDA R2.1 Validator Release for Aug 29th 2017**, based on the [Augus
     *   Fix issue where a service error is returned when testing a C-CDA document which does not contain DS4P content and is tested with a DS4P Objective
     *   Add C-CDA results to DS4P results
     *   Add support for sdtc:ethnicGroupCode
+    *   Updated Content Validation to accomodate UDI validation within CCDS.
 
 **Known Issues in the release that impact users:**
 *   None
