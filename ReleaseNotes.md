@@ -1,6 +1,21 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.7  |   Released on: 8/29/2017
+
+##### C-CDA Scorecard / One-Click Scorecard Updates: 
+* Corrected Rubrics for Timestamp handling of Problems and Allergy Concern acts
+* Corrected Rubrics for Narrative Text linking.
+* Posted Rubrics document to the Website.
+
+##### C-CDA Validator Updates: 
+* Fixed DS4P validation to align with the DS4P IG and the Consent Directive IG.
+* Fixed CCDS Content Validation for UDIs
+
+##### FHIR Sandbox Updates: 
+* Updated and fixed DSTU2 validation loging for DSTU2 FHIR Sandbox.
+
+
 #### V 3.1.6  |   Released on: 8/1/2017
 
 ##### C-CDA Scorecard / One-Click Scorecard Updates: 
