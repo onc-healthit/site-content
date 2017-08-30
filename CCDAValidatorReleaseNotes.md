@@ -1,5 +1,24 @@
 # C-CDA R2.1/R1.1/MU2 Release Notes:
 
+The **SITE C-CDA R2.1 Validator Release for Aug 29th 2017**, based on the [August 25th 2017 MDHT Release](https://github.com/mdht/mdht-models/releases/tag/v3.0.1.20170825_Consol2), contains the following fixes:
+
+*   The following defects identified in Google Groups for the TTT or ETT were corrected:
+    *   DS4P Issues reported led to multiple analyses and fixes. Not all issues reported were software bugs though
+        *   Align DS4P constraints for templates related to the DS4P based 2015-Certification-C-CDA-Test-Data with the MAY 2014 DS4P Content and JAN 2017 Consent Directive IGs. This resolved multiple invalid errors.
+
+*   Other fixes and updates:
+    *   Fix issue where a service error is returned when testing a C-CDA document which does not contain DS4P content and is tested with a DS4P Objective
+    *   Add C-CDA results to DS4P results
+
+**Known Issues in the release that impact users:**
+*   None
+
+***
+
+# Prior Releases:
+
+# C-CDA R2.1/R1.1/MU2 Release Notes:
+
 The **SITE C-CDA R2.1 Validator Release for Aug 1st 2017**, based on the [July 25th 2017 MDHT Release](https://github.com/mdht/mdht-models/releases/tag/v3.0.0.20170725_Consol2), contains the following fixes:
 
 *   The following defects identified in Google Groups for the TTT or ETT were corrected:
@@ -11,12 +30,6 @@ The **SITE C-CDA R2.1 Validator Release for Aug 1st 2017**, based on the [July 2
 **Known Issues in the release that impact users:**
 
 *   Sending a non-DS4P document for DS4P validation (using a DS4P objective) returns a service error. Until this is resolved, please only test documents with DS4P data when selecting a DS4P objective.
-
-***
-
-# Prior Releases:
-
-# C-CDA R2.1/R1.1/MU2 Release Notes:
 
 The **SITE C-CDA R2.1 Validator Release for June 26th 2017**, based on the [June 22nd 2017 MDHT Release](https://github.com/mdht/mdht-models/releases/tag/v3.0.0.20170622_Consol2), contains the following fixes:
 
