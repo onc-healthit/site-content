@@ -1,0 +1,218 @@
+HL7 ONC C-CDA Scorecard Methodology
+
+The best practices and quantitative scoring criteria were developed by Health Level 7 (standards development organization responsible for C-CDA standard) Structured Documents Work Group.
+
+Define Scorecard Grade and Score:
+•	The Scorecard Grade/Score is a quantitative assessment of the data quality of the submitted document. 
+•	A higher grade indicates that HL7 best practices for C-CDA implementation are being followed by the organization and has higher probability of being received without errors.
+•	The points you lose or gain are dynamic,  dependent on the number of elements the document has at each rubric level.
+•	The scoring methodology is explained below.
+
+Scoring Methodology
+•	Document Score = Average of Section Scores.
+For example, if a document has 10 sections which are as follows
+3 of which have No Information and are using the "HL7 No Information pattern". 
+These sections are not scored.
+1 of which has C-CDA IG errors - This section is not scored.
+1 of which has Certification feedback - This section is not scored.
+5 of which have no C-CDA IG or Certification feedback - These sections are scored. 
+
+Let us say the scores are 50%, 65%, 90%, 85%, 75%
+So the Document Score is (50+65+90+85+75)/5 = 73% which is a GRADE "C"
+
+ The next paragraph explains the section scoring
+
+•	Section Score = Sum of (Score for each Rule)/Sum(Total instances for each Rule)
+For example, consider Vitals Section with the following structure: 
+
+Vitals Section
+     2 VitalsOrganizer
+            Code 
+            Effective Time 
+            5 VitalObservation per Organizer
+                 Code 
+                  Effective Time 
+Rule 1: The Vital Sign Observation entries should use the right LOINC codes to represent the
+type of vital sign being captured. 
+(This rule is applied 12 times, once for each VitalOrganizer/code element, 
+once for each VitalObservation/code element. So 10 observations  + 2 organizers.)
+
+Rule 2: EffectiveDate/Times for all historical activities should be within the lifespan on the patient.  
+(This rule is applied 12 times, once for each VitalOrganizer/code element, 
+once for each VitalObservation/code element. So 10 observations  + 2 organizers.)
+
+Rule 1 Results:  8/12 are using the right LOINC code. 
+Rule 2 Results:  6/12 are using the right time values.
+
+   So the Section score is 14/24 = 58%
+
+
+•	Each rule is awarded a maximum point of 1 and minimum point of 0. Each rule will be scored based on the number of elements passing in each section. 
+
+At Rubric Level:
+
+For example encounter section has 20 effective time elements, out of which 6 are failing, we score it 14/20 (This is not displayed anywhere), and we display total issues as 6. 
+
+The following are the detailed rubrics used by the Scorecard from the HL7 provided Rubrics.
+
+Section/Entry/Header
+Rubric
+Description
+Patient Demographics
+Patient Date of Birth should be valid and properly precisioned
+The Patient's date of birth has to have a value which has a precision to the day.
+Patient's alternative names such as birth name, previous name should exist in its own name element independent of the legal name.
+Patient's alternative names such as birth name, previous name should exist in its own name element independent of the name element representing a legal name.
+Encounters
+EffectiveDate/Time elements should have the right time and timezone offsets
+EffectiveTime elements in the section are expected to have timeoffsets along with the date and are typically nonzero timeoffsets. In addition they are expected to have the timezone information for proper interpretation.For e.g if the time is being 
+ defaulted to 000000 for hours, minutes and seconds for multiple entries it might be worth checking if the data was entered properly. Also if the time offsets are present without a timezone, the time may be interpreted incorrectly, hence timezones should be specified as part of the time element
+EffectiveDate/Times for all historical activities should be within the lifespan on the patient
+EffectiveDate/Times for historical events should be greater than the patient's date of birth and less than the earliest of current time or patient's date of death.
+The Display Names used by the structured data should match the Display Name (Preferred Name) within the Terminology
+Each of the code systems, value sets specified by the C-CDA IG refers back to standard terminologies like SNOMED-CT, LOINC, RxNorm, ICD9, ICD10. When codes from these codesystems are used to represent structured data the display name corresponding to the code should be used as part of the code element.
+Each entry has to be linked to related narrative text
+Each entry should have a text reference that is linked to the narrative text in the section.
+Allergies
+EffectiveDate/Time elements have the right time and timezone offsets. Future Consideration - This may be relaxed to a day precision…
+EffectiveTime elements in the section are expected to have timeoffsets along with the date and are typically nonzero timeoffsets. In addition they are expected to have the timezone information for proper interpretation.For e.g if the time is being 
+ defaulted to 000000 for hours, minutes and seconds for multiple entries it might be worth checking if the data was entered properly. Also if the time offsets are present without a timezone, the time may be interpreted incorrectly, hence timezones should be specified as part of the time element
+EffectiveDate/Times for all historical activities should be within the lifespan on the patient
+EffectiveDate/Times for historical events should be greater than the patient's date of birth and less than the earliest of current time or patient's date of death.
+The Display Names used by the structured data should match the Display Name (Preferred Name) within the Terminology
+Each of the code systems, value sets specified by the C-CDA IG refers back to standard terminologies like SNOMED-CT, LOINC, RxNorm, ICD9, ICD10. When codes from these codesystems are used to represent structured data the display name corresponding to the code should be used as part of the document
+Each entry has to be linked to related narrative text
+Each entry should have a text reference that is linked to the narrative text in the section.
+Allergies observation effective time should align with Allergies concern act effective time - This should be checking the Allergy Status and make sure it aligns the status and effective times.
+Allergies observation effective should align with Allergies concern act effective time. 
+Problems
+EffectiveDate/Time elements have the right time and timezone offsets - This should be removed.
+EffectiveTime elements in the section are expected to have timeoffsets along with the date and are typically nonzero timeoffsets. In addition they are expected to have the timezone information for proper interpretation.For e.g if the time is being 
+ defaulted to 000000 for hours, minutes and seconds for multiple entries it might be worth checking if the data was entered properly. Also if the time offsets are present without a timezone, the time may be interpreted incorrectly, hence timezones should be specified as part of the time element
+EffectiveDate/Times for all historical activities should be within the lifespan on the patient
+EffectiveDate/Times for historical events should be greater than the patient's date of birth and less than the earliest of current time or patient's date of death.
+The Display Names used by the structured data should match the Display Name (Preferred Name) within the Terminology
+Each of the code systems, value sets specified by the C-CDA IG refers back to standard terminologies like SNOMED-CT, LOINC, RxNorm, ICD9, ICD10. When codes from these codesystems are used to represent structured data the display name corresponding to the code should be used as part of the document
+All problem codes are should express with core subset of SNOMED codes
+All problem codes are should express with core subset of SNOMED codes
+
+Problem Concern effective times reflect the appropriate problem concern status
+A Problem Concern of completed or suspended should have a Problem Concern effectiveTime/high value present.Similarly a Problem Concern which is Active shall not have a Problem Concern effectiveTime/high value.
+The EffectiveDate/Time elements for the Problem Concern Act must encompass the underlying observations - This would be incorrect and should be modified.
+The EffectiveDate/Time elements of the Problem Concern Act cannot be out of sync with the Problem Observation. Each of the Observation's EffectiveTime/low >= Problem Concern's EffectiveTime/low and Observation's EffectiveTime/high should be <= Problem Concern's EffectiveTime/high"
+Problem Concern status and Problem Observation status are consistent with each other. - This would be incorrect and should be modified. This should be changed back to the verifying status along with the times.
+A Problem Concern status of completed is compatible with a Problem Observation status of Resolved or Inactive. A Problem Concern status of Active is compatible with a Problem Observation status of Active.
+Each entry has to be linked to related narrative text
+Each entry should have a text reference that is linked to the narrative text in the section.
+Medications
+EffectiveDate/Time elements have the right time and timezone offsets - Medications normally not captured precisely to the hour/min/sec but rather are captured precisely to the day.
+EffectiveTime elements in the section are expected to have timeoffsets along with the date and are typically nonzero timeoffsets. In addition they are expected to have the timezone information for proper interpretation.For e.g if the time is being 
+ defaulted to 000000 for hours, minutes and seconds for multiple entries it might be worth checking if the data was entered properly. Also if the time offsets are present without a timezone, the time may be interpreted incorrectly, hence timezones should be specified as part of the time element
+EffectiveDate/Times for all historical activities should be within the lifespan on the patient.
+EffectiveDate/Times for historical events should be greater than the patient's date of birth and less than the earliest of current time or patient's date of death.
+The Display Names used by the structured data should match the Display Name (Preferred Name) within the Terminology
+Each of the code systems, value sets specified by the C-CDA IG refers back to standard terminologies like SNOMED-CT, LOINC, RxNorm, ICD9, ICD10. When codes from these codesystems are used to represent structured data the display name corresponding to the code should be used as part of the document
+Medications coded with RxNorm SCD, SBD, GPCK, or BPCPK codes
+C-CDA medication lists should contain medications coded as RxNorm Semantic Clinical Drugs,Semantic Branded Drugs, and packs. This means prescribable products on the level of 'loratadine 10mg oral tablet
+Immunizations should be represented in the appropriate section. - This should be removed.
+Immunizations should be recorded using the Section Code '2.16.840.1.113883.10.20.22.2.2.1' within the document.";
+ 
+Medications should have Free Text Sig entry.
+Medications should have a free text sig entry to communicate medication instructions to providers and patients.
+
+Each entry has to be linked to related narrative text
+Each entry should have a text reference that is linked to the narrative text in the section.
+Immunization
+EffectiveDate/Time elements have the right time and timezone offsets.  Immunizations normally not captured precisely to the hour/min/sec but rather are captured precisely to the day.
+EffectiveTime elements in the section are expected to have timeoffsets along with the date and are typically nonzero timeoffsets. In addition they are expected to have the timezone information for proper interpretation.For e.g if the time is being 
+ defaulted to 000000 for hours, minutes and seconds for multiple entries it might be worth checking if the data was entered properly. Also if the time offsets are present without a timezone, the time may be interpreted incorrectly, hence timezones should be specified as part of the time element
+EffectiveDate/Times for all historical activities should be within the lifespan on the patient.
+EffectiveDate/Times for historical events should be greater than the patient's date of birth and less than the earliest of current time or patient's date of death.
+The Display Names used by the structured data should match the Display Name (Preferred Name) within the Terminology
+Each of the code systems, value sets specified by the C-CDA IG refers back to standard terminologies like SNOMED-CT, LOINC, RxNorm, ICD9, ICD10. When codes from these codesystems are used to represent structured data the display name corresponding to the code should be used as part of the document
+Immunizations coded with CVX codes
+Each Immunization code should be validated aganist CVX Vaccines Administered valueset";
+
+Each entry has to be linked to related narrative text
+Each entry should have a text reference that is linked to the narrative text in the section.
+Social History
+EffectiveDate/Time elements have the right time and timezone offsets. Future Consideration - This may be relaxed to a year precision…
+EffectiveTime elements in the section are expected to have timeoffsets along with the date and are typically nonzero timeoffsets. In addition they are expected to have the timezone information for proper interpretation.For e.g if the time is being 
+ defaulted to 000000 for hours, minutes and seconds for multiple entries it might be worth checking if the data was entered properly. Also if the time offsets are present without a timezone, the time may be interpreted incorrectly, hence timezones should be specified as part of the time element
+EffectiveDate/Times for all historical activities should be within the lifespan on the patient.
+EffectiveDate/Times for historical events should be greater than the patient's date of birth and less than the earliest of current time or patient's date of death.
+The Display Names used by the structured data should match the Display Name (Preferred Name) within the Terminology
+Each of the code systems, value sets specified by the C-CDA IG refers back to standard terminologies like SNOMED-CT, LOINC, RxNorm, ICD9, ICD10. When codes from these codesystems are used to represent structured data the display name corresponding to the code should be used as part of the document
+Smoking status code value should be valid
+Smoking status code value should be valid
+Smoking status observation Template Id should be valid
+Smoking status observation Template Id should be valid
+Birth Sex has to be recorded as a social history observation.
+C-CDA documents should capture birth sex as a social history observation independent of the Administrative Gender element in the US-Realm Header.
+Each entry has to be linked to related narrative text
+Each entry should have a text reference that is linked to the narrative text in the section.
+Laboratory Tests and Results
+EffectiveDate/Time elements have the right time and timezone offsets
+EffectiveTime elements in the section are expected to have timeoffsets along with the date and are typically nonzero timeoffsets. In addition they are expected to have the timezone information for proper interpretation.For e.g if the time is being 
+ defaulted to 000000 for hours, minutes and seconds for multiple entries it might be worth checking if the data was entered properly. Also if the time offsets are present without a timezone, the time may be interpreted incorrectly, hence timezones should be specified as part of the time element
+EffectiveDate/Times for all historical activities should be within the lifespan on the patient.
+EffectiveDate/Times for historical events should be greater than the patient's date of birth and less than the earliest of current time or patient's date of death.
+The Display Names used by the structured data should match the Display Name (Preferred Name) within the Terminology
+Each of the code systems, value sets specified by the C-CDA IG refers back to standard terminologies like SNOMED-CT, LOINC, RxNorm, ICD9, ICD10. When codes from these codesystems are used to represent structured data the display name corresponding to the code should be used as part of the document
+Lab Result values should use preferred UCUM units for the specific lab test.
+Lab Result values should use preferred UCUM units
+Lab results should be expressed with preferred LOINC codes which are published as the top 2000 LOINC codes from Regenstrief.
+Lab results should be expressed with LOINC codes
+
+The EffectiveDate/Time elements for the Result Organizer must encompass the underlying observations. - This may not be accurate, but maybe reworked to be equal or greater.
+Results observation effective should align with Results organizer effective time
+Each entry has to be linked to related narrative text
+Each entry should have a text reference that is linked to the narrative text in the section.
+Vital Signs
+EffectiveDate/Time elements have the right time and timezone offsets
+EffectiveTime elements in the section are expected to have timeoffsets along with the date and are typically nonzero timeoffsets. In addition they are expected to have the timezone information for proper interpretation.For e.g if the time is being 
+ defaulted to 000000 for hours, minutes and seconds for multiple entries it might be worth checking if the data was entered properly. Also if the time offsets are present without a timezone, the time may be interpreted incorrectly, hence timezones should be specified as part of the time element
+EffectiveDate/Times for all historical activities should be within the lifespan on the patient
+EffectiveDate/Times for historical events should be greater than the patient's date of birth and less than the earliest of current time or patient's date of death.
+The Display Names used by the structured data should match the Display Name (Preferred Name) within the Terminology
+Each of the code systems, value sets specified by the C-CDA IG refers back to standard terminologies like SNOMED-CT, LOINC, RxNorm, ICD9, ICD10. When codes from these codesystems are used to represent structured data the display name corresponding to the code should be used as part of the document
+The Vital Sign Observation entries should use the right LOINC codes to represent the type of vital sign being captured
+Each of the vital sign observation present in the document should use the recommended LOINC codes to represent the vital sign
+Each of the Vital Sign Observation should use the recommended UCUM units to represent the vital sign measurement result.
+The recommended UCUM units should be used to represent the Vital Sign result values as part of the observation.
+The EffectiveDate/Time elements for the Vital Sign Organizer must encompass the underlying observations. This may not be accurate, but maybe reworked to be equal or greater.
+The EffectiveDate/Time elements of the Vital Signs Organizer cannot be out of sync with the Vital Signs Observation. Each of the Observation's EffectiveTime/low >= Organizer's EffectiveTime/low 
+and Observation's EffectiveTime/high should be <= Organizer's EffectiveTime/high
+Each entry has to be linked to related narrative text
+Each entry should have a text reference that is linked to the narrative text in the section.
+Procedures
+The Display Names used by the structured data should match the Display Name (Preferred Name) within the Terminology
+Each of the code systems, value sets specified by the C-CDA IG refers back to standard terminologies like SNOMED-CT, LOINC, RxNorm, ICD9, ICD10. When codes from these codesystems are used to represent structured data the display name corresponding to the code should be used as part of the document
+Each entry has to be linked to related narrative text
+Each entry should have a text reference that is linked to the narrative text in the section.
+Miscellaneous
+All Template Ids should be correct
+All Template Ids should be Valid
+Generally, the identifiers found within a CDA document should be unique and non-reoccurring within the same document.
+Instance Identifiers should be unique
+
+
+References 
+UCUM: Table of Example Codes (Update 2014): 
+https://loinc.org/usage/units (you should be able to download pdf & excel file from this site, no login required) 
+This pertains to the discussion of which code might be preferred when multiple are available (e.g. “10*3” over “10+3” or “10^3”)
+ 
+Top 2,000 LOINC codes (Update 2015): 
+https://loinc.org/usage/obs (you will need to login to LOINC site for these) 
+
+CORE Subset of SNOMED (Update 2016): 
+https://www.nlm.nih.gov/research/umls/Snomed/core_subset.html (you will need UMLS login for these)
+While the above list appears to be maintained by UMLS & IHTSDO, here’s the original article from when the work was done to establish the subset (published in JAMIA 2010):
+http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3000762/ (free publication on PubMed, no login required)
+The participating organizations were: 
+Kaiser Permanente
+Mayo Clinic 
+Intermountain Healthcare 
+Regenstrief Institute 
+University of Nebraska Medical Center
+Hong Kong Hospital Authority
