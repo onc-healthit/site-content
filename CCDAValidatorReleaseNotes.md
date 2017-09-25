@@ -1,5 +1,23 @@
 # C-CDA R2.1/R1.1/MU2 Release Notes:
 
+The **SITE C-CDA R2.1 Validator Release for September 25th 2017**, based on the [September 20th 2017 MDHT Release](https://github.com/mdht/mdht-models/releases/tag/v3.0.2.20170920_Consol2), contains the following fixes:
+
+*   The following defects identified in Google Groups for the TTT or ETT were corrected:
+    *   PurposeOfUseSecurityObservation/value and all other values and codes of templates which inherit from SecurityObservation now override their parent requirements. This allows for both templates to exist, but only the child's requirement to be enforced. This resolves the possible conflict of differing terminology requirements between a parent and child template.
+    *   PurposeOfUseSecurityObservation value/@codesystem now requires ActReason 2.16.840.1.113883.5.8 as opposed to the prior requirement of ObservationValue 2.16.840.1.113883.5.1063, due to an error in the HL7 example XML
+
+*   Other fixes and updates:
+    *   R2.1 ImmunizationMedicationInformation/code now enforces the codeSystem for CVX Vaccines Administered Value Set which selects from Vaccines administered (CVX) 2.16.840.1.113883.12.292
+
+**Known Issues in the release that impact users:**
+*   None
+
+***
+
+# Prior Releases:
+
+# C-CDA R2.1/R1.1/MU2 Release Notes:
+
 The **SITE C-CDA R2.1 Validator Release for Aug 29th 2017**, based on the [August 25th 2017 MDHT Release](https://github.com/mdht/mdht-models/releases/tag/v3.0.1.20170825_Consol2), contains the following fixes:
 
 *   The following defects identified in Google Groups for the TTT or ETT were corrected:
@@ -14,10 +32,6 @@ The **SITE C-CDA R2.1 Validator Release for Aug 29th 2017**, based on the [Augus
 
 **Known Issues in the release that impact users:**
 *   None
-
-***
-
-# Prior Releases:
 
 # C-CDA R2.1/R1.1/MU2 Release Notes:
 
