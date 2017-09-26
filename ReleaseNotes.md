@@ -1,6 +1,25 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.8  |   Released on: 9/26/2017
+
+##### C-CDA Scorecard / One-Click Scorecard Updates: 
+* Corrected One Click Scorecard Report Schema errors display to use proper sentence.
+
+##### C-CDA Validator Updates: 
+* The C-CDA Validator was updated to 1.0.23 with the following fixes.
+* Updated the 170.315(b)(2) - CIRI Validation for R1.1 files which was missing. Prior to the release, the R1.1 file reconciliation output submitted to the validator was not being validated for content. This was updated to ensure content matching was performed with the R1.1 reconciliation file outputs. So if the reconciliation of R1.1 files does not produce the output following the instructions provided for the criteria, there will be errors displayed by the validator.
+* Existing Smoking status validation bug was fixed which was previously preventing an error being displayed when smoking status entry was nullFlavored or missing. The fixing of the bug displays an error if smoking status does not include the proper test data provided.
+* DS4P Validation was updated such that PurposeOfUseSecurityObservation/value and all other values and codes of templates which inherit from SecurityObservation now override their parent requirements. This allows for both templates to exist, but only the child's requirement to be enforced. This resolves the possible conflict of differing terminology requirements between a parent and child template. As a result, PurposeOfUseSecurityObservation value/@codesystem now requires ActReason 2.16.840.1.113883.5.8 as opposed to the prior requirement of ObservationValue 2.16.840.1.113883.5.1063, due to an error in the HL7 example XML.
+
+##### FHIR Sandbox Updates: 
+* Updated and fixed DSTU2 and STU3 validation for FHIR Tools.
+* Fixed OAuth issues incluing password encryption, state parameter validation, removing cached authorization.
+
+##### Direct Transport Sandbox Updates: 
+* Added capability of using Interop@direct.hhs.gov for Direct Trust Users 
+
+
 #### V 3.1.7  |   Released on: 8/29/2017
 
 ##### C-CDA Scorecard / One-Click Scorecard Updates: 
