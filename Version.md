@@ -1,1 +1,1 @@
-**Version:** 3.1.7 | **Released:** 8/29/2017
+**Version:** 3.1.8 | **Released:** 9/25/2017
