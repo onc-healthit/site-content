@@ -1,6 +1,23 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.9  |   Released on: 10/30/2017
+
+##### C-CDA Scorecard / One-Click Scorecard Updates: 
+* Corrected One Click Scorecard Report Schema errors report.
+* Added total number of C-CDA scored so far for average calculation.
+* Added API to get Scorecard Metrics downloaded.
+* Added fix for missing document type in C-CDA Scorecard Metrics database.
+
+##### C-CDA Validator Updates: 
+* The C-CDA Validator was updated to 1.0.24 with the following fixes.
+* The latest value sets from VSAC were installed and configured as part of the release.
+* Removed the Console Logger to prevent large log files.
+* Fixed the Address Zip Code Value Set validation.
+
+##### FHIR Sandbox Updates: 
+* Updated the FHIR Resources with fixes based on validation reports produced by FHIR profile validator.
+
 #### V 3.1.8  |   Released on: 9/26/2017
 
 ##### C-CDA Scorecard / One-Click Scorecard Updates: 
