@@ -5,3 +5,6 @@
   * Update One Click report with schema errors
   * Update One Click textual content
   * Add C-CDA document type tracking to the database and the JSON
+  * Fix for Document Version not determined by Scorecard in Null Flavor Sections
+  * Other items in Allergy Section being treated like Allergy Act
+  * Use RuleID's to configure rules instead of whole string of Rule Name 
