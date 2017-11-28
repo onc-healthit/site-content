@@ -1,10 +1,10 @@
 #### Release Notes
-* Updates included in the **SITE 3.1.9 10/30/2017 Release** for the **C-CDA Scorecard 'R1.6'**
+* Updates included in the **SITE 3.1.10 11/28/2017 Release** for the **C-CDA Scorecard 'R1.7'**
 
-  * Simplify and redesign One Click Scorecard to 2 pages with graphics in dynamic table
-  * Update One Click report with schema errors
-  * Update One Click textual content
-  * Add C-CDA document type tracking to the database and the JSON
-  * Fix for Document Version not determined by Scorecard in Null Flavor Sections
-  * Other items in Allergy Section being treated like Allergy Act
-  * Use RuleID's to configure rules instead of whole string of Rule Name 
+  * Collects and returns service errors from the referenceccdavalidator/Ensures files with service errors can never show invalid results
+  * Regenerated all Try Me samples which fixes issues with downloaded Try Me matching generated results
+  * Added Google Analytics to various Scorecard events
+  * Updated One Click report to track industry Average per specific C-CDA document type (CCD, DS, RN, CP, etc.)
+  * Store Direct Address in the DB
+  * Improved performance with multithreading
+
