@@ -1,6 +1,24 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.10 |   Released on: 11/30/2017
+
+##### C-CDA Scorecard / One-Click Scorecard Updates: 
+* Collects and returns service errors from the referenceccdavalidator/Ensures files with service errors can never show invalid results
+* Regenerated all Try Me samples which fixes issues with downloaded Try Me matching generated results
+* Added Google Analytics to various Scorecard events
+* Updated One Click report to track industry Average per specific C-CDA document type (CCD, DS, RN, CP, etc.)
+* Store Direct Address in the DB for One Click Scorecard
+* Improved performance with multithreading
+
+##### C-CDA Validator Updates: 
+* The C-CDA Validator was updated to 1.0.25 with the following fixes.
+* The C-CDA validator was updated to allow for Translation element within the raceCode attribute to be used to represent granular race code.
+* The C-CDA Validator was also update to fix the vocabulary defect which prevented validation in certain cases with the error message "The service has encountered the following error: result returns more than one."
+
+##### FHIR Sandbox Updates: 
+* Updated the FHIR Deployment to support TLS1.0
+
 #### V 3.1.9  |   Released on: 10/30/2017
 
 ##### C-CDA Scorecard / One-Click Scorecard Updates: 
