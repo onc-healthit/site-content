@@ -1,6 +1,17 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.11 |   Released on: 1/29/2018
+
+##### C-CDA Scorecard / One-Click Scorecard Updates: 
+* Add button with link to ONC One Click Scorecard page
+* Added ccdaVersion and service errors for invalid formats
+
+##### C-CDA Validator Updates: 
+* Added ccda file name of the submitted file for debugging.
+* Added warning messages for telecom content validation.
+
+
 #### V 3.1.10 |   Released on: 11/30/2017
 
 ##### C-CDA Scorecard / One-Click Scorecard Updates: 
