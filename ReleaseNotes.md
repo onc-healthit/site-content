@@ -7,6 +7,16 @@
 * C-CDA Validator was updated to produce warnings for care plan sections that are mentioned in the test data but are a SHOULD in the IG.
 * Updated IG validation to align MedicationSection/code rules with R1.1 C-CDATemplateLibrary.
 
+#### C-CDA Scorecard / One-Click Scorecard Updates: 
+* Modify lowScoringSample from R2.0 to R1.1
+* Multiple 508-compliance updates to the PDFs
+* Add author, subject, keywords, and language metadata for 508
+* Update Conf and Cert links to full text vs count only for 508
+* Update top 2000 LOINC codes link in UI report for 508
+* Fix Back to Top links for 508
+* Make submitted email address a link as per 508
+* Add scoping to dynamic table as per 508 5.9
+
 #### V 3.1.11 |   Released on: 1/29/2018
 
 ##### C-CDA Scorecard / One-Click Scorecard Updates: 
