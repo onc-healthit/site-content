@@ -1,5 +1,19 @@
 # C-CDA R2.1/R1.1/MU2 Release Notes:
 
+The **SITE C-CDA R2.1 Validator Release for February 26th 2018**, based on the [20180222 MDHT Release](https://github.com/mdht/mdht-models/releases/tag/v3.0.3.20180222_Consol2), contains the following fixes:
+
+*   Other fixes and updates:
+    *   Align MedicationSection/code rules with R1.1 C-CDATemplateLibrary
+    
+**Known Issues in the release that impact users:**
+*   None
+
+***
+
+# Prior Releases:
+
+# C-CDA R2.1/R1.1/MU2 Release Notes:
+
 The **SITE C-CDA R2.1 Validator Release for September 25th 2017**, based on the [September 20th 2017 MDHT Release](https://github.com/mdht/mdht-models/releases/tag/v3.0.2.20170920_Consol2), contains the following fixes:
 
 *   The following defects identified in Google Groups for the TTT or ETT were corrected:
@@ -11,10 +25,6 @@ The **SITE C-CDA R2.1 Validator Release for September 25th 2017**, based on the 
 
 **Known Issues in the release that impact users:**
 *   None
-
-***
-
-# Prior Releases:
 
 # C-CDA R2.1/R1.1/MU2 Release Notes:
 
