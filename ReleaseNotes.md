@@ -1,6 +1,12 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.12 |   Released on: 2/26/2018
+
+#### C-CDA Validator Updates:
+* C-CDA Validator was updated to produce warnings for care plan sections that are mentioned in the test data but are a SHOULD in the IG.
+* Updated IG validation to align MedicationSection/code rules with R1.1 C-CDATemplateLibrary.
+
 #### V 3.1.11 |   Released on: 1/29/2018
 
 ##### C-CDA Scorecard / One-Click Scorecard Updates: 
