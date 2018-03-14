@@ -37,6 +37,8 @@
 
 * <a href="https://erx-2015.nist.gov/hit-base-tool/#/home" target="_blank">NIST ePrescribing Tool</a>
 
+### Structured Data Capture
+
 ### Vocabulary
 
 * <a href="https://rxnav.nlm.nih.gov" target="_blank">NLM rxNav</a>
