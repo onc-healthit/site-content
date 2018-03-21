@@ -1,11 +1,11 @@
 ### ONC Health IT Certification Test Tools - 2015 Edition
 
-* <a href="http://cda-validation.nist.gov/cda-validation/muCRV.html" target="_blank">HL7 CDA Cancer Registry Reporting Validation Tool</a>
+* <a href="https://cda-validation.nist.gov/cda-validation/muCRV.html" target="_blank">HL7 CDA Cancer Registry Reporting Validation Tool</a>
 * <a href="https://hl7v2-iz-r1.5-testing.nist.gov/iztool/#/home" target="_blank">HL7v2 Immunization Test Suite</a>
-* <a href="http://hl7v2-ss-r2-testing.nist.gov/ss-r2/#/home" target="_blank">HL7v2 Syndromic Surveillance Test Suite</a>
-* <a href="http://hl7v2-elr-testing.nist.gov/mu-elr/" target="_blank">HL7v2 Electronic Laboratory Reporting (ELR) Validation Tool (2014 and 2015 Edition)</a>
-* <a href="http://cda-validation.nist.gov/cda-validation/muNHCS.html" target="_blank">HL7 CDA National Health Care Surveys Validator</a>
-* <a href="https://ttpedge.sitenv.org/ttp/#/home" target="_blank">Edge Testing Tool (ETT)</a>
+* <a href="https://hl7v2-ss-r2-testing.nist.gov/ss-r2/#/home" target="_blank">HL7v2 Syndromic Surveillance Test Suite</a>
+* <a href="https://hl7v2-elr-testing.nist.gov/mu-elr/" target="_blank">HL7v2 Electronic Laboratory Reporting (ELR) Validation Tool (2014 and 2015 Edition)</a>
+* <a href="https://cda-validation.nist.gov/cda-validation/muNHCS.html" target="_blank">HL7 CDA National Health Care Surveys Validator</a>
+* <a href="http://healthit.gov/ETT" target="_blank">Edge Testing Tool (ETT)</a>
 
 ### HL7 FHIR
 
