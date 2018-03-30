@@ -1,6 +1,16 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.13 |   Released on: 3/26/2018
+
+#### C-CDA Validator Updates:
+* C-CDA Validator was updated to remove Encounter Diagnosis validation errors from View, Download, Transmit criteria.
+* Updated RelationshipType value set for CarePlan documents.
+
+#### FHIR Sandbox updates:
+* Updated Google Analytics for FHIR Sandbox
+* Updated Bulk FHIR API Server and deployed Beta Version.
+
 #### V 3.1.12 |   Released on: 2/26/2018
 
 #### C-CDA Validator Updates:
