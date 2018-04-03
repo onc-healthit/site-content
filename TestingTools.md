@@ -7,7 +7,7 @@
 * <a href="https://cda-validation.nist.gov/cda-validation/muNHCS.html" target="_blank">HL7 CDA National Health Care Surveys Validator</a>
 * <a href="http://healthit.gov/ETT" target="_blank">Edge Testing Tool (ETT)</a>
 
-### HL7 FHIR
+### FHIR
 
 * <a href="http://wiki.hl7.org/index.php?title=FHIR" target="_blank">Developer Information</a>
 
@@ -20,10 +20,11 @@
 * <a href="http://wiki.hl7.org/index.php?title=Publicly_Available_FHIR_Servers_for_testing" target="_blank">Listing of servers available for testing</a>
 * <a href="https://sitenv.org/sandbox-fhir" target="_blank">SITE FHIR Server</a>
 
-### HL7 CDA
+### Consolidated Clinical Document Architecture
 
 * <a href="http://cda-validation.nist.gov/cda-validation/validation.html" target="_blank">C32 Validation</a>
 * <a href="http://sitenv.org/sandbox-ccda/ccda-validator" target="_blank">C-CDA R1.1 and C-CDA R2.1 Validators</a>
+* <a href="http://www.healthit.gov/scorecard" target="_blank">C-CDA Scorecard and One-Click Score</a>
 
 ### HL7 v2
 
