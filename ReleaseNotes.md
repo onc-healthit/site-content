@@ -1,6 +1,14 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.14 |   Released on: 4/30/2018
+
+#### C-CDA Validator Updates:
+* C-CDA Validator was updated to include HL7 approved September 2017 ERRATA for C-CDA R2.1. For more information please refer to https://groups.google.com/forum/#!topic/edge-test-tool/vsA_W9Yg4mc
+* Test data was updated to make them conformant to the new ERRATA.
+* Validator was updated to include document type validation for certification criteria.
+* Validator was updated to allow resolved problems to appear as part of the Past Illness Section.
+
 #### V 3.1.13 |   Released on: 3/26/2018
 
 #### C-CDA Validator Updates:
