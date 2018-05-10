@@ -13,7 +13,8 @@
 
 ### FHIR Testing Tools
 * <a href="https://projectcrucible.org/" target="_blank"> Crucible</a>
-* <a href="http://www.aegis.net/touchstone.html" target="_blank"> Touchstone</a> 
+* <a href="http://www.aegis.net/touchstone.html" target="_blank"> Touchstone</a>
+* <a href="https://tests.demo.syncfor.science/" target="_blank"> S4S Test Suite </a>
 
 ### FHIR Servers
 
