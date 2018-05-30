@@ -1,9 +1,9 @@
 # C-CDA R2.1/R1.1/MU2 Release Notes:
 
-The **SITE C-CDA R2.1 Validator Release for April 2018**, based on the [20180501 MDHT Release](https://github.com/mdht/mdht-models/releases/tag/v3.0.5.20180501_Consol2), contains the following fixes:
+The **SITE C-CDA R2.1 Validator Release for May 2018**, based on the 20180529 MDHT Release contains the following fixes:
 
 *   Other fixes and updates:
-    *   Please refer to the thread https://groups.google.com/forum/#!topic/edge-test-tool/vsA_W9Yg4mc for the descriptions of the ERRATA updates. The Validator has been updated with the ERRATAs that has been approved and released by HL7 in September 2017 for C-CDA R2.1
+    *   Includes latest HL7 C-CDA Schema (with internal fix due to errta in HL7 Schema) with support for sdtc:functionCode in cda::Performer2 and cda::Participant2
     
 **Known Issues in the release that impact users:**
 *   None
@@ -11,6 +11,16 @@ The **SITE C-CDA R2.1 Validator Release for April 2018**, based on the [20180501
 ***
 
 # Prior Releases:
+
+# C-CDA R2.1/R1.1/MU2 Release Notes:
+
+The **SITE C-CDA R2.1 Validator Release for April 2018**, based on the [20180501 MDHT Release](https://github.com/mdht/mdht-models/releases/tag/v3.0.5.20180501_Consol2), contains the following fixes:
+
+*   Other fixes and updates:
+    *   Please refer to the thread https://groups.google.com/forum/#!topic/edge-test-tool/vsA_W9Yg4mc for the descriptions of the ERRATA updates. The Validator has been updated with the ERRATAs that has been approved and released by HL7 in September 2017 for C-CDA R2.1
+    
+**Known Issues in the release that impact users:**
+*   None
 
 # C-CDA R2.1/R1.1/MU2 Release Notes:
 
