@@ -1,6 +1,11 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.15 |   Released on: 5/29/2018
+
+#### C-CDA Validator Updates:
+* The validator has been updated to include the latest HL7 C-CDA Schema (with internal fix due to errta in HL7 Schema) which includes support for sdtc:functionCode in cda::Performer2 and cda::Participant2
+
 #### V 3.1.14 |   Released on: 4/30/2018
 
 #### C-CDA Validator Updates:
