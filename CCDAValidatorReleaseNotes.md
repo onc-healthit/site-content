@@ -4,6 +4,7 @@ The **SITE C-CDA R2.1 Validator Release for May 2018**, based on the 20180529 MD
 
 *   Other fixes and updates:
     *   Includes latest HL7 C-CDA Schema (with internal fix due to errta in HL7 Schema) with support for sdtc:functionCode in cda::Performer2 and cda::Participant2
+    *   The Schema update also updated the ED datatype to allow other (XML/XHTML) content
     
 **Known Issues in the release that impact users:**
 *   None
