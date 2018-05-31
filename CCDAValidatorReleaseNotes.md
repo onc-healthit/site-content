@@ -1,10 +1,11 @@
 # C-CDA R2.1/R1.1/MU2 Release Notes:
 
-The **SITE C-CDA R2.1 Validator Release for May 2018**, based on the 20180529 MDHT Release contains the following fixes:
+The **SITE C-CDA R2.1 Validator Release for May 2018**, based on the [20180531 MDHT Release](https://github.com/mdht/mdht-models/releases/tag/v3.0.8.20180531_Consol2) contains the following fixes:
 
 *   Other fixes and updates:
     *   Includes latest HL7 C-CDA Schema (with internal fix due to errta in HL7 Schema) with support for sdtc:functionCode in cda::Performer2 and cda::Participant2
     *   The Schema update also updated the ED datatype to allow other (XML/XHTML) content
+*   Update for DSTU:1276 revert routeCode terms and add translations. For more information, see the [github commit](https://github.com/mdht/mdht-models/commit/cc4a972328691866e5c5eae952e5958461a0b0cf) and the [HL7 errata comment](http://www.hl7.org/dstucomments/showdetail_comment.cfm?commentid=1276) which will hopefully be updated soon to reflect the intent.
     
 **Known Issues in the release that impact users:**
 *   None
