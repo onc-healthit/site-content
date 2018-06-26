@@ -1,6 +1,12 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.16 |   Released on: 6/25/2018
+
+#### C-CDA Validator Updates:
+* An invalid error no longer fires for recordTarget/PatientRole/Patient/Guardian when no code exists. The terminology portion of the error CONF:1198-5326 should only fire if the code exists and the terminology is invalid but was previously firing without a code.
+* Added support for loading custom vocabulary configs in realtime.
+
 #### V 3.1.15 |   Released on: 5/29/2018
 
 #### C-CDA Validator Updates:
