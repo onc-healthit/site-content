@@ -1,5 +1,23 @@
 # C-CDA R2.1/R1.1/MU2 Release Notes:
 
+The **SITE C-CDA R2.1 Validator Release for May 2018**, based on MDHT consol2 3.0.9.20180622 contains the following fixes:
+
+*   The following defects identified in Google Groups for the TTT or ETT were corrected:
+    *   Fix recordTarget/PatientRole/Patient/Guardian/code terminology error firing when no code
+        * The terminology portion of the error CONF:1198-5326 should only fire if the code exists but was firing without a code. The terminology is now enforced as an error only if the code exists and is invalid. The property portion is a SHOULD and is and was enforced as a warning correctly.
+
+*   Other fixes and updates:
+    *   Add support for loading custom vocabulary configs in realtime
+    
+**Known Issues in the release that impact users:**
+*   None
+
+***
+
+# Prior Releases:
+
+# C-CDA R2.1/R1.1/MU2 Release Notes:
+
 The **SITE C-CDA R2.1 Validator Release for May 2018**, based on the [20180531 MDHT Release](https://github.com/mdht/mdht-models/releases/tag/v3.0.8.20180531_Consol2) contains the following fixes:
 
 *   Other fixes and updates:
@@ -9,10 +27,6 @@ The **SITE C-CDA R2.1 Validator Release for May 2018**, based on the [20180531 M
     
 **Known Issues in the release that impact users:**
 *   None
-
-***
-
-# Prior Releases:
 
 # C-CDA R2.1/R1.1/MU2 Release Notes:
 
