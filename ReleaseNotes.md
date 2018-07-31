@@ -1,6 +1,19 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.17 |   Released on: 7/30/2018
+
+#### C-CDA Validator Updates:
+* Substance Reactant Value set was updated to the latest value set from VSAC.
+* Added support for the latest LOINC.csv file to enable both 2015 baseline and newer versions of LOINC codesystem files.
+* Updated VDT Test data XML file to remove errors from ERRATA update.
+
+##### FHIR Sandbox Updates: 
+* Updated FHIR Sandbox with Bulk API capability sample code and tutorials.
+
+#### General SITE Updates:
+* Updated SITE Contact Email to SITTeam@hhs.gov 
+
 #### V 3.1.16 |   Released on: 6/25/2018
 
 #### C-CDA Validator Updates:
