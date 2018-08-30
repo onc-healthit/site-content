@@ -1,6 +1,12 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.18 |   Released on: 8/27/2018
+
+#### C-CDA Validator Updates:
+* Updated C-CDA Value Sets from VSAC to use the 6-15-2018 version instead of the older versions.
+* Fixed Test Data to ensure no errors in samples based on the value set update.
+
 #### V 3.1.17 |   Released on: 7/30/2018
 
 #### C-CDA Validator Updates:
