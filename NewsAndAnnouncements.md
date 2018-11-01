@@ -1,13 +1,13 @@
 
 Upcoming Updates:
 
-Release 3.1.18 (Targeted for 8/27/2018)
-* FHIR Sandbox Updates for Inferno Testing Tool.
+Release 3.1.21 (Targeted for 11/26/2018)
+* FHIR Sandbox Updates to pass Inferno Test Tool.
 * C-CDA Validator enhancements and bug fixes.
-* C-CDA Scorecard updates for defects.
+* Bulk Data API bug fixes.
 
 Completed Updates:
 
-Release 3.1.17 (Released on 7/30/2018)
-* FHIR Sandbox Updates to include Bulk API.
-* C-CDA Validator enhancements and bug fixes.
+Release 3.1.20 (Released on 10/29/2018)
+* FHIR Sandbox Updates to get DSTU2 server to pass Inferno.
+* C-CDA Validator bug fixes.
