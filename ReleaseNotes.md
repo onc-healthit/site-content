@@ -1,6 +1,22 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.20 | Released on: 10/29/2018
+
+#### C-CDA Validator Updates:
+Updated C-CDA Vocabulary Validator to match proper configuration paths and dynamic value sets where it was erroneous.
+Updated Test Data to remove external document reference from CarePlan.
+Updated Test Data to add R1.1 Template Id for Encounter Diagnosis to the DS4P Samples.
+
+#### FHIR Sandbox:
+Updated DSTU2 Server to pass Inferno for Conformance Resources and for other specific clinical resources.
+
+#### V 3.1.19 | Released on: 9/24/2018
+
+#### FHIR Sandbox Updates:
+Updated FHIR sandbox with fixes to Bulk Data APIs.
+Added Inferno Testing Tool to SITE UI.
+
 #### V 3.1.18 |   Released on: 8/27/2018
 
 #### C-CDA Validator Updates:
