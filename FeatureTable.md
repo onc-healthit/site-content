@@ -1,6 +1,6 @@
 | Feature | Availability
 | --------------- | :-----------------------------:
-| Inferno Reference Implementation | September, 2018
+| [Inferno Reference Implementation](https://inferno.healthit.gov/) | Available
 | [Bulk API Examples](https://fhirprod.sitenv.org/bulkdataclient/#/home) | Available
 | [One Click Score](https://oncprojectracking.healthit.gov/wiki/display/TechLabTU/ONC+One+Click+Scorecard)| Available
 | [C-CDA Scorecard](https://sitenv.org/scorecard/) | Available
