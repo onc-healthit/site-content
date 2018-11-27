@@ -1,5 +1,22 @@
 # C-CDA R2.1/R1.1/MU2 Release Notes:
 
+The **SITE C-CDA R2.1 Validator Release for November 2018**, based on MDHT consol2 3.0.9.20180622 contains the following fixes:
+*   The following defects identified in Google Groups for the TTT or ETT were corrected:
+    *     Update config to resolve 'SITE-2913 Lab test result with no units'
+    *     Update config to resolve missing vocabulary rule for CONF:81-16850
+
+*   Other fixes and updates:
+    *   Add support for loading custom vocabulary configs in realtime
+    *     Update jackson-databind version due to github identified security issue / Fix jackson dependency issues, upgrade both to 2.9.7
+    *     Implement a new RequiredNodeValidator for enforcing any missing node and add xpath support for the xsi namespace    
+    
+**Known Issues in the release that impact users:**
+*   None
+
+***
+
+# Prior Releases:
+
 The **SITE C-CDA R2.1 Validator Release for May 2018**, based on MDHT consol2 3.0.9.20180622 contains the following fixes:
 
 *   The following defects identified in Google Groups for the TTT or ETT were corrected:
@@ -11,10 +28,6 @@ The **SITE C-CDA R2.1 Validator Release for May 2018**, based on MDHT consol2 3.
     
 **Known Issues in the release that impact users:**
 *   None
-
-***
-
-# Prior Releases:
 
 # C-CDA R2.1/R1.1/MU2 Release Notes:
 
