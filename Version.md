@@ -1,1 +1,1 @@
-**Version:** 3.1.21 | **Released:** 11/26/2018
+**Version:** 3.1.22 | **Released:** 01/28/2019
