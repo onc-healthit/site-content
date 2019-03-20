@@ -37,7 +37,7 @@
 
 ### ePrescribing
 
-* <a href="https://erx-2015.nist.gov/hit-base-tool/#/home" target="_blank">NIST ePrescribing Tool</a>
+* <a href="https://tools.ncpdp.org/erx/#/home" target="_blank">NCPDP ePrescribing Tool</a>
 
 ### Vocabulary
 
