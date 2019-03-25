@@ -1,21 +1,31 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.24 | Released on: 03/25/2019
+
+#### C-CDA Validator Updates:
+* A unit can now be equal to '1' in certain scenarios when it is selected from the UCUM value set. For local instantiations, the configuration is up to the user to apply with the new UnitAllowsOneValidator.
+* CONF:1198-8559 was updated to enforce the if portion of the rule, "If Observation/value is a physical quantity (xsi:type="PQ"), the unit of measure SHALL be selected from ValueSet UnitsOfMeasureCaseSensitive (2.16.840.1.113883.1.11.12839) DYNAMIC
+(CONF:1198-8555)."
+* Updated doseQuantity/@Unit from the invalid value 'mg/actuat' to the valid UCUM value 'mg'.
+* Updated value datatype in Result Observation (V3) from PQ to ST for 170.315_b1_toc_amb_ccd_r21_sample1_v12.xml and 170.315_b1_toc_amb_rn_r21_sample1_v12.xml. Note: due to this change, these file are now v13.
+* The Reference C-CDA Validator and Code Validator API documentation material was updated to enhance the clarity for setting up local installations.
+
 #### V 3.1.20 | Released on: 10/29/2018
 
 #### C-CDA Validator Updates:
-Updated C-CDA Vocabulary Validator to match proper configuration paths and dynamic value sets where it was erroneous.
-Updated Test Data to remove external document reference from CarePlan.
-Updated Test Data to add R1.1 Template Id for Encounter Diagnosis to the DS4P Samples.
+* Updated C-CDA Vocabulary Validator to match proper configuration paths and dynamic value sets where it was erroneous.
+* Updated Test Data to remove external document reference from CarePlan.
+* Updated Test Data to add R1.1 Template Id for Encounter Diagnosis to the DS4P Samples.
 
 #### FHIR Sandbox:
-Updated DSTU2 Server to pass Inferno for Conformance Resources and for other specific clinical resources.
+* Updated DSTU2 Server to pass Inferno for Conformance Resources and for other specific clinical resources.
 
 #### V 3.1.19 | Released on: 9/24/2018
 
 #### FHIR Sandbox Updates:
-Updated FHIR sandbox with fixes to Bulk Data APIs.
-Added Inferno Testing Tool to SITE UI.
+* Updated FHIR sandbox with fixes to Bulk Data APIs.
+* Added Inferno Testing Tool to SITE UI.
 
 #### V 3.1.18 |   Released on: 8/27/2018
 
