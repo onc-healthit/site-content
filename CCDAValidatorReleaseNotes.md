@@ -1,5 +1,20 @@
 # C-CDA R2.1/R1.1/MU2 Release Notes:
 
+The **SITE C-CDA R2.1 Validator Release for March 2019**, based on MDHT consol2 3.0.9.20180622 contains the following fixes:
+- In response to the ETT GG post, "Reference C-CDA Validation Error for Result", a unit can now be equal to '1' in certain scenarios when it is selected from the UCUM value set. For local instantiations, the configuration is up to the user to apply with the new UnitAllowsOneValidator
+- CONF:1198-8559 was updated to enforce the if portion of the rule, "If Observation/value is a physical quantity (xsi:type="PQ"), the unit of measure SHALL be selected from ValueSet UnitsOfMeasureCaseSensitive (2.16.840.1.113883.1.11.12839) DYNAMIC
+(CONF:1198-8555)."
+- The Reference C-CDA Validator and Code Validator API documentation material was updated to enhance the clarity for setting up local installations
+- In response to the ETT GG post, "Validator Fails to Throw Error for Unit of Measure", updated doseQuantity/@Unit from the invalid value 'mg/actuat' to the valid UCUM value 'mg'
+- In response to the ETT GG post, "erroneous test xml's", updated value datatype in Result Observation (V3) from PQ to ST for 170.315_b1_toc_amb_ccd_r21_sample1_v12.xml and 170.315_b1_toc_amb_rn_r21_sample1_v12.xml. Note: due to this change, these file are now v13
+    
+**Known Issues in the release that impact users:**
+*   None
+
+***
+
+# Prior Releases:
+
 The **SITE C-CDA R2.1 Validator Release for November 2018**, based on MDHT consol2 3.0.9.20180622 contains the following fixes:
 *   The following defects identified in Google Groups for the TTT or ETT were corrected:
     *     Update config to resolve 'SITE-2913 Lab test result with no units'
@@ -12,10 +27,6 @@ The **SITE C-CDA R2.1 Validator Release for November 2018**, based on MDHT conso
     
 **Known Issues in the release that impact users:**
 *   None
-
-***
-
-# Prior Releases:
 
 The **SITE C-CDA R2.1 Validator Release for May 2018**, based on MDHT consol2 3.0.9.20180622 contains the following fixes:
 
