@@ -1,6 +1,31 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.26 | Released on: 05/27/2019
+
+#### FHIR Sandbox Updates:
+* Updated EHR Launch Sequence Software to resolve defects when testing with Inferno by redirecting the launch correctly.
+* Updated OpenID capabilities to pass Inferno testing.
+* Fixed EHR Launch Sequence to pass Inferno testing.
+* Updated Refresh Token sequence to return patient Ids.
+* Updated Github with R4 Release.
+* Updated FHIR Sandbox with test data to pass Inferno tests.
+
+#### C-CDA Sandbox Updates:
+* None.
+
+#### V 3.1.25 | Released on: 04/29/2019
+
+#### FHIR Sandbox Updates:
+* Updated FHIR DSTU2 Server to allow Inferno to test SITE FHIR Server for Program Edition.
+* Supported the Standalone Patient Launch Sequence.
+* Added capabilities for EHR Launch Sequence.
+* Fixed Password Reset capabilities.
+* Added OpenID capabilities to the FHIR Server.
+
+#### C-CDA Sandbox Updates:
+* Updated C-CDA Configuration to fix Reference Validator Reboot issues on AHRQ Server.
+
 #### V 3.1.24 | Released on: 03/25/2019
 
 #### C-CDA Validator Updates:
