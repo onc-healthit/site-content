@@ -1,5 +1,15 @@
 # C-CDA R2.1/R1.1/MU2 Release Notes:
 
+The **SITE C-CDA R2.1 Validator Release for June 2019**, based on MDHT consol2 3.0.9.20180622 contains the following fixes:
+- In response to the ETT GG post, "Validator broke", the C-CDA Validator now indirectly supports UTF files encoded with a BOM by removing the BOM before processing.
+- In response to the ETT GG post, "Configure Validator to Exclude Warnings & Info", the C-CDA Validator API and static UI in local instantiations now support limiting MDHT Conformance and Vocabulary Validation results via their severity (Content limiting is coming soon). This has the potential to offer significant performance gains for users only interested in specific types of results, expecially on larger or issue-prone files. To use the feature, either use the static UI, or, send body form-data key:severityLevel and value:ERROR, WARNING, or INFO. Please note that selecting INFO will return all results, WARNING will return warnings and errors, and ERROR will return errors only.
+    
+**Known Issues in the release that impact users:**
+*   None
+
+***
+
+# Prior Releases:
 The **SITE C-CDA R2.1 Validator Release for March 2019**, based on MDHT consol2 3.0.9.20180622 contains the following fixes:
 - In response to the ETT GG post, "Reference C-CDA Validation Error for Result", a unit can now be equal to '1' in certain scenarios when it is selected from the UCUM value set. For local instantiations, the configuration is up to the user to apply with the new UnitAllowsOneValidator
 - CONF:1198-8559 was updated to enforce the if portion of the rule, "If Observation/value is a physical quantity (xsi:type="PQ"), the unit of measure SHALL be selected from ValueSet UnitsOfMeasureCaseSensitive (2.16.840.1.113883.1.11.12839) DYNAMIC
@@ -10,10 +20,6 @@ The **SITE C-CDA R2.1 Validator Release for March 2019**, based on MDHT consol2 
     
 **Known Issues in the release that impact users:**
 *   None
-
-***
-
-# Prior Releases:
 
 The **SITE C-CDA R2.1 Validator Release for November 2018**, based on MDHT consol2 3.0.9.20180622 contains the following fixes:
 *   The following defects identified in Google Groups for the TTT or ETT were corrected:
