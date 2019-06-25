@@ -4,7 +4,8 @@
 #### V 3.1.27 | Released on: 06/24/2019
 
 #### FHIR Sandbox Updates:
-* ...
+* Added delete client capabilities.
+* Updated OpenID connect with introspection endpoint.
 
 #### C-CDA Sandbox Updates:
 * The C-CDA Validator now indirectly supports UTF files encoded with a BOM by removing the BOM before processing.
