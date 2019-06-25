@@ -1,6 +1,15 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.27 | Released on: 06/24/2019
+
+#### FHIR Sandbox Updates:
+* ...
+
+#### C-CDA Sandbox Updates:
+* The C-CDA Validator now indirectly supports UTF files encoded with a BOM by removing the BOM before processing.
+* The Reference C-CDA Validator API and static UI in local instantiations now support limiting MDHT Conformance and Vocabulary Validation results via their severity (Content limiting is coming soon). This has the potential to offer significant performance gains for users only interested in specific types of results, expecially on larger or issue-prone files. To use the feature, either use the static UI, or, send body form-data key:severityLevel and value:ERROR, WARNING, or INFO. Please note that selecting INFO will return all results, WARNING will return warnings and errors, and ERROR will return errors only.
+
 #### V 3.1.26 | Released on: 05/27/2019
 
 #### FHIR Sandbox Updates:
