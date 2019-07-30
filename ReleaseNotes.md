@@ -1,6 +1,14 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.28 | Released on: 07/29/2019
+
+#### C-CDA Sandbox Updates:
+* Add severityLevel support to the C-CDA Validator UI
+  * Adds the ability to select a severity level limitation for results returned. The user can now select the desired severity or severities. Selecting "Errors, Warnings, and Info" processes all available result types and is the default setting. The remaining selections limit the results as stated and should subsequently offer faster results".
+* Support severityLevel limiting on the content validator in addition to prior support for the code validator and reference validator via the 'severityLevel' flagin a POST call.
+
+
 #### V 3.1.27 | Released on: 06/24/2019
 
 #### FHIR Sandbox Updates:
