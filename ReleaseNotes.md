@@ -8,6 +8,12 @@
   * Adds the ability to select a severity level limitation for results returned. The user can now select the desired severity or severities. Selecting "Errors, Warnings, and Info" processes all available result types and is the default setting. The remaining selections limit the results as stated and should subsequently offer faster results".
 * Support severityLevel limiting on the content validator in addition to prior support for the code validator and reference validator via the 'severityLevel' flagin a POST call.
 
+#### FHIR Sandbox Updates:
+* Added Provenance resource 
+* Updated R4 to support additional search capabilities for Careplan, Condition, Devices, Encounter, Goal, Immunization, Medication Statement, Pediatric Weight For Height, Observation Lab, Smoking Status and BMI For Age resources. 
+ * Bug fixes for DSTU2 and R4
+
+
 
 #### V 3.1.27 | Released on: 06/24/2019
 
