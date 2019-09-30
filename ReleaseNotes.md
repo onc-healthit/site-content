@@ -6,6 +6,8 @@
 #### C-CDA Sandbox Updates:
 * Fixed github vulnerabilities.
 * Udated github link to new repository.
+* Add support for vocabularyValidationConfigurationsErrorCount.
+* Adds tracking for errors only in total vocabulary validations run.
 
 #### V 3.1.29 | Released on: 08/26/2019
 
