@@ -1,6 +1,12 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.30| Released on: 09/30/2019
+
+#### C-CDA Sandbox Updates:
+* Fixed github vulnerabilities.
+* Udated github link to new repository.
+
 #### V 3.1.29 | Released on: 08/26/2019
 
 #### C-CDA Sandbox Updates:
