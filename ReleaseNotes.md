@@ -1,6 +1,18 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.35 | Released on: 04/27/2020
+
+#### C-CDA Sandbox Updates:
+* Scorecard
+  * Add grade comparison bar chart
+  * Add IG, Vocabulary, and Issue checks count
+  * Implement header redesign
+  * Improve performance by 16.24%
+* C-CDA Validator
+  * Add dynamic issue count for total IG Conformance error checks to the API
+  * Add vocabulary configuration error checks count to the API  
+
 #### V 3.1.34 | Released on: 03/30/2020
 
 #### C-CDA Sandbox Updates:
@@ -38,7 +50,7 @@
 #### C-CDA Sandbox Updates:
 * Add severityLevel support to the C-CDA Validator UI
   * Adds the ability to select a severity level limitation for results returned. The user can now select the desired severity or severities. Selecting "Errors, Warnings, and Info" processes all available result types and is the default setting. The remaining selections limit the results as stated and should subsequently offer faster results".
-* Support severityLevel limiting on the content validator in addition to prior support for the code validator and reference validator via the 'severityLevel' flagin a POST call.
+* Support severityLevel limiting on the content validator in addition to prior support for the code validator and reference validator via the 'severityLevel' flag in a POST call.
 
 #### FHIR Sandbox Updates:
 * Added Provenance resource 
