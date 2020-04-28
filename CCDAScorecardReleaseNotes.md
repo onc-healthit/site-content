@@ -1,4 +1,8 @@
 #### Release Notes
-* Updates included in the **SITE 3.1.15 05/29/2018 Release** for the **C-CDA Scorecard 'R1.10'**
+* Updates included in the **SITE 3.1.35 04/27/2020 Release** for the **C-CDA Scorecard 'R1.13'**
 
- * The scorecard has been updated to deduct points if the entire time element is padded to zero. For example: "19700501000000+0000" or "19700501000000-0000"
+ * Add grade comparison bar chart
+ * Add IG, Vocabulary, and Issue checks count
+ * Implement header redesign
+ * Improve performance by 16.24%
+ 
