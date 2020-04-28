@@ -1,10 +1,10 @@
 
 Upcoming Updates:
 
-Release 3.1.31 (Targeted for 10/28/2019)
+Release 3.1.36 (Targeted for 05/26/2020)
 * C-CDA Validator enhancements and bug fixes.
 
 Completed Updates:
 
-Release 3.1.30 (Targeted for 09/30/2019)
+Release 3.1.35
 
