@@ -9,6 +9,7 @@
   * Add IG, Vocabulary, and Issue checks count
   * Implement header redesign
   * Improve performance by 16.24%
+  * Add disclaimer to R1.1 docs scored
 * C-CDA Validator
   * Add dynamic issue count for total IG Conformance error checks to the API
   * Add vocabulary configuration error checks count to the API  
