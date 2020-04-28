@@ -5,4 +5,5 @@
   * Add IG, Vocabulary, and Issue checks count
   * Implement header redesign
   * Improve performance by 16.24%
+  * Add disclaimer to R1.1 docs scored
  
