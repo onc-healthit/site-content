@@ -430,7 +430,7 @@
 
 * C-CDA R1 validator now shows error messages returned from the service
 * Improved UI for small-screen devices where possible
-* System messages will display under the banner when the SITESystemMessage markdown has content. ( https://github.com/siteadmin/SITE-Content/blob/master/SITESystemMessage.md )
+* System messages will display under the banner when the SITESystemMessage markdown has content. ( https://github.com/onc-healthit/SITE-Content/blob/master/SITESystemMessage.md )
 * Upgraded to Angular 2.4.7
 * Build using AOT flag that uses ahead-of-time JavaScript compilation (new feature of Angular CLI BETA-31)
 * Installed and configured Google’s PageSpeed Module for Apache ( https://developers.google.com/speed/pagespeed/module/ )
@@ -447,7 +447,7 @@
 * Updated scoring logic to account for missing sections.
 * Updated scoring rule for Lab Result validation and Vital Signs validation to look for PQ data type and enforce UCUM rules.
 * Updated scoring rule for top 2000 LOINC codes. 
-* The detailed Scorecard release notes can be accessed at ( https://github.com/siteadmin/SITE-Content/blob/master/CCDAScorecardReleaseNotes.md ) 
+* The detailed Scorecard release notes can be accessed at ( https://github.com/onc-healthit/SITE-Content/blob/master/CCDAScorecardReleaseNotes.md ) 
 
 #### V 3.1.0  |   Released on: 1/31/2017
 
