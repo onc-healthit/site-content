@@ -1,9 +1,7 @@
 # C-CDA R2.1/R1.1/MU2 Release Notes:
 
-The **SITE C-CDA R2.1 Validator Release for July 2019**, based on MDHT consol2 3.0.9.20180622 contains the following fixes:
-* Add severityLevel support to the C-CDA Validator UI
-  * Adds the ability to select a severity level limitation for results returned. The user can now select the desired severity or severities. Selecting "Errors, Warnings, and Info" processes all available result types and is the default setting. The remaining selections limit the results as stated and should subsequently offer faster results".
-* Support severityLevel limiting on the content validator in addition to prior support for the code validator and reference validator via the 'severityLevel' flag in a POST call.
+The **SITE C-CDA R2.1 Validator Release for June 2020**, based on MDHT consol2 3.0.9.20180622 contains the following fixes:
+* Add cures validator to site-ui and reference validator static-ui
     
 **Known Issues in the release that impact users:**
 *   None
@@ -11,6 +9,14 @@ The **SITE C-CDA R2.1 Validator Release for July 2019**, based on MDHT consol2 3
 ***
 
 # Prior Releases:
+
+The **SITE C-CDA R2.1 Validator Release for July 2019**, based on MDHT consol2 3.0.9.20180622 contains the following fixes:
+* Add severityLevel support to the C-CDA Validator UI
+  * Adds the ability to select a severity level limitation for results returned. The user can now select the desired severity or severities. Selecting "Errors, Warnings, and Info" processes all available result types and is the default setting. The remaining selections limit the results as stated and should subsequently offer faster results".
+* Support severityLevel limiting on the content validator in addition to prior support for the code validator and reference validator via the 'severityLevel' flag in a POST call.
+    
+**Known Issues in the release that impact users:**
+*   None
 
 The **SITE C-CDA R2.1 Validator Release for June 2019**, based on MDHT consol2 3.0.9.20180622 contains the following fixes:
 - In response to the ETT GG post, "Validator broke", the C-CDA Validator now indirectly supports UTF files encoded with a BOM by removing the BOM before processing.
