@@ -4,7 +4,7 @@
 #### V 3.1.36 | Released on: 06/01/2020
 
 #### C-CDA Sandbox Updates:
-* Scorecard __2.0__ (Released on: 06/03/2020)
+* __Scorecard 2.0__ (Released on: 06/03/2020)
   * Support the latest rubrics/new Scorecard rules developed over the past year
   * Support CURES validation within the Scorecard
   * Update UI
