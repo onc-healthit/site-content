@@ -11,7 +11,7 @@ The **SITE C-CDA R2.1 Validator (2nd) Release for June (29) 2020**, based on MDH
 
 # Prior Releases:
 
-The **SITE C-CDA R2.1 Validator Release for June 2020**, based on MDHT consol2 3.0.9.20180622 contains the following fixes:
+The **SITE C-CDA R2.1 Validator (1st) Release for June (1) 2020**, based on MDHT consol2 3.0.9.20180622 contains the following fixes:
 * Add cures validator to site-ui and reference validator static-ui
     
 **Known Issues in the release that impact users:**
