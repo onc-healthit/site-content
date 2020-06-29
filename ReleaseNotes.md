@@ -1,6 +1,15 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.37 | Released on: 06/29/2020
+
+#### C-CDA Sandbox Updates:
+* C-CDA Validator
+  * DS4P update to the 'CURES' Reference C-CDA Validator 
+    * Reviewed and updated DS4P validations based on HL7 Reaffirmation Status
+  * Content-related cures updates to the 'CURES' Reference C-CDA Validator
+    * Updated C-CDA Validator with changes to detect conformance to Notes sections and Notes entries for compliance to US CDI
+
 #### V 3.1.36 | Released on: 06/01/2020
 
 #### C-CDA Sandbox Updates:
