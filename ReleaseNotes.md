@@ -1,6 +1,15 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.37.1 | Released on: 09/15/2020
+
+#### C-CDA Sandbox Updates:
+* C-CDA Validator
+  * Renamed the test data files to start from version 1.
+	 * Updated the test data to include USCDI elements as part of Sample3 files.
+	 * Updated Sample3 for b1, e1 and g9.
+	 * Updated DS4P test data to include entry level markings. 
+
 #### V 3.1.37 | Released on: 06/29/2020
 
 #### C-CDA Sandbox Updates:
