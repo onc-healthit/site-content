@@ -1,6 +1,18 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.40 | Released on: 09/28/2020
+
+#### C-CDA Sandbox Updates:
+* C-CDA Validator
+  * Updated USCDI Sample 3 Test Data for Ambulatory and Inpatient to correct date of birth and timing errors.
+  * Updated Notes Error reporting and fixed errors related to Sample 3 for Ambulatory and Inpatient settings.
+  * Updated Author Provenance Error Reporting.
+  * Changed Telecom and Birth Sex Error reporting from WARNING to ERROR.
+* Scorecard
+  * Resolve issues when parsing a document with multiple patient names where one does not have a legal use.
+  * Update support email to edge-test-tool@googlegroups.com.
+
 #### V 3.1.37.1 | Released on: 09/15/2020
 
 #### C-CDA Sandbox Updates:
