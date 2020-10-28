@@ -1,6 +1,22 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.41 | Released on: 10/27/2020
+
+#### C-CDA Sandbox Updates:
+* C-CDA Validator
+   * Based on MDHT build <https://github.com/mdht/mdht-models/releases/tag/v20201024> contains the following fixes:
+    * Added Notes Templates
+    * Added Care Team Template
+    * Added Provenance Template
+* Updated Vocabulary validator with the latest VSAC value sets
+* Updated Content Validation and fixed defects associated with Notes and Provenance validation
+* Scorecard
+  * Fix missing logo, header and link images
+  * Fix save report download bug and related broken links
+  * Update environment configurations
+  * Fix GlobalNamingResources not showing in readme
+  
 #### V 3.1.40 | Released on: 09/28/2020
 
 #### C-CDA Sandbox Updates:
