@@ -1,8 +1,9 @@
 # C-CDA R2.1/R1.1/MU2 Release Notes:
 
-The **SITE C-CDA R2.1 Validator (2nd) Release for June (29) 2020**, based on MDHT consol2 3.0.0.20200617 contains the following fixes:
-* Reviewed and updated DS4P validations based on HL7 Reaffirmation Status
-* Updated C-CDA Validator with changes to detect conformance to Notes sections and Notes entries for compliance to US CDI
+The **SITE C-CDA R2.1 Validator (2nd) Release for October (27) 2020**, based on MDHT build <https://github.com/mdht/mdht-models/releases/tag/v20201024> contains the following fixes:
+* Added Notes Templates
+* Added Care Team Template
+* Added Provenance Template
     
 **Known Issues in the release that impact users:**
 *   None
@@ -10,6 +11,13 @@ The **SITE C-CDA R2.1 Validator (2nd) Release for June (29) 2020**, based on MDH
 ***
 
 # Prior Releases:
+
+The **SITE C-CDA R2.1 Validator (2nd) Release for June (29) 2020**, based on MDHT consol2 3.0.0.20200617 contains the following fixes:
+* Reviewed and updated DS4P validations based on HL7 Reaffirmation Status
+* Updated C-CDA Validator with changes to detect conformance to Notes sections and Notes entries for compliance to US CDI
+    
+**Known Issues in the release that impact users:**
+*   None
 
 The **SITE C-CDA R2.1 Validator (1st) Release for June (1) 2020**, based on MDHT consol2 3.0.9.20180622 contains the following fixes:
 * Add cures validator to site-ui and reference validator static-ui
