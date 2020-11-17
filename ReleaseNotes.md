@@ -1,6 +1,16 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.41.1 | Released on: 11/16/2020
+
+#### C-CDA Sandbox Updates:
+* C-CDA Validator
+  * Updated value sets to the latest available from VSAC (for the CURES option)
+  * Fixed telecom validation to validate numbers only
+  * Fixed issue where the Reference Validator was not producing a log
+  * Removed excess cache info and warnings from log
+  * Updated JDK version notes in Reference Validator readme
+
 #### V 3.1.41 | Released on: 10/27/2020
 
 #### C-CDA Sandbox Updates:
@@ -9,7 +19,6 @@
     * Added Notes Templates
     * Added Care Team Template
     * Added Provenance Template
-* Updated Vocabulary validator with the latest VSAC value sets
 * Updated Content Validation and fixed defects associated with Notes and Provenance validation
 * Scorecard
   * Fix missing logo, header and link images
