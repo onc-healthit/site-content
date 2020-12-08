@@ -1,9 +1,12 @@
 # C-CDA R2.1/R1.1/MU2 Release Notes:
 
-The **SITE C-CDA R2.1 Validator (2nd) Release for October (27) 2020**, based on MDHT build <https://github.com/mdht/mdht-models/releases/tag/v20201024> contains the following fixes:
-* Added Notes Templates
-* Added Care Team Template
-* Added Provenance Template
+The **SITE C-CDA R2.1 Validator (2nd) Release for December 7 2020**, based on MDHT build <https://github.com/mdht/mdht-models/releases/tag/v20201203> contains the following fixes:
+  * Add IG-level UDI validation (MDHT)
+  * Add Provenance content validation for section and entry relationships
+  * Update CDT, CPT, LOINC, SNOMED, and RXNORM code systems
+  * Fix Care Team cardinality and severity issues (4435-152, 4435-166, etc.) (MDHT)
+  * Fix Note Types translation code issue where our value set was out of date (3250-16940, 3250-16941) (MDHT)
+  * Fix cardinality and remove 'such that it' for Note Activity Author Participation (3250-16913) (MDHT)
     
 **Known Issues in the release that impact users:**
 *   None
@@ -11,6 +14,16 @@ The **SITE C-CDA R2.1 Validator (2nd) Release for October (27) 2020**, based on 
 ***
 
 # Prior Releases:
+
+# C-CDA R2.1/R1.1/MU2 Release Notes:
+
+The **SITE C-CDA R2.1 Validator (2nd) Release for October (27) 2020**, based on MDHT build <https://github.com/mdht/mdht-models/releases/tag/v20201024> contains the following fixes:
+* Added Notes Templates
+* Added Care Team Template
+* Added Provenance Template
+    
+**Known Issues in the release that impact users:**
+*   None
 
 The **SITE C-CDA R2.1 Validator (2nd) Release for June (29) 2020**, based on MDHT consol2 3.0.0.20200617 contains the following fixes:
 * Reviewed and updated DS4P validations based on HL7 Reaffirmation Status
