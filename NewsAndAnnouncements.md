@@ -6,11 +6,9 @@ Release 3.1.44 (Targeted for 02/22/2020)
 
 Completed Updates:
 * C-CDA Validator
-  * Update birth sex validation to trigger an error for cures or warning for non-cures
-  * Update telecom validation not firing error on errors only setting
-  * Fix Coding Lab Location Details via the Author Entry
-  * Fix Procedure note validation failed
-  * Fix Lab Results Not Recognized By Validator
+  * Fix issue requring 0 provenance (author) instances 
+  * Update birth sex and telecom validation to fire error for cures and warning for non-cures
+  * Fix birth sex and telecom validation not firing relevant issues when severity is set to errors only      
   * Fix scenario file for Cures selecting pre-cures scenarios in SITE C-CDA Validator UI
 
 Release 3.1.43
