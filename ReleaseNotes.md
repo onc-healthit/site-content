@@ -5,12 +5,21 @@
 
 #### C-CDA Sandbox Updates:
 * C-CDA Validator
-  * Update birth sex validation to trigger an error for cures or warning for non-cures
-  * Update telecom validation not firing error on errors only setting
-  * Fix Coding Lab Location Details via the Author Entry
-  * Fix Procedure note validation failed
-  * Fix Lab Results Not Recognized By Validator
+  * Fix issue requring 0 provenance (author) instances 
+  * Update birth sex and telecom validation to fire error for cures and warning for non-cures
+  * Fix birth sex and telecom validation not firing relevant issues when severity is set to errors only      
   * Fix scenario file for Cures selecting pre-cures scenarios in SITE C-CDA Validator UI
+* Scorecard  
+  * Identify and parse the negation indicator ( eg : negationInd=”true” ) element CCDA files
+  * Fix the scorecard rules (where applicable) to not apply the rule when negInd value is true
+    * Rules that are impacted:
+      * Problem Concern effective times reflect the appropriate problem concern status
+      * Allergy Concern observation effective times reflect the appropriate allergy concern status
+      * Medications coded with RxNorm SCD, SBD, GPCK, or BPCPK codes
+      * Systems should capture birth sex independent of the Administrative Gender and encode them as an observation in the Social History Section
+      * Each medication needs to have its own Medication Signature Text EntryRelationship and this reference should exist in the same section found
+      * Fix in UCUM unit rule: Rule not to be applied for xsi:type = "REAL"
+      * Lab Result values should use preferred UCUM units
   
 #### V 3.1.42 | Released on: 12/07/2020
 
