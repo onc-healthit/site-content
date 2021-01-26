@@ -6,7 +6,7 @@ Release 3.1.44 (Targeted for 02/22/2020)
 
 Completed Updates:
 * C-CDA Validator
-  * Fix issue requring 0 provenance (author) instances 
+  * Fix issue requiring 0 provenance (author) instances 
   * Update birth sex and telecom validation to fire error for cures and warning for non-cures
   * Fix birth sex and telecom validation not firing relevant issues when severity is set to errors only      
   * Fix scenario file for Cures selecting pre-cures scenarios in SITE C-CDA Validator UI
