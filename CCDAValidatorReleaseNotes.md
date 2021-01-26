@@ -1,5 +1,20 @@
 # C-CDA R2.1/R1.1/MU2 Release Notes:
 
+The **SITE C-CDA R2.1 Validator (2nd) Release for Jan 25 2021**, based on MDHT build <https://github.com/mdht/mdht-models/releases/tag/v20201203> contains the following fixes:
+  * Fix issue requring 0 provenance (author) instances 
+  * Update birth sex and telecom validation to fire error for cures and warning for non-cures
+  * Fix birth sex and telecom validation not firing relevant issues when severity is set to errors only      
+  * Fix scenario file for Cures selecting pre-cures scenarios in SITE C-CDA Validator UI
+    
+**Known Issues in the release that impact users:**
+*   None
+
+***
+
+# Prior Releases:
+
+# C-CDA R2.1/R1.1/MU2 Release Notes:
+
 The **SITE C-CDA R2.1 Validator (2nd) Release for December 7 2020**, based on MDHT build <https://github.com/mdht/mdht-models/releases/tag/v20201203> contains the following fixes:
   * Add IG-level UDI validation (MDHT)
   * Add Provenance content validation for section and entry relationships
@@ -10,10 +25,6 @@ The **SITE C-CDA R2.1 Validator (2nd) Release for December 7 2020**, based on MD
     
 **Known Issues in the release that impact users:**
 *   None
-
-***
-
-# Prior Releases:
 
 # C-CDA R2.1/R1.1/MU2 Release Notes:
 
