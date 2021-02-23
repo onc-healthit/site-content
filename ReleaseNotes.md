@@ -7,7 +7,7 @@
 * C-CDA Validator
 	* Content Validation
 		* Allow exception for including Smoking Status data when the scenario has none if Smoking Status value/@code is equal to SNOMED-CT code 266927001 "Unknown if ever smoked"
-		* Fix crash when when parsing a code element in the Birth Sex Observation template which has no code attribute
+		* Fix crash when parsing a code element in the Birth Sex Observation template which has no code attribute
 		* Update JDK
 	* Vocabulary Validation
 		* Update JDK
