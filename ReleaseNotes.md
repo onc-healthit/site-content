@@ -1,6 +1,22 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.44 | Released on: 02/22/2021
+
+#### C-CDA Sandbox Updates:
+* C-CDA Validator
+	* Content Validation
+		* Allow exception for including Smoking Status data when the scenario has none if Smoking Status value/@code is equal to SNOMED-CT code 266927001 "Unknown if ever smoked"
+		* Fix crash when when parsing a code element in the Birth Sex Observation template which has no code attribute
+		* Update JDK
+	* Vocabulary Validation
+		* Update JDK
+	* MDHT/IG Validation
+		* Fix incorrect root for UDI Device Identifier Observation value causing invariant violation parsing error
+		* Update JDK 
+* Scorecard
+  * TBD
+
 #### V 3.1.43 | Released on: 01/25/2021
 
 #### C-CDA Sandbox Updates:
