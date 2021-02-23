@@ -13,6 +13,7 @@
 		* Update JDK
 	* MDHT/IG Validation
 		* Fix incorrect root for UDI Device Identifier Observation value causing invariant violation parsing error
+		* Update MDHT to the latest build: https://github.com/mdht/mdht-models/releases/tag/v20210210
 		* Update JDK 
 * Scorecard
    * Relax the rule on Effective time when time is not specified. A valid YYYYMMDD is an acceptable format.
