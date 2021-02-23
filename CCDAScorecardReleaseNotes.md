@@ -1,12 +1,6 @@
 #### Release Notes
-* Updates included in the **01/25/2021 Release** for the **C-CDA Scorecard 'R2.4'**
-    * Identify and parse the negation indicator ( eg : negationInd=”true” ) element CCDA files
-    * Fix the scorecard rules (where applicable) to not apply the rule when negInd value is true
-        * Rules that are impacted:
-            * Problem Concern effective times reflect the appropriate problem concern status
-            * Allergy Concern observation effective times reflect the appropriate allergy concern status
-            * Medications coded with RxNorm SCD, SBD, GPCK, or BPCPK codes
-            * Systems should capture birth sex independent of the Administrative Gender and encode them as an observation in the Social History Section
-            * Each medication needs to have its own Medication Signature Text EntryRelationship and this reference should exist in the same section found
-            * Fix in UCUM unit rule: Rule not to be applied for xsi:type = "REAL"
-            * Lab Result values should use preferred UCUM units
+* Updates included in the **02/22/2021 Release** for the **C-CDA Scorecard 'R2.4'**
+   * Relax the rule on Effective time when time is not specified. A valid YYYYMMDD is an acceptable format.
+   * NullFlavor  should not be tagged as error in EffectiveTime Precision Rule.
+   * Fix Problem Concern Status Rule where it is getting triggered for wrong template ID.
+   * Fix Allergy Concern Status Rule to not consider Aborted status for the rule validation.
