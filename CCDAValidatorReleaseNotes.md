@@ -1,5 +1,13 @@
 # C-CDA R2.1/R1.1/MU2 Release Notes:
 
+Going forward the release notes and MDHT version can be found at https://github.com/onc-healthit/site-content/blob/master/ReleaseNotes.md
+
+SITE always uses the latest version of MDHT at any given time. Following this link will display it and its release notes: https://github.com/mdht/mdht-models/releases/latest
+
+***
+
+# Prior Releases:
+
 The **SITE C-CDA R2.1 Validator (2nd) Release for Jan 25 2021**, based on MDHT build <https://github.com/mdht/mdht-models/releases/tag/v20201203> contains the following fixes:
   * Fix issue requiring 0 provenance (author) instances 
   * Update birth sex and telecom validation to fire error for cures and warning for non-cures
@@ -8,10 +16,6 @@ The **SITE C-CDA R2.1 Validator (2nd) Release for Jan 25 2021**, based on MDHT b
     
 **Known Issues in the release that impact users:**
 *   None
-
-***
-
-# Prior Releases:
 
 # C-CDA R2.1/R1.1/MU2 Release Notes:
 
