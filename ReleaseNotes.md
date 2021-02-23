@@ -15,7 +15,10 @@
 		* Fix incorrect root for UDI Device Identifier Observation value causing invariant violation parsing error
 		* Update JDK 
 * Scorecard
-  * TBD
+   * Relax the rule on Effective time when time is not specified. A valid YYYYMMDD is an acceptable format.
+   * NullFlavor  should not be tagged as error in EffectiveTime Precision Rule.
+   * Fix Problem Concern Status Rule where it is getting triggered for wrong template ID.
+   * Fix Allergy Concern Status Rule to not consider Aborted status for the rule validation.
 
 #### V 3.1.43 | Released on: 01/25/2021
 
