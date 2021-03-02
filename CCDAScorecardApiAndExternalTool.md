@@ -2,14 +2,14 @@
 
 *   **How to Invoke the Scorecard API which Returns JSON Data:**
     *   Endpoint
-        *   POST: https://sitenv.org/scorecard/ccdascorecardservice2
+        *   POST: https://ccda.healthit.gov/scorecard/ccdascorecardservice2
     *   The POST method takes one parameter which is
         *   ccdaFile: The file that is being submitted for scoring
     *   Use the multipart/form-data to encode the file as part of the body parameters for the POST request
 
 *   **How to Invoke the Scorecard API which Returns a PDF Report:**
     *   Endpoint
-        *   POST: https://sitenv.org/scorecard/savescorecardservicebackend
+        *   POST: https://ccda.healthit.gov/scorecard/savescorecardservicebackend
     *   The POST method takes one parameter which is
         *   ccdaFile: The file that is being submitted for scoring
     *   Use the multipart/form-data to encode the file as part of the body parameters for the POST request. Note: The service _streams_ back the PDF data for consumption.
