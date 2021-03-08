@@ -1,6 +1,17 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.44.1 | Released on: 03/08/2021
+
+#### C-CDA Sandbox Updates:
+* C-CDA Validator
+	* Content Validation
+		* Fix invalid errors fired when more authors exist in the submitted data than the scenario
+		* Add Note Activity enforcement to Results and Procedures Sections
+		* Fix telecom issue for type mailto
+	* Test data updates
+		* TBD
+
 #### V 3.1.44 | Released on: 02/22/2021
 
 #### C-CDA Sandbox Updates:
