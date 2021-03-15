@@ -10,7 +10,9 @@
 		* Add Note Activity enforcement to Results and Procedures Sections
 		* Fix telecom issue for type mailto
 	* Test data updates
-		* TBD
+		* Updated Vitals Test Data to reflect the CDC growth charts for pediatric vitals
+		* Updated Validator to remove the provenance to non USCDI data elements
+		* Updated Telecom values for CIRI b2 criteria for Telecom validation
 
 #### V 3.1.44 | Released on: 02/22/2021
 
