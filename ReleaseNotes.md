@@ -7,6 +7,10 @@
 * Scorecard
 	* Update XML Issue line number results to a pretty-printed output.
 	* Update Scorecard API documentation and GitHub readme to use ccda.healthit.gov domain.
+* C-CDA Validator
+	* Content Validation
+		* Add Provenance date, time/time-zone validation.
+		* Fix blank Organization Name in Provenance error output.
 	
 
 #### V 3.1.44.1 | Released on: 03/08/2021
