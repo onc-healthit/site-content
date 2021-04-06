@@ -1,6 +1,15 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.45 | Released on: 04/06/2021
+
+#### C-CDA Sandbox Updates:
+* C-CDA Validator
+  * Updated Happy Kid Vitals test data to reflect the CDC growth charts more accurately.
+  * Updated the test data sample 3 files for both inpatient and ambulatory to more clearly identify USCDI data elements.
+  * In the software side, Added tolerance based validation for growth charts to allow for variations by EHR vendors.
+  * Updated Gold Sample with cures data.
+
 #### V 3.1.44.1 | Released on: 03/08/2021
 
 #### C-CDA Sandbox Updates:
