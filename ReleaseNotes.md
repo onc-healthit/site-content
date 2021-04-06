@@ -9,6 +9,11 @@
   * Updated the test data sample 3 files for both inpatient and ambulatory to more clearly identify USCDI data elements.
   * In the software side, Added tolerance based validation for growth charts to allow for variations by EHR vendors.
   * Updated Gold Sample with cures data.
+  * Fix blank Organization Name in Provenance error output.
+  * Add Provenance date, time/time-zone validation.
+* Scorecard  
+  * Update XML Issue line number results to a pretty-printed output.
+  * Update Scorecard API documentation and GitHub readme to use ccda.healthit.gov domain.
 
 #### V 3.1.44.1 | Released on: 03/08/2021
 
