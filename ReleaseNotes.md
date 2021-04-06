@@ -1,7 +1,7 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
-#### V 3.1.45 | Released on: 04/06/2021
+#### V 3.1.45 | Released on: 04/05/2021
 
 #### C-CDA Sandbox Updates:
 * C-CDA Validator
