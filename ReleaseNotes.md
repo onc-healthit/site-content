@@ -10,7 +10,8 @@
   * In the software side, Added tolerance based validation for growth charts to allow for variations by EHR vendors.
   * Updated Gold Sample with cures data.
   * Fix blank Organization Name in Provenance error output.
-  * Add Provenance date, time/time-zone validation.
+  * Fix rejection of a submitted Provenance time which is not matching the scenario time exactly. Instead, the base-level-date is enforced but the time and time-zone can be any value, if formatted correctly.
+  * Add Provenance date and time/time-zone validation.
 * Scorecard  
   * Update XML Issue line number results to a pretty-printed output.
   * Update Scorecard API documentation and GitHub readme to use ccda.healthit.gov domain.
