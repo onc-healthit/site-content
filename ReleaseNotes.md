@@ -1,6 +1,14 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.45 | Released on: 04/05/2021
+
+#### C-CDA Sandbox Updates:
+* Scorecard
+	* Update XML Issue line number results to a pretty-printed output.
+	* Update Scorecard API documentation and GitHub readme to use ccda.healthit.gov domain.
+	
+
 #### V 3.1.44.1 | Released on: 03/08/2021
 
 #### C-CDA Sandbox Updates:
