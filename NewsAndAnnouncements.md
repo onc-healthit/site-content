@@ -1,18 +1,16 @@
 
 Upcoming Updates:
 
-Release 3.1.46 (Targeted for 04/26/2021)
+Release 3.1.47 (Targeted for 05/31/2021)
 * C-CDA Validator enhancements and bug fixes.
 
 Completed Updates:
 * C-CDA Validator
-  * Updated Happy Kid Vitals test data to reflect the CDC growth charts more accurately.
-  * Updated the test data sample 3 files for both inpatient and ambulatory to more clearly identify USCDI data elements.
-  * In the software side, Added tolerance based validation for growth charts to allow for variations by EHR vendors.
-  * Updated Gold Sample with cures data.
-  * Fix blank Organization Name in Provenance error output.
-  * Fix rejection of a submitted Provenance time which is not matching the scenario time exactly. Instead, the base-level-date is enforced but the time and time-zone can be any value, if formatted correctly.
-  * Add Provenance date and time/time-zone validation.
-* Scorecard  
-  * Update XML Issue line number results to a pretty-printed output.
-  * Update Scorecard API documentation and GitHub readme to use ccda.healthit.gov domain.
+	* Content Validation
+		* Include provenance representedOrganization reporting where applicable to properly clarify error output messages
+		* Fix provenance checking in Notes Entry to account for time zones     
+	* Test data updates
+		* Updated Care Team Validation as per the Companion Guide
+		* Updated Pediatric Vitals Error Message to consult ATL when different results are obtained 
+		* Updated Sample 3 files for Inpatient criteria to include Henry Seven as Attending Physician Care Team Member
+		* Updated VDT Xml samples Health Concerns Section to point to Problem Section using right identifiers
