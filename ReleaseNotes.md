@@ -1,6 +1,19 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.46 | Released on: 04/26/2021
+
+#### C-CDA Sandbox Updates:
+* C-CDA Validator
+	* Content Validation
+		* Include provenance representedOrganization reporting where applicable to properly clarify error output messages
+		* Fix provenance checking in Notes Entry to account for time zones     
+	* Test data updates
+		* Updated Care Team Validation as per the Companion Guide
+		* Updated Pediatric Vitals Error Message to consult ATL when different results are obtained 
+		* Updated Sample 3 files for Inpatient criteria to include Henry Seven as Attending Physician Care Team Member
+		* Updated VDT Xml samples Health Concerns Section to point to Problem Section using right identifiers
+
 #### V 3.1.45 | Released on: 04/05/2021
 
 #### C-CDA Sandbox Updates:
