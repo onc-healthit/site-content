@@ -1,6 +1,15 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.47 | Released on: 06/02/2021
+
+#### C-CDA Sandbox Updates:
+* C-CDA Validator
+  * U Updated Content Validator to allow notes activities in specific sections which include Lab Results, Procedures, Notes and Encounters.
+  * Updated Error Messages for Notes Provenance Entries.
+  * Updated Provenance Validation for Inpatient setting for Jane Clarkson to have the right organization name.
+  * Updated Sample1 and Sample2 files to include Clinical Notes validation.
+
 #### V 3.1.46 | Released on: 04/26/2021
 
 #### C-CDA Sandbox Updates:
