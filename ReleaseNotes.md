@@ -1,6 +1,15 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.48 | Released on: 06/28/2021
+
+#### C-CDA Sandbox Updates:
+* C-CDA Validator
+  * Remove XML Line number and XPath from Content Validation results 
+  * Add logic to allow Notes Activities to be present in any section within the C-CDA document 
+  * Relax Care Team section requirement to warnings instead of errors
+  * Update Gold Samples for Sample1 and Sample2
+
 #### V 3.1.47 | Released on: 06/02/2021
 
 #### C-CDA Sandbox Updates:
