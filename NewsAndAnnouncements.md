@@ -10,3 +10,4 @@ Completed Updates:
   * Add logic to allow Notes Activities to be present in any section within the C-CDA document 
   * Relax Care Team section requirement to warnings instead of errors
   * Update Gold Samples for Sample1 and Sample2
+  * Fix bug in the CPT Loader where some records were missing
