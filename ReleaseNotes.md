@@ -1,6 +1,13 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.48.1 | Released on: 07/02/2021
+
+#### C-CDA Sandbox Updates:
+* C-CDA Validator
+  * Add support for linked references in author when validating provenance representedOrganization/name
+  * Remove XML files from e1 criteria for inpatient
+
 #### V 3.1.48 | Released on: 06/28/2021
 
 #### C-CDA Sandbox Updates:
