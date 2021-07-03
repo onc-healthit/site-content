@@ -5,7 +5,7 @@
 
 #### C-CDA Sandbox Updates:
 * C-CDA Validator
-  * Add support for linked references in author when validating provenance representedOrganization/name
+  * Add support for linked references in author when validating provenance representedOrganization/name (with the exception of Note Activity)
   * Remove XML files from e1 criteria for inpatient
 
 #### V 3.1.48 | Released on: 06/28/2021
