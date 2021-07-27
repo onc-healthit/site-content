@@ -1,6 +1,17 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.9 | Released on: 07/26/2021
+
+#### C-CDA Sandbox Updates:
+* C-CDA Validator
+  * Add linked reference support for Note Activity
+  * Implement Errata 2041: Allow for Advance Directive organizer or Advance Directive observation in an Advance Directive section but prevent an entry from having both an     observation and an organizer
+  * Update ValueSet HL7 RefrainPolicy 2.16.840.1.113883.1.11.20446 to reflect the DS4P IG
+  * Updated dependencies for security
+* SITE-UI
+  * Fix xdr message sender endpoint
+ 
 #### V 3.1.48.1 | Released on: 07/02/2021
 
 #### C-CDA Sandbox Updates:
