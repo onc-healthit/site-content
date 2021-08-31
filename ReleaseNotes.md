@@ -1,6 +1,15 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
+#### V 3.1.50 | Released on: 08/30/2021
 
+#### C-CDA Sandbox Updates:
+* C-CDA Validator
+  * Fix DocumentBuilderFactory XXE vulnerability
+  * Fix exception during parallel execution of DocumentBuilder
+  * Update to support HL7 Datatype IVL_REAL as part of new MDHT 20210824 Release
+* SITE-UI
+  * Fix direct message sender UI sent and received time stamps
+ 
 #### V 3.1.49 | Released on: 07/26/2021
 
 #### C-CDA Sandbox Updates:
