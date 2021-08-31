@@ -9,6 +9,8 @@
   * Update to support HL7 Datatype IVL_REAL as part of new MDHT 20210824 Release
 * SITE-UI
   * Fix direct message sender UI sent and received time stamps
+* Scorecard
+  * Fixed encompassingEncounter efferctiveTime parsing issue
  
 #### V 3.1.49 | Released on: 07/26/2021
 
