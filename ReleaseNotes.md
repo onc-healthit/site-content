@@ -11,7 +11,9 @@
   * Fix direct message sender UI sent and received time stamps
 * Scorecard
   * Fixed encompassingEncounter efferctiveTime parsing issue
- 
+* FHIR Sandbox Updates
+  * Added new Patient Data set
+   
 #### V 3.1.49 | Released on: 07/26/2021
 
 #### C-CDA Sandbox Updates:
