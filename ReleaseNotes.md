@@ -1,5 +1,18 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
+
+#### V 3.1.51 | Released on: 09/27/2021
+
+#### C-CDA Sandbox Updates:
+* C-CDA Validator
+  * Relax participant constraints to allow free-text names in Referral Note as part of new MDHT 20210924 Release
+  * Update 170.315(e)(1) Inpatient setting Sample 1 files to include Reason for Referral instructions to enable vendors to create Referral Notes
+* SITE-UI
+  * Fix 'Original C-CDA' tab display issue in CURES SITE C-CDA Validator
+* ETT
+  * Update ETT dependencies as per dependabot
+  * Fix potential SQL injection issues in ETT
+
 #### V 3.1.50 | Released on: 08/30/2021
 
 #### C-CDA Sandbox Updates:
@@ -933,4 +946,4 @@
 - Addition of the Direct Sandbox
 
 #### v1.0 - 04/09/2013
-- Addition of the C-CDA Sanbox
+- Addition of the C-CDA Sandbox
