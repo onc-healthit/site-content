@@ -1,6 +1,27 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.52 | Released on: 10/25/2021
+
+#### C-CDA Sandbox Updates:
+* C-CDA Validator
+  * Require provenance identification using templateId for provenance TS validation
+  * Fix configuredExpression totals by severity in production by enabling dynamic vocab
+  * Implement errata CDA-2008 https://jira.hl7.org/browse/CDA-2008 which relaxes NoteActivity/code/translation requirement to a SHOULD vs a SHALL: Consol Note Activity SHALL contain exactly one [1..1] code (3250-16895)/@code="34109-9" Note (CodeSystem: 2.16.840.1.113883.6.1 LOINC) (3250-16940, 3250-16941) code SHOULD contain zero or more [0..*] translation, which SHOULD be selected from ValueSet NoteTypes 2.16.840.1.113883.11.20.9.68 STATIC 20191017
+  * Fix inheritance bug in Medications Section where an error in both entries optional and required is reported, instead of reporting required only
+  * Fix patient name elements for b2 CIRI ambulatory scenario files
+  * Fix parsing bug where Procedures/NoteActivity is mistaken for ProcedureActivityProcedure
+  * Update the following value sets to the latest published version: CVX Vaccines Administered Vaccine Set and Substance Reactant for Intolerance
+  * Add newly available value sets: Transmission Based Precaution Types, Organism, Microbiology and Antimicrobial Susceptibility Tests, and Infectious Disease
+* MDHT
+  * Release https://github.com/mdht/mdht-models/releases/tag/v20211021 and incorporate it into the Reference C-CDA Validator
+* ETT
+  * Apply various security updates
+* FHIR
+  * Fix incompatible character encodings UTF-8 and ASCII-8BIT for Inferno Test BDGV-0
+* C-CDA Parser (for C-CDA Scorecard)
+  * Enable Async
+
 #### V 3.1.51 | Released on: 09/27/2021
 
 #### C-CDA Sandbox Updates:
