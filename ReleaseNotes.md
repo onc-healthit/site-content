@@ -18,7 +18,8 @@
 * ETT
   * Apply various security updates
 * FHIR
-  * Fix incompatible character encodings UTF-8 and ASCII-8BIT for Inferno Test BDGV-0
+  * AllergyIntolerance added support for elements: reaction, reaction.manifestation
+  * Fix incompatible character encodings UTF-8 and ASCII-8BIT for Inferno Test BDGV-08
 * C-CDA Parser (for C-CDA Scorecard)
   * Enable Async
 
