@@ -7,6 +7,8 @@
 * C-CDA Validator
   * Enforce provenance templateId and extension requirements at a stricter level for content comparisons
   * Fix potential provenance null pointer exception
+* C-CDA Parser (for C-CDA Scorecard)
+  * Fixed bug in parsing encompassingEncounter element
  
 #### V 3.1.52 | Released on: 10/25/2021
 
