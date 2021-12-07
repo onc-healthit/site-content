@@ -9,6 +9,10 @@
   * Fix potential provenance null pointer exception
 * C-CDA Parser (for C-CDA Scorecard)
   * Fixed bug in parsing encompassingEncounter element
+* FHIR
+  * Added support for system/Patient.read scope for Bulk R4
+  * Fixed: R4 US Core - CapabilityStatement.id must match Regex: [A-Za-z0-9\-\.]{1,64}
+  * Fixed: Provenance resources must support elements: agent.type, agent.type.coding.code: author, agent.type.coding.code: transmitter
  
 #### V 3.1.52 | Released on: 10/25/2021
 
