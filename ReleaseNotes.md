@@ -1,6 +1,13 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.53 | Released on: 12/06/2021
+
+#### C-CDA Sandbox Updates:
+* C-CDA Validator
+  * Enforce provenance templateId and extension requirements at a stricter level for content comparisons
+  * Fix potential provenance null pointer exception
+ 
 #### V 3.1.52 | Released on: 10/25/2021
 
 #### C-CDA Sandbox Updates:
