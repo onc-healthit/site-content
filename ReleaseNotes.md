@@ -8,7 +8,7 @@
   * Update linked reference mismatched org name message for clarity and specificity
   * Fix recent server configuration issue which may have suppressed certain vocabulary results
   * Add missing CDA Extensions from 2018: sdtc:asPatientRelationship, sdtc:deceasedInd, sdtc:deceasedTime, sdtc:multipleBirthInd, sdtc:multipleBirthOrderNumber, sdtc:statusCode and stdc:desc
-  	* See https://confluence.hl7.org/display/SD/CDA+Extensions for a detailed descripiton of the extensions
+  	* See https://confluence.hl7.org/display/SD/CDA+Extensions for a detailed description of the extensions
   * Limit Vital Sign Observation/value to data type PQ
   * Update value set for Marital Status to include U: Unmarried and C: Common Law
   * Report only one validation issue (versus two issues) for an incorrect or missing Allergy Section Code
