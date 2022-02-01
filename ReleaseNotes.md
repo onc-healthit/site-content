@@ -12,6 +12,8 @@
   * Add support for IVL_REAL datatype and implementation on organizer
 * General
   * Update server infrastructure
+##### FHIR Sandbox Updates: 
+* Updated FHIR R4 spring dependency to 5.1.13.RELEASE.
 
 #### V 3.1.54 | Released on: 12/27/2021
 
