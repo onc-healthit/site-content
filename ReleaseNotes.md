@@ -6,8 +6,8 @@
 #### C-CDA Sandbox Updates:
 * C-CDA Validator
   * Apply STU-1981
-        * Fixed errata on Lot or Batch Number observation to support ED versus ST
-        * https://jira.hl7.org/browse/CDA-1981
+    * Fixed errata on Lot or Batch Number observation to support ED versus ST
+    * https://jira.hl7.org/browse/CDA-1981
   * Add missing SDTC extension sdtc:text and implementation on organizer
   * Add support for IVL_REAL datatype and implementation on organizer
 * General
