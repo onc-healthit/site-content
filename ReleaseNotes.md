@@ -6,14 +6,14 @@
 #### C-CDA Sandbox Updates:
 * C-CDA Validator
   * Apply STU-1981
-    * Fixed errata on Lot or Batch Number observation to support ED versus ST
-    * https://jira.hl7.org/browse/CDA-1981
+        * Fixed errata on Lot or Batch Number observation to support ED versus ST
+        * https://jira.hl7.org/browse/CDA-1981
   * Add missing SDTC extension sdtc:text and implementation on organizer
   * Add support for IVL_REAL datatype and implementation on organizer
 * General
   * Update server infrastructure
-##### FHIR Sandbox Updates: 
-* Updated FHIR R4 spring dependency to 5.1.13.RELEASE.
+* FHIR
+  * Update FHIR R4 Spring dependency to 5.1.13.RELEASE
 
 #### V 3.1.54 | Released on: 12/27/2021
 
