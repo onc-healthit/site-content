@@ -8,7 +8,7 @@
 * General
   * Update server infrastructure
 * FHIR
-  * Remove referance to STU3 and reference to DSTU2 from fhirsandbox
+  * Remove reference to STU3 and reference to DSTU2 from fhirsandbox
 
 #### V 3.1.55 | Released on: 01/31/2022
 * C-CDA Validator
