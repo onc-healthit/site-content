@@ -1,6 +1,15 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.56 | Released on: 02/28/2022
+* C-CDA Validator
+  * Add regulation clarification to configuration
+  * Fix ActStatus Value Set OID in configuration from 2.16.840.1.113883.1.11.159331 to 2.16.840.1.113883.1.11.15933
+* General
+  * Update server infrastructure
+* FHIR
+  * Remove reference to STU3 and reference to DSTU2 from fhirsandbox
+
 #### V 3.1.55 | Released on: 01/31/2022
 * C-CDA Validator
   * Apply STU-1981
