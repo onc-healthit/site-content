@@ -3,7 +3,7 @@
 
 #### V 3.1.57 | Released on: 03/28/2022
 * C-CDA Validator
-  * ?
+  * Update value set 2.16.840.1.113883.3.88.12.80.62 Vital Sign Result Type to the latest version in order to allow the use of code 3150-0
 * FHIR
   * ?
 
