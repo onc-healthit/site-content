@@ -4,8 +4,8 @@
 #### V 3.1.57 | Released on: 03/28/2022
 * C-CDA Validator
   * Update value set 2.16.840.1.113883.3.88.12.80.62 Vital Sign Result Type to the latest version in order to allow the use of code 3150-0
-  * Updated the test data to change the Allergy Drug Class to a value in the Value set for b1, e1, g9 criteria. The sender pdf files have been updated.
-  * Updated the CIRI (b2) test data instructions to allow the reconciliation of an Allergy due to a drug class.
+  * Update test data to change Allergy Drug Class to a value in the Value set for b1, e1, g9 criteria. The sender pdf files have been updated
+  * Update CIRI (b2) test data instructions to allow the reconciliation of an Allergy due to a drug class
 * FHIR
   * Update R4 CapabilityStatement with absolute URLs if they are not fragment references (/fhir/metadata) 
 
