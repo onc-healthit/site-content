@@ -1,6 +1,10 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.58 | Released on: 04/26/2022
+* C-CDA Validator
+  * Update CIRI (b2) test data instructions and test data xml files to allow the reconciliation of Patient birth names appropriately.
+
 #### V 3.1.57 | Released on: 03/28/2022
 * C-CDA Validator
   * Update value set 2.16.840.1.113883.3.88.12.80.62 Vital Sign Result Type to the latest version in order to allow the use of code 3150-0
