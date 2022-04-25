@@ -1,9 +1,19 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
-#### V 3.1.58 | Released on: 04/26/2022
+#### V 3.1.58 | Released on: 04/25/2022
 * C-CDA Validator
-  * Update CIRI (b2) test data instructions and test data xml files to allow the reconciliation of Patient birth names appropriately.
+  * Update CIRI (b2) test data instructions and test data xml files to allow the reconciliation of Patient birth names appropriately 
+  * Add DS4P jars to MDHT build scripts for future builds/releases
+  * Increase Artifactory server uptime to enhance Reference C-CDA Validator builds
+* Scorecard
+  * Update API Content URL on Scorecard Batch Application instructions and config data 
+* FHIR
+  * Update fhir_server_url for FHIR tools from 'https://fhirsandbox.healthit.gov/secure' to 'https://fhirsandbox.healthit.gov/secure/r4'
+  * Add support elements: status, category, category.coding, category.coding.system for Bulk R4 Observation resources
+  * Add support elements: status, category, code, subject, effective, issued, performer, result for Bulk R4 DiagnosticReport resources 
+* General
+  * Mitigate various server issues and harden for future releases
 
 #### V 3.1.57 | Released on: 03/28/2022
 * C-CDA Validator
