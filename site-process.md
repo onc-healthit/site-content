@@ -1,7 +1,7 @@
 # Site Process Overview
 
 ## Document Summary
-This is a living document. It is owned by the SITE team. Please feel free to make a PR with any additions, changes, or ideas. 
+This is a living document. It is owned by the SITE team. Please feel free to make a PR with any additions, changes, subtractions, or ideas. 
 We will discuss the PR as a team during stand-up and merge it if approved. 
 Note: If the change is simply improved formatting, spelling, or grammar, please feel free to commit to the document directly without a PR.
 
