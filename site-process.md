@@ -87,5 +87,4 @@ Definitions:
 * Currently there exists documentation for infrastructure updates (e.g. Java, Artifactory, Postgresql, Tomcat, DNS) as well as testing and usage of some of our services/applications. This will be of immense help to other team members and future team members as well as the client and reduce repetition and training time
 
 ## GitHub Releases
-* <TO DO>
-   
+* TO DO
