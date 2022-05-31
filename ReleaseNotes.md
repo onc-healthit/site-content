@@ -1,6 +1,14 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.59 | Released on: 05/31/2022
+* C-CDA Validator
+  * ?
+* FHIR
+  * ?
+* General
+  * Mitigate various server issues and harden for future releases
+
 #### V 3.1.58 | Released on: 04/25/2022
 * C-CDA Validator
   * Update CIRI (b2) test data instructions and test data xml files to allow the reconciliation of Patient birth names appropriately 
