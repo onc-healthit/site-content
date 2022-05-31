@@ -3,11 +3,10 @@
 
 #### V 3.1.59 | Released on: 05/31/2022
 * C-CDA Validator
-  * ?
+  * Improve validator backend service uptime
+  * Further improve Artifactory uptime (C-CDA dependency server)
 * FHIR
   * ?
-* General
-  * Mitigate various server issues and harden for future releases
 
 #### V 3.1.58 | Released on: 04/25/2022
 * C-CDA Validator
