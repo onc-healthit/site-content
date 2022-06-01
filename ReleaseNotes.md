@@ -1,6 +1,15 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.59 | Released on: 05/31/2022
+* C-CDA Validator
+  * Improve validator backend service uptime
+  * Further improve Artifactory uptime (C-CDA dependency server)
+* FHIR
+  * Fix incompatible character encodings UTF-8 and ASCII-8BIT for US Core Encounter Profile 
+  * Update dependencies Spring, Spring-security-web, and JUnit
+  * Remove FHIR Query Tool and FHIR Conformance Test Tool
+
 #### V 3.1.58 | Released on: 04/25/2022
 * C-CDA Validator
   * Update CIRI (b2) test data instructions and test data xml files to allow the reconciliation of Patient birth names appropriately 
