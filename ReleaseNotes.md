@@ -6,7 +6,7 @@
   * Improve validator backend service uptime
   * Further improve Artifactory uptime (C-CDA dependency server)
 * FHIR
-  * ?
+  * Remove FHIR Query Tool and FHIR Conformance Test Tool
 
 #### V 3.1.58 | Released on: 04/25/2022
 * C-CDA Validator
