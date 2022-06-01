@@ -7,6 +7,10 @@
   * Further improve Artifactory uptime (C-CDA dependency server)
 * FHIR
   * Remove FHIR Query Tool and FHIR Conformance Test Tool
+  * Updated spring-security-web from 3.2.6.RELEASE to 5.2.10.RELEASE
+  * Updated spring.version from 5.1.13.RELEASE to 5.3.19
+  * Updated junit from 4.7 to 4.13.1
+  * Fix incompatible character encodings UTF-8 and ASCII-8BIT for US Core Encounter Profile 
 
 #### V 3.1.58 | Released on: 04/25/2022
 * C-CDA Validator
