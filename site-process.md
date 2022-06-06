@@ -88,3 +88,15 @@ Definitions:
 
 ## GitHub Releases
 * TO DO
+
+---
+
+# Approval list
+* [X] Dan    | PR for update [No]
+* [] Sandeep | PR for update [?]
+* [] Brian   | PR for update [?]
+* [] Mounika | PR for update [?]
+* [] Girish  | PR for update [?]
+* [] Prabhu  | PR for update [?]
+* [] Sean    | PR for update [?]
+* [] Dragon  | PR for update [?]
