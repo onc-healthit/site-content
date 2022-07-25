@@ -3,7 +3,7 @@
 
 #### V 3.1.60 | Released on: 07/25/2022
 * C-CDA Validator
-  * ?
+  * Implemented Appendix A and B C-CDA Templates from Clinical Notes STU Companion Guide, Release 3 (US Realm), May 2022
   * ?
 * FHIR
   * ?
