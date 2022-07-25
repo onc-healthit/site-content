@@ -12,7 +12,7 @@
 * Scorecard
   * Update dependencies
 * General
-  * Updates server security
+  * Update server security
 
 #### V 3.1.59 | Released on: 05/31/2022
 * C-CDA Validator
