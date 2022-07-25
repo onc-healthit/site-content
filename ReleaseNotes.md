@@ -1,6 +1,19 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.60 | Released on: 07/25/2022
+* C-CDA Validator
+  * ?
+  * ?
+* FHIR
+  * ?
+  * ?
+  * ?
+* Scorecard
+  * Update dependencies
+* General
+  * Updates server security
+
 #### V 3.1.59 | Released on: 05/31/2022
 * C-CDA Validator
   * Improve validator backend service uptime
