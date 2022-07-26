@@ -1,6 +1,21 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.60 | Released on: 07/25/2022
+* C-CDA Validator
+	* Implement Appendix A and B, C-CDA Templates from Clinical Notes STU Companion Guide, Release 3 (US Realm), May 2022
+		* Include update in C-CDA R2.1 Cures Update Validator within SITE and ETT UIs as 'USCDI Version 2 Beta'  
+  * Reference external Docker setup option in the Reference C-CDA Validator readme
+  * Update Artifactory, the public repository for Reference C-CDA Validator dependencies
+* Scorecard
+	* Update dependencies
+* Scorecard Batch
+	* Update dependencies
+* FHIR
+  	* Update dependencies 
+* General
+	* Update server infrastructure
+
 #### V 3.1.59 | Released on: 05/31/2022
 * C-CDA Validator
   * Improve validator backend service uptime
