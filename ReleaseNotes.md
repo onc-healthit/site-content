@@ -3,8 +3,8 @@
 
 #### V 3.1.60 | Released on: 07/25/2022
 * C-CDA Validator
-  * Implement Appendix A and B, C-CDA Templates from Clinical Notes STU Companion Guide, Release 3 (US Realm), May 2022
-  * Include Appendix A and B update in C-CDA R2.1 Cures Update Validator within SITE and ETT UIs as 'USCDI Version 2 Beta'  
+  * Implement Appendix A and B, C-CDA Templates from Clinical Notes STU Companion Guide, Release 3 US Realm, May 2022
+  * Include Appendix A and B update in C-CDA R2.1 Cures Update Validator within SITE and ETT UIs as USCDI Version 2 Beta
   * Reference external Docker setup option in the Reference C-CDA Validator readme
   * Update Artifactory, the public repository for Reference C-CDA Validator dependencies
 * Scorecard
@@ -12,7 +12,7 @@
 * Scorecard Batch
   * Update dependencies
 * FHIR
-  * Update dependencies 
+  * Update dependencies
 * General
   * Update server infrastructure
 
