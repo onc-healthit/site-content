@@ -5,8 +5,9 @@
 * C-CDA Validator
   * Implement Appendix A and B, C-CDA Templates from Clinical Notes STU Companion Guide, Release 3 US Realm, May 2022
   * Include Appendix A and B update in C-CDA R2.1 Cures Update Validator within SITE and ETT UIs as USCDI Version 2 Beta
-  * Reference external Docker setup option in the Reference C-CDA Validator readme
-  * Update Artifactory, the public repository for Reference C-CDA Validator dependencies
+  * Reference external Docker setup option in the Reference C-CDA Validator readme (relevant to local instantiation)
+  * Update Artifactory, the public repository for Reference C-CDA Validator dependencies (relevant to local instantiation)
+  * Separate Reference, Content, and Code logs (relevant to local instantiation)
 * Scorecard
   * Update dependencies
 * Scorecard Batch
