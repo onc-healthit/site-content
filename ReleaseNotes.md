@@ -1,6 +1,16 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.61 | Released on: 08/29/2022
+* C-CDA Validator
+  * ?
+* Scorecard
+  * ?
+* FHIR
+  * ?
+* General
+  * ?
+
 #### V 3.1.60 | Released on: 07/25/2022
 * C-CDA Validator
   * Implement Appendix A and B, C-CDA Templates from Clinical Notes STU Companion Guide, Release 3 US Realm, May 2022
