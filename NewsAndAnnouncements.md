@@ -1,8 +1,5 @@
 
 Upcoming Updates:
 
-Release 3.1.61 (Targeted for August 29 2022)
-* USCDI V2 Validator
-* USCDI V1 Vocabulary updates
+Release 3.1.62 (Targeted for September 26 2022)
 * C-CDA Validator enhancements and bug fixes
-
