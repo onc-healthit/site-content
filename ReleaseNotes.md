@@ -3,7 +3,7 @@
 
 #### V 3.1.61 | Released on: 08/29/2022
 * C-CDA Validator
-  * The C-CDA Validator for USCDIv2 has been updated with new test scenario files and test data files.
+  * The C-CDA Validator for USCDIv2 has been updated with new test scenario files and test data files (add link here).
   * The Conformance Validation to the IG for the USCDIv2 has been updated. 
   * NOTE: The Content Validation for the USCDIv2 will be updated on 8/31/2022.
 * Scorecard
