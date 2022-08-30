@@ -9,7 +9,7 @@
 * Scorecard
   * Updated Scorecard parser to match content validator API.
 * FHIR
-  * ?
+  * Update dependencies
 * General
   * ?
 
