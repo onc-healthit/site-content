@@ -7,7 +7,7 @@
   * The Conformance Validation to the IG for the USCDIv2 has been updated. 
   * NOTE: The Content Validation for the USCDIv2 will be updated on 8/31/2022.
 * Scorecard
-  * ?
+  * Updated Scorecard parser to match content validator API.
 * FHIR
   * ?
 * General
