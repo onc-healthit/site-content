@@ -36,7 +36,7 @@ Definitions:
 ## Jira Ticket Creation
 * Create tickets whenever they need to be created. When in doubt, create it
 * Add a Title using the following format
-  * Project it includes, if applicable (if multiple projects, use commas to separate) followed by a colon, followed by a general description of the bug, problem, feature, or question. We don't mind different capitalizations or abbreviations or representations otherwise. Here are some examples:
+  * Project it includes, if applicable (if multiple projects then use commas to separate) followed by a colon, followed by a general description of the bug, problem, feature, or question. We don't mind different capitalizations or abbreviations or representations otherwise. Here are some examples:
     * RefVal: Review, install/run and merge external docker PR reference
     * site-ui: Remove C-CDA R1.1 Validator from UI (components and links)
     * Infrastructure: Update SSL certs as needed and install into Java
@@ -48,30 +48,38 @@ Definitions:
 * If there is a question about priority, bring it up at the next Scrum or otherwise reach out
 
 ## Scrum
-* Scrum is where we review the board, deal with blockers, address concerns, and delegate work. It is currently scheduled on Mondays at noon. Please make your best effort to attend
+* Scrum is where we review the board, deal with blockers, address concerns, and delegate work. It is currently scheduled on Mondays and Thursdays at noon for a duration of 15 minutes. Please make your best effort to attend
+* Due to the important decisions that must be made and planning that must be done, both the Scrum the day of the release and the Scrum before the day of the release are mandatory for all team members
 
 ## Planning
-* Planning is where we decide what will be in the upcoming release and delegate work. It is currently scheduled for the first Monday of each month. Please make your very best effort to attend
+* Planning is where we decide what will be in the upcoming release and delegate work. It is a mandatory meeting which happens once a month after the prior release has been completed
 
 ## Release Preparation
 * The release is scheduled for the last Monday of the month. If there is a holiday, it will be pushed to the following Tuesday
 * One week before the release, before the Scrum, review whether or not a ticket will or can possibly be completed by the release it is tagged for. If it cannot be, remove the tag, or push it to the next release
-* One week before the release, make a best attempt to have most or all tickets IN REVIEW and notify/aid respected parties. This is not a requirement, just a best-practice
+* One week before the release, make a best attempt to have most or all tickets which are targeted for the release IN REVIEW. This is not a requirement, just a best-practice
+* By the Scrum preceding the release day, all tickets which are targeted for the release must be READY FOR RELEASE (and pushed to dev), IN REVIEW, READY FOR RELEASE, OR RESOLVED. If this is not the case, and there are any tickets targeted for the release in TO DO or IN PROGRESS, the release will be pushed forward by one week
+   * Note: It is possible to keep the release date in place if items can be moved accordingly or removed from the release during the Scrum. However, items which are removed will be pushed to the next official release. There will not be an extra release to accommodate them. This is why it may be preferred to delay in such cases as opposed to doing a smaller release
+* By the Scrum preceding the release day, if possible, make a best attempt to create and add release notes to the ReleaseNotes.md file located at https://github.com/onc-healthit/site-content/
+  * If there is only a master branch, create a new branch with the version of the release that is about to happen as the name, and update on that branch. If there is already a version branch for release that is about to happen, add updates to that branch
+        * Release notes should be written in present-tense. See the Release Notes section for more information
 
 ## Release Day Process
-* Review whether or not a ticket will or can possibly be completed by the release it is tagged for. If it cannot be, remove the tag, or push it to the next release
+* If not already done, release notes must be created and added to https://github.com/onc-healthit/site-content/blob/master/ReleaseNotes.md, __before__ the release day Scrum so that the team can review them on the call
 * Ensure all tickets for the release are in their proper (current) location by 5pm eastern at the absolute latest
-* Create and add release notes to https://github.com/onc-healthit/site-content/blob/master/ReleaseNotes.md
-  * If there is only a master branch, create a new branch with the version of the release that is about to happen as the name, and update on that branch. If there is already a version branch for release that is about to happen, add updates to that branch. Note that this can be done on release day, but also, on any day prior
-        * Release notes should be written in present-tense. See the Release Notes section for more information
-* Identify what you will be handling for the release and present this at Scrum so that a plan for the team can be formed and notes can be made
+* Identify what you will be handling for the release and present this at Scrum so that a plan for the release and team member's actions can be formed. This can likely be easily derived from the release notes
 * Find out if there is anything you can help out with otherwise in regards to deployment, github releases, site-content, etc.
+* A typical release is targeted to start at 9pm. If there are issues in deployment of the release which are not resolved by 11pm, the release will be delayed by at least one day. 
+   * Note: As stated earlier, if the reason for the delay is related to items not being in dev by the Scrum preceding the release day, then the release would have already been pushed forward by one week, and we wouldn't be attempting a release at all
+
+## Retrospective
+* This is where we review what was done well and what could be improved in regards to the finished release. It is a mandatory meeting which happens once a month after the current release has been completed
 
 ## Commits
 * Commits should be written in present-tense. This imperative-style comes from the git documentation and makes the commits shorter. Is it the best way to do things? Maybe, maybe not. But, it will align us, and that is more important than the choice. To help with this, think of using words like the following to start your commit messages: Fix, Add, Remove, Change, Update, etc. Basically though, describe what you are doing at that moment/or commanding of the codebase, not what has been done to it. For example:
   * Update API Content URL on Scorecard Batch Application
   * Fix ActStatus Value Set OID
-  * Add support for IVL_REAL datatype and implementation on organizer
+  * Add support for IVL_REAL data type and implementation on organizer
   * Limit Vital Sign Observation/value to data type PQ
   * Require provenance identification using templateId for provenance TS validation
         * Note: This is from Git documentation: "Describe your changes in imperative mood, e.g. "make xyzzy do frotz" instead of "[This patch] makes xyzzy do frotz" or "[I] changed xyzzy to do frotz", as if you are giving orders to the codebase to change its behavior."
