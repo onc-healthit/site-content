@@ -1,17 +1,26 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
-#### V 3.1.61 | Released on: 08/29/2022
+#### V 3.1.61 | Released on: 08/31/2022
 * C-CDA Validator
-  * The C-CDA Validator for USCDIv2 has been updated with new test scenario files and test data files (add link here).
-  * The Conformance Validation to the IG for the USCDIv2 has been updated. 
-  * NOTE: The Content Validation for the USCDIv2 will be updated on 8/31/2022.
+  * Release the new C-CDA R2.1 Validator for 2015 Edition Cures Update and SVAP 2022 on SITE, ETT, and within the Reference C-CDA Validator WAR
+    * Includes new test scenario files and test data files (https://github.com/onc-healthit/2015-edition-cures-update-uscdi-v2-testdata)
+  * Update vocabulary to the July 2022 VSAC release
+  * Resolve ETT Google Groups thread, "Pregnancy Observation for Possible Pregnancy or Not Pregnant" by adding the new codes to the Extended Pregnancy Status Value Set 2.16.840.1.113762.1.4.1099.24 DYNAMIC
+  * Resolve ETT Google Groups thread, "Result referenceRange validation error when the requirements are met" by adding support for IVL_REAL
+  * Resolve ETT Google Groups thread, "ETT bug validating Care Team Member Act?" by relaxing Care Team Member Act participant conformance rule to a MAY vs a SHALL severity
+  * Resolve ETT Google Groups thread, "170.315(b)(9) – Care Plan_Phone Number Issue"
+  * Improve Artifactory up time for local builds
+  * Fix MDHT 20220126 release by uploading the missing org.hl7.security.ds4p.contentprofile-3.0.0.20220126.jar into the MDHT_CCDA_R2.1_R1.1_MU2_DS4P_20220126_build.zip release artifact 
 * Scorecard
-  * Updated Scorecard parser to match content validator API.
+  * Update C-CDA parser  dependency to match content-validator-api capabilities
 * FHIR
   * Update dependencies
+  * Update bulk Data API link to (https://fhirsandbox.healthit.gov/clientbulkr4)
 * General
-  * ?
+  * Increase C-CDA server uptime potential
+  * Update ETT dependencies
+  * Update SITE dependencies
 
 #### V 3.1.60 | Released on: 07/25/2022
 * C-CDA Validator
