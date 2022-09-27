@@ -1,7 +1,7 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
-#### V 3.1.62 | Released on: 09/30/2022
+#### V 3.1.62 | Released on: 09/29/2022
 * General
   * Fixed ccda_objectives.txt requiring deletion during deployment
 #### V 3.1.61 | Released on: 08/31/2022
