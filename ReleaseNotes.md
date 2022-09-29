@@ -9,7 +9,7 @@
 * ETT
   * Resolve a bug which had the potential to fail to update C-CDA objectives during deployment
 * FHIR
-  * Prabhu: ??
+  * Updated navigation links in R4 Bulk data pages    
   
 #### V 3.1.61 | Released on: 08/31/2022
 * C-CDA Validator
