@@ -6,8 +6,6 @@
   * Correct template versions for Problem Status and Allergy Status to 2019-06-20
   * Relax severity of value set constraint on Provenance Author Participation to match IG
   * Update scenarios for SVAP-2022 to match test data for inpatient samples
-* ETT
-  * Resolve a bug which had the potential to fail to update C-CDA objectives during deployment
 * FHIR
   * Update navigation links in R4 Bulk data pages
   
