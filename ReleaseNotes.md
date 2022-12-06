@@ -8,7 +8,7 @@
   * R4 dependency update for bulk R4
 * Other
   * Various Direct and other server infrastructure upgrades and fixes
-  * FIx ETT GG issue, "XDR Endpoint with TLS not working"
+  * Fix ETT GG issue, "XDR Endpoint with TLS not working"
 
 #### V 3.1.62 | Released on: 09/29/2022
 * C-CDA Validator
