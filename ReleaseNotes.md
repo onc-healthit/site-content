@@ -3,7 +3,7 @@
 
 #### V 3.1.63 | Released on: 12/05/2022
 * C-CDA Validator
-  * Add table explanation to the validator home which relates certification criteria version with C-CDA and USCDI version: https://ett.healthit.gov/ett/#/validators
+  * Add table explanation to the ETT validator home which relates certification criteria version with C-CDA and USCDI version: https://ett.healthit.gov/ett/#/validators
 * FHIR
   * R4 dependency update for bulk R4
 * Other
