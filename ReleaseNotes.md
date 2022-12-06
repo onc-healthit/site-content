@@ -1,6 +1,15 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.63 | Released on: 12/05/2022
+* C-CDA Validator
+  * Add table explanation to the validator home which relates certification criteria version with C-CDA and USCDI version: https://ett.healthit.gov/ett/#/validators
+* FHIR
+  * R4 dependency update for bulk R4
+* Other
+  * Various Direct and other server infrastructure upgrades and fixes
+  * FIx ETT GG issue, "XDR Endpoint with TLS not working"
+
 #### V 3.1.62 | Released on: 09/29/2022
 * C-CDA Validator
   * Correct template versions for Problem Status and Allergy Status to 2019-06-20
