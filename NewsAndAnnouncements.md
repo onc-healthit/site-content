@@ -1,7 +1,6 @@
 
 Upcoming Updates:
 
-Release 3.1.63 (Targeted for October 31, 2022)
+Release 3.1.64 (Unknown release data at this time)
 * Direct 1.3 Update
-* Vocabulary Updates
 * C-CDA Validator enhancements and bug fixes
