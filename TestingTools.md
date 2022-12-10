@@ -5,7 +5,7 @@
 * <a href="https://hl7v2-ss-r2-testing.nist.gov/ss-r2/#/home" target="_blank">HL7v2 Syndromic Surveillance Test Suite</a>
 * <a href="https://hl7v2-elr-testing.nist.gov/mu-elr/" target="_blank">HL7v2 Electronic Laboratory Reporting (ELR) Validation Tool (2014 and 2015 Edition)</a>
 * <a href="https://cda-validation.nist.gov/cda-validation/muNHCS.html" target="_blank">HL7 CDA National Health Care Surveys Validator</a>
-* <a href="http://healthit.gov/ETT" target="_blank">Edge Testing Tool (ETT)</a>
+* <a href="https://ett.healthit.gov/ett" target="_blank">Edge Testing Tool (ETT)</a>
 
 ### FHIR
 
@@ -19,13 +19,13 @@
 ### FHIR Servers
 
 * <a href="http://wiki.hl7.org/index.php?title=Publicly_Available_FHIR_Servers_for_testing" target="_blank">Listing of servers available for testing</a>
-* <a href="https://sitenv.org/sandbox-fhir" target="_blank">SITE FHIR Server</a>
+* <a href="https://site.healthit.gov/sandbox-fhir" target="_blank">SITE FHIR Server</a>
 
 ### Consolidated Clinical Document Architecture
 
 * <a href="http://cda-validation.nist.gov/cda-validation/validation.html" target="_blank">C32 Validation</a>
-* <a href="http://sitenv.org/sandbox-ccda/ccda-validator" target="_blank">C-CDA R1.1 and C-CDA R2.1 Validators</a>
-* <a href="http://www.healthit.gov/scorecard" target="_blank">C-CDA Scorecard and One-Click Score</a>
+* <a href="https://site.healthit.gov/sandbox-ccda/ccda-validator" target="_blank">C-CDA R1.1 and C-CDA R2.1 Validators</a>
+* <a href="https://ccda.healthit.gov/scorecard" target="_blank">C-CDA Scorecard and One-Click Score</a>
 
 ### HL7 v2
 
