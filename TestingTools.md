@@ -25,7 +25,7 @@
 
 * <a href="http://cda-validation.nist.gov/cda-validation/validation.html" target="_blank">C32 Validation</a>
 * <a href="https://site.healthit.gov/sandbox-ccda/ccda-validator" target="_blank">C-CDA R1.1 and C-CDA R2.1 Validators</a>
-* <a href="https://oncprojectracking.healthit.gov/wiki/display/TechLabTU/ONC+One+Click+Scorecard" target="_blank">C-CDA Scorecard and One-Click Score</a>
+* <a href="https://site.healthit.gov/sandbox-ccda" target="_blank">C-CDA Scorecard and One-Click Scorecard</a>
 
 ### HL7 v2
 
