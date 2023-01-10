@@ -4,6 +4,7 @@
 #### V 3.1.64 | Released on: 01/09/2023
 * Direct
   * Add Direct version 1.3 to ETT
+  * Add SVAP 2022 DCDT
 * Other
   * Fix broken links in SITE test-tools page
 
