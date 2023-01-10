@@ -1,6 +1,12 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.64 | Released on: 01/09/2023
+* Direct
+  * Add Direct version 1.3 to ETT
+* Other
+  * Fix broken links in SITE test-tools page
+
 #### V 3.1.63 | Released on: 12/05/2022
 * C-CDA Validator
   * Add table explanation to the ETT validator home which relates certification criteria version with C-CDA and USCDI version: https://ett.healthit.gov/ett/#/validators
