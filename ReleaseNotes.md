@@ -3,7 +3,7 @@
 
 #### V 3.1.64 | Released on: 01/09/2022
 * Direct
-  * Direct 1.3 Release
+  * Direct 1.3 Update
 * C-CDA Validator
   * ?VOCAB UPDATE ASHWINI?
 * FHIR
