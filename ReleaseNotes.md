@@ -3,13 +3,9 @@
 
 #### V 3.1.64 | Released on: 01/09/2022
 * Direct
-  * Direct 1.3 Update
-* C-CDA Validator
-  * ?VOCAB UPDATE ASHWINI?
-* FHIR
-  * ?PRABHU?
+  * Add Direct version 1.3 to ETT
 * Other
-  * ?
+  * Fix broken links in SITE test-tools page
 
 #### V 3.1.63 | Released on: 12/05/2022
 * C-CDA Validator
