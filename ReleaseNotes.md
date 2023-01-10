@@ -3,9 +3,7 @@
 
 #### V 3.1.64 | Released on: 01/09/2022
 * Direct
-  * ?GIRISH?
-  * ?SAI?
-  * ?DRAGON? 
+  * Direct 1.3 Release
 * C-CDA Validator
   * ?VOCAB UPDATE ASHWINI?
 * FHIR
