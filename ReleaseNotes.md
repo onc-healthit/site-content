@@ -1,6 +1,18 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.64 | Released on: 01/09/2022
+* Direct
+  * ?GIRISH?
+  * ?SAI?
+  * ?DRAGON? 
+* C-CDA Validator
+  * ?VOCAB UPDATE ASHWINI?
+* FHIR
+  * ?PRABHU?
+* Other
+  * ?
+
 #### V 3.1.63 | Released on: 12/05/2022
 * C-CDA Validator
   * Add table explanation to the ETT validator home which relates certification criteria version with C-CDA and USCDI version: https://ett.healthit.gov/ett/#/validators
