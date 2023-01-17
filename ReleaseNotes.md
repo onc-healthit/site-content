@@ -1,8 +1,9 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
-#### V 3.1.65 | Released on: 01/17/2023
+#### V 3.1.65 | Released on: 01/30/2023
 * Direct
+  * Fixed Drop downs not loading for "Select a Discovery Test Case"
   * hotfix deployed 01/17/2023
   
 #### V 3.1.64 | Released on: 01/09/2023
