@@ -1,6 +1,15 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.65 | Released on: 02/27/2023
+* C-CDA Validator
+  * Update SubstanceReactantForIntolerance value set to include the latest codes from VSAC 	
+* Direct
+  * Fix drop downs not loading for "Select a Discovery Test Case"
+  * For Direct: 4.0, add ability to send a direct message using a certificate that does not have a CRL
+* General
+  * Infrastructure updates  
+  
 #### V 3.1.64 | Released on: 01/09/2023
 * Direct
   * Add Direct version 1.3 to ETT
