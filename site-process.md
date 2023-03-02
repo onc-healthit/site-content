@@ -41,6 +41,7 @@ Definitions:
     * site-ui: Remove C-CDA R1.1 Validator from UI (components and links)
     * Infrastructure: Update SSL certs as needed and install into Java
     * MDHT, RefVal: Integrate latest MDHT build into RefVal/add relevant JUnits
+    * ETT GG: "google groups subject name"
   * If you are not sure of a project, do not let that keep you from creating the ticket. Simply create it, and add something/anything identifiable at that time, or later
 * Add a description to the ticket. It must be formatted in a way where someone looking at it, who has no previous information, can work on it just as easily as the person creating the ticket can. However, that doesn't mean it has to be clear, analyzed, or complex, if that information doesn't exist yet. For example, if it's derived from an email, copying and pasting the email will suffice. If it's derived from a forum, copying and pasting the forum will suffice, along with a link to the forum thread. If there are files, attach them. As the ticket progresses and becomes more clear, feel free to update the description
 * Move the ticket to TO DO and assign it to the current release if you think it can be completed within it and there are no other competing priorities. Otherwise, leave it in the backlog and place it where ever you feel it makes sense (top is highest priority, bottom is lowest)
