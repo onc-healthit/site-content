@@ -66,7 +66,7 @@ Definitions:
         * Release notes should be written in present-tense. See the Release Notes section for more information
 
 ## Release Day Process
-* If not already done, release notes must be created and added to https://github.com/onc-healthit/site-content/blob/master/ReleaseNotes.md, __before__ the release day Scrum so that the team can review them on the call
+* If not already done, release notes must be created and added to https://github.com/onc-healthit/site-content/blob/master/ReleaseNotes.md, __before__ the release day Scrum so that the team can review them on the call. Once the release is complete, Dan will merge the branch into master and delete the version branch. We may decide to rotate this responsibility in the future.
 * Ensure all tickets for the release are in their proper (current) location by 5pm eastern at the absolute latest
 * Identify what you will be handling for the release and present this at Scrum so that a plan for the release and team member's actions can be formed. This can likely be easily derived from the release notes
 * Find out if there is anything you can help out with otherwise in regards to deployment, github releases, site-content, etc.
