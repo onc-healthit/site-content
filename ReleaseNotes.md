@@ -1,6 +1,16 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.66 | Released on: 03/27/2023
+* C-CDA Validator
+  * Resolve ETT Google Groups thread, "Vocabulary Errors for birthplace address"
+  * Improve memory handling
+* ETT
+  * Remove SVAP 2022 DCDT from Cert Discovery drop down
+  * Remove broken links in 2015 Direct Certificate Discovery Tool page
+* General
+  * Infrastructure updates
+
 #### V 3.1.65 | Released on: 02/27/2023
 * C-CDA Validator
   * Update SubstanceReactantForIntolerance value set to include the latest codes from VSAC 	
@@ -8,7 +18,7 @@
   * Fix drop downs not loading for "Select a Discovery Test Case"
   * For Direct: 4.0, add ability to send a direct message using a certificate that does not have a CRL
 * General
-  * Infrastructure updates  
+  * Infrastructure updates
   
 #### V 3.1.64 | Released on: 01/09/2023
 * Direct
