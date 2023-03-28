@@ -7,7 +7,8 @@
   * fill in here Prabhu
   * fill in here Dragon
 * ETT
-  * Remove DCDT fill in here Girish
+  * Removed SVAP 2022 DCDT - from Cert Discovery drop down
+  * Removed broken links in page 2015 Direct Certificate Discovery Tool
 * General
   * Infrastructure updates
 
