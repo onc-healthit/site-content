@@ -3,11 +3,13 @@
 
 #### V 3.1.66 | Released on: 03/27/2023
 * C-CDA Validator
-  * <fill in here>
+  * <fill in here Girish> 
+  * <fill in here Prabhu>
+  * <fill in here Dragon>
 * ETT
-  * Remove DCDT <fill in here>
+  * Remove DCDT <fill in here Girish>
 * Direct
-  * <fill in here>
+  * <fill in here Sai>
 * General
   * Infrastructure updates
 
