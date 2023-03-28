@@ -3,12 +3,11 @@
 
 #### V 3.1.66 | Released on: 03/27/2023
 * C-CDA Validator
-  * fill in here Girish 
-  * fill in here Prabhu
-  * fill in here Dragon
+  * Resolve ETT Google Groups thread, "Vocabulary Errors for birthplace address"
+  * Improve memory handling
 * ETT
-  * Removed SVAP 2022 DCDT - from Cert Discovery drop down
-  * Removed broken links in page 2015 Direct Certificate Discovery Tool
+  * Remove SVAP 2022 DCDT from Cert Discovery drop down
+  * Remove broken links in 2015 Direct Certificate Discovery Tool page
 * General
   * Infrastructure updates
 
