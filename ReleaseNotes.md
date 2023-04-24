@@ -1,7 +1,7 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
-#### V 3.1.66 | Released on: 03/27/2023
+#### V 3.1.67
 * ETT
   * Resolve ETT Google Groups thread, "The scenario requires the submitted document type to be a Continuity of Care Document, but the submitted C-CDA does not contain the relevant template Ids."
 
