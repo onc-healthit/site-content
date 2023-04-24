@@ -1,6 +1,13 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.67
+* C-CDA Validator
+  * Further improve memory handling to address recent downtime issues 
+  * Change §170.315(b)(2)(iv) language in test data to clarify that the output file is to be in a CCD format. Update: "The SUT should then generate a C-CDA (using the CCD template in C-CDA Release 2.1) that contains the Allergies, Medications and Problems from the two Referral Notes that were provided." 
+* General
+  * Implement security updates in infrastructure
+
 #### V 3.1.66 | Released on: 03/27/2023
 * C-CDA Validator
   * Resolve ETT Google Groups thread, "Vocabulary Errors for birthplace address"
