@@ -2,8 +2,10 @@
 ## Release Notes
 
 #### V 3.1.67
-* ETT
-  * Resolve ETT Google Groups thread, "The scenario requires the submitted document type to be a Continuity of Care Document, but the submitted C-CDA does not contain the relevant template Ids."
+* C-CDA Validator
+  * Change §170.315(b)(2)(iv) language in test data to clarify that the output file is to be in a CCD format. Update: "The SUT should then generate a C-CDA (using the CCD template in C-CDA Release 2.1) that contains the Allergies, Medications and Problems from the two Referral Notes that were provided." 
+* General
+  * Implement security updates in infrastructure
 
 #### V 3.1.66 | Released on: 03/27/2023
 * C-CDA Validator
