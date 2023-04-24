@@ -2,6 +2,10 @@
 ## Release Notes
 
 #### V 3.1.66 | Released on: 03/27/2023
+* ETT
+  * Resolve ETT Google Groups thread, "The scenario requires the submitted document type to be a Continuity of Care Document, but the submitted C-CDA does not contain the relevant template Ids."
+
+#### V 3.1.66 | Released on: 03/27/2023
 * C-CDA Validator
   * Resolve ETT Google Groups thread, "Vocabulary Errors for birthplace address"
   * Improve memory handling
