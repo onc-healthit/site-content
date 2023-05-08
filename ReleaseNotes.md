@@ -1,6 +1,10 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
 
+#### V 3.1.67.1 | Released on: 05/08/2023
+* C-CDA Validator
+  * ?
+
 #### V 3.1.67 | Released on: 04/24/2023
 * C-CDA Validator
   * Further improve memory handling to address recent downtime issues 
