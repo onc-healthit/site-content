@@ -3,7 +3,13 @@
 
 #### V 3.1.67.1 | Released on: 05/08/2023
 * C-CDA Validator
-  * ?
+  * Update Test Data scenario files to ensure SVAP 2022 USCDI v2 criteria is being applied properly for Inpatient scenarios
+  * Correct Gender Identity Extension in scenario files
+  * Fix incorrect code system OID in scenario files
+  * Update EffectiveTime checking in PlannedProcedure to allow specification of high value even if not present in scenario
+  * Fix XDR Submit scenarios to send Negative Testing files
+  * Remove erroneous procedures from scenario files
+  * Remove Discharge Disposition codes from Ambulatory samples
 
 #### V 3.1.67 | Released on: 04/24/2023
 * C-CDA Validator
