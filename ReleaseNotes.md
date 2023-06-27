@@ -1,5 +1,12 @@
 # The Standards Testing & Implementation Environment (SITE)
+
 ## Release Notes
+#### V 3.1.68 | Released on: 06/26/2023
+* C-CDA Validator
+  * Fix error message for ETT C-CDA Validator if RefVal service is down
+  * Fix JSONObject Text error
+  * Update error message for excessively large files
+  * Remove announcement page
 
 #### V 3.1.67.1 | Released on: 05/08/2023
 * C-CDA Validator
