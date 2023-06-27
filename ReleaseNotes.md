@@ -2,14 +2,17 @@
 
 ## Release Notes
 #### V 3.1.68 | Released on: 06/26/2023
-* C-CDA Validator
+* C-CDA Validator  
+  * Soft-deploy Keycloak for Reference C-CDA Validator Service API access. Full authentication required by July 10, 2023. Please see the thread, "API Key Authorization (Reference C-CDA Validator API/Scorecard API)" on ETT Google Groups for more information
+  * Fix Google Group issue, "SVAP Message Validator - Goal LOINC"
+  * Fix Google Group issue, "routeCode translation displays as not an active code"
+* ETT
+  * Remove announcement page from UI
+  * Fix JSONObject Text error for ETT C-CDA Validator
   * Fix error message for ETT C-CDA Validator if RefVal service is down
-  * Fix JSONObject Text error
-  * Update error message for excessively large files
-  * Remove announcement page
-  * Support Keycloak for ETT C-CCDA
-  * Fix Google Group "SVAP Message Validator - Goal LOINC"
-  * Fix Google Group "routeCode translation displays as not an active code"
+  * Update error message for excessively large files for ETT C-CDA Validator
+* General
+  * Infrastructure updates
 
 #### V 3.1.67.1 | Released on: 05/08/2023
 * C-CDA Validator
