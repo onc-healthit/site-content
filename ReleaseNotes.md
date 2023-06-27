@@ -7,6 +7,7 @@
   * Fix JSONObject Text error
   * Update error message for excessively large files
   * Remove announcement page
+  * Support Keycloak for ETT C-CCDA
 
 #### V 3.1.67.1 | Released on: 05/08/2023
 * C-CDA Validator
