@@ -1,9 +1,23 @@
 # The Standards Testing & Implementation Environment (SITE)
 
 ## Release Notes
+
+#### V 3.1.69 | Released on: 07/31/2023
+* C-CDA Validator
+  * Soft-deploy Keycloak for C-CDA Scorecard API access
+* ETT
+  * Update JSON and File Upload dependencies
+  * Fix XDM Validator not displaying Pass/Fail Status
+  * Remove direct link to announcement page
+  * Correct home phone value in 170.315_b9_CP_Amb scenario file
+* FHIR
+  * Address Google Groups issue, "FHIR server returns 500 on querying example url" via update to 404 as per hl7 documentation and update to links
+* General
+  * Update Infrastructure
+
 #### V 3.1.68 | Released on: 06/26/2023
 * C-CDA Validator  
-  * Soft-deploy Keycloak for Reference C-CDA Validator Service API access. Full authentication required by July 10, 2023. Please see the thread, "API Key Authorization (Reference C-CDA Validator API/Scorecard API)" on ETT Google Groups for more information
+  * Soft-deploy Keycloak for Reference C-CDA Validator Service API access
   * Fix Google Group issue, "SVAP Message Validator - Goal LOINC"
   * Fix Google Group issue, "routeCode translation displays as not an active code"
 * ETT
