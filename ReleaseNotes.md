@@ -8,6 +8,8 @@
 * ETT
   * Update JSON and File Upload dependencies
   * Fix XDM Validator not displaying Pass/Fail Status
+* FHIR
+  * Address Google Groups issue, "FHIR server returns 500 on querying example url" via update to 404 as per hl7 documentation and update to links
 * General
   * Update Infrastructure
 
