@@ -8,6 +8,8 @@
 * ETT
   * Update JSON and File Upload dependencies
   * Fix XDM Validator not displaying Pass/Fail Status
+  * Remove direct link to announcement page
+  * Correct home phone value in 170.315_b9_CP_Amb scenario file
 * FHIR
   * Address Google Groups issue, "FHIR server returns 500 on querying example url" via update to 404 as per hl7 documentation and update to links
 * General
