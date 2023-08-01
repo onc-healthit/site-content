@@ -7,6 +7,7 @@
   * Soft-deploy Keycloak for C-CDA Scorecard API access
 * ETT
   * Update JSON and File Upload dependencies
+  * Fix XDM Validator not displaying Pass/Fail Status
 * General
   * Update Infrastructure
 
