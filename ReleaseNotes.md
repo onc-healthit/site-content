@@ -11,6 +11,7 @@
   * Fix JSONObject Text error for ETT C-CDA Validator
   * Fix error message for ETT C-CDA Validator if RefVal service is down
   * Update error message for excessively large files for ETT C-CDA Validator
+  * Dependabot JSON and file upload dependencies updated
 * General
   * Infrastructure updates
 
