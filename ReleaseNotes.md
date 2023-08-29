@@ -9,7 +9,7 @@
 * SITE
   * Updated SITE/test-tools section to remove non functional links
 * C-CDA
-  * Update senario files language in word document to match pdf senarios
+  * Update scenario files language in word document to match pdf scenarios
   
 #### V 3.1.69 | Released on: 07/31/2023
 * C-CDA Validator
