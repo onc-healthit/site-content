@@ -2,6 +2,17 @@
 
 ## Release Notes
 
+#### V 3.1.70 | Released on: 08/28/2023
+* Reference C-CDA Validator WAR
+  * Section Time Range Observation - Nonexistent id Requirement
+  * Informant RelatedEntity
+* SITE
+  * Updated SITE/test-tools section to remove not working links
+* C-CDA
+  * Update senario files language in word document to match pdf senarios
+* General
+  * Update Infrastructure
+  * 
 #### V 3.1.69 | Released on: 07/31/2023
 * C-CDA Validator
   * Soft-deploy Keycloak for C-CDA Scorecard API access
