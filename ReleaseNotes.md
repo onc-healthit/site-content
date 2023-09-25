@@ -3,7 +3,7 @@
 ## Release Notes
 
 #### V 3.1.71 | Released on: 08/28/2023
-1. Updated Ambulatory Test Data Sample 1 for b1, e1 and g9 criteria to remove Lab Narrative for USCDIv2.
+1. Updated Ambulatory and Inpatient Test Data Sample 1 for b1, e1 and g9 criteria to remove Lab Narrative for USCDIv2.
 2. Updated Ambulatory Test Data Sample 1 for b1, e1 and g9 criteria to change goal observation code for USCDIv2.
 3. Updated Ambulatory Test Data Sample 1 for b1, e1 and g9 criteria to fix health concern code in test data to match companion guide for USCDIv2.
 4. Updated Ambulatory Test Data Sample 1 for b1, e1 and g9 criteria to make clinical test result optional for EKG tests for USCDIv2.
