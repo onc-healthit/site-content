@@ -12,7 +12,8 @@
   * Change Reference C-CDA validation to allow additional data such as procedures, lab results, etc. which may not be present in the scenario as requested by the vendors
   * Add svap2023 flag to Reference C-CDA Validator API. Note: There is NO implementation logic/support for SVAP 2023 validation yet. This is a work in progress update
 * ETT
-  * ?
+  * Update sender/receiver buttons to ensure they depress on selection
+  * Replace static variables in upload controller
 
 #### V 3.1.70 | Released on: 08/28/2023
 * Reference C-CDA Validator WAR
