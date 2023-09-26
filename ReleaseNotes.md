@@ -2,13 +2,17 @@
 
 ## Release Notes
 
-#### V 3.1.71 | Released on: 08/28/2023
-1. Updated Ambulatory and Inpatient Test Data Sample 1 for b1, e1 and g9 criteria to remove Lab Narrative for USCDIv2.
-2. Updated Ambulatory Test Data Sample 1 for b1, e1 and g9 criteria to change goal observation code for USCDIv2.
-3. Updated Ambulatory Test Data Sample 1 for b1, e1 and g9 criteria to fix health concern code in test data to match companion guide for USCDIv2.
-4. Updated Ambulatory Test Data Sample 1 for b1, e1 and g9 criteria to make clinical test result optional for EKG tests for USCDIv2.
-5. Fixed errors in Reference CCDA validation for Inpatient samples 1 and 3 for b1, e1 and g9 for USCDIv2.
-6. Changed Reference CCDA validation to allow additional data such as procedures, lab results etc which may not be present in the scenario as requested by the vendors. 
+#### V 3.1.71 | Released on: 09/25/2023
+* C-CDA Validator
+  * Update Ambulatory and Inpatient Test Data Sample 1 for b1, e1 and g9 criteria to remove Lab Narrative for USCDIv2
+  * Update Ambulatory Test Data Sample 1 for b1, e1 and g9 criteria to change goal observation code for USCDIv2
+  * Update Ambulatory Test Data Sample 1 for b1, e1 and g9 criteria to fix health concern code in test data to match companion guide for USCDIv2
+  * Update Ambulatory Test Data Sample 1 for b1, e1 and g9 criteria to make clinical test result optional for EKG tests for USCDIv2
+  * Fix errors in Reference C-CDA validation for Inpatient samples 1 and 3 for b1, e1 and g9 for USCDIv2
+  * Change Reference C-CDA validation to allow additional data such as procedures, lab results, etc. which may not be present in the scenario as requested by the vendors
+  * Add svap2023 flag to Reference C-CDA Validator API. Note: There is NO implementation logic/support for SVAP 2023 validation yet. This is a work in progress update
+* ETT
+  * ?
 
 #### V 3.1.70 | Released on: 08/28/2023
 * Reference C-CDA Validator WAR
