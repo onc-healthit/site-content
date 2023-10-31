@@ -2,6 +2,17 @@
 
 ## Release Notes
 
+#### V 3.1.72 | Released on: 10/30/2023
+* C-CDA Validator
+  * Add public API usage to readme
+* ETT
+  * Resize document search window to resolve truncated document names
+  * Add submit button inside document search window
+  * Update separate clientId and key for Keycloak
+  * Add link for SVAP standards versions to validator home page
+* SITE
+  * Update separate clientId and key for Keycloak
+  
 #### V 3.1.71 | Released on: 09/25/2023
 * C-CDA Validator
   * Update Ambulatory and Inpatient Test Data Sample 1 for b1, e1 and g9 criteria to remove Lab Narrative for USCDIv2
