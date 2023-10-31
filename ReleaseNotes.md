@@ -9,8 +9,8 @@
   * Resize document search window to resolve truncated document names
   * Add submit button inside document search window
   * Update separate clientId and key for Keycloak
-* SITE
   * Added link for SVAP standards versions to validator home page.
+* SITE
   * Update separate clientId and key for Keycloak
   
 #### V 3.1.71 | Released on: 09/25/2023
