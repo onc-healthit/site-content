@@ -3,6 +3,8 @@
 ## Release Notes
 
 #### V 3.1.72 | Released on: 10/30/2023
+* C-CDA Validator
+  * Add public API usage to readme
 * ETT
   * Resize document search window to resolve truncated document names
   * Add submit button inside document search window
