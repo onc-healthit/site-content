@@ -9,7 +9,7 @@
   * Resize document search window to resolve truncated document names
   * Add submit button inside document search window
   * Update separate clientId and key for Keycloak
-  * Added link for SVAP standards versions to validator home page.
+  * Add link for SVAP standards versions to validator home page
 * SITE
   * Update separate clientId and key for Keycloak
   
