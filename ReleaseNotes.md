@@ -8,7 +8,11 @@
 * ETT
   * Resize document search window to resolve truncated document names
   * Add submit button inside document search window
-
+  * Updated separate clientId and key for keycloak.
+* SITE
+  * Added link for SVAP standards versions to validator home page.
+  * Updated separate clientId and key for keycloak.
+  
 #### V 3.1.71 | Released on: 09/25/2023
 * C-CDA Validator
   * Update Ambulatory and Inpatient Test Data Sample 1 for b1, e1 and g9 criteria to remove Lab Narrative for USCDIv2
