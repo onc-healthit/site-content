@@ -2,6 +2,12 @@
 
 ## Release Notes
 
+#### V 3.1.73 | Released on: 11/27/2023
+* C-CDA Validator
+  * Apply fix for ETT GG: "Patient Kid,Happy Chest X-ray completed before birth"
+  * Apply fix for ETT GG: "Community Health and Hospitals"
+
+
 #### V 3.1.72 | Released on: 10/30/2023
 * C-CDA Validator
   * Add public API usage to readme
