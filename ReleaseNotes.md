@@ -6,7 +6,12 @@
 * C-CDA Validator
   * Apply fix for ETT GG: "Patient Kid,Happy Chest X-ray completed before birth"
   * Apply fix for ETT GG: "Community Health and Hospitals"
-
+  * Improve C-CDA Validator uptime
+* ETT
+  * Add Clear pass/fail indicators in the XDR Test Cases
+  * Update SVAP 2022 to USCDI v2
+* SITE
+  * Update SVAP 2022 to USCDI v2
 
 #### V 3.1.72 | Released on: 10/30/2023
 * C-CDA Validator
