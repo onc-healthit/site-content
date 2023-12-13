@@ -2,6 +2,10 @@
 
 ## Release Notes
 
+#### V 3.1.74 | Released on: 
+* ETT
+  * Remove more granular race code with unpopulated data
+
 #### V 3.1.73 | Released on: 11/27/2023
 * C-CDA Validator
   * Apply fix for ETT GG: "Patient Kid,Happy Chest X-ray completed before birth"
