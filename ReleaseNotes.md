@@ -2,7 +2,7 @@
 
 ## Release Notes
 
-#### V 3.1.74 | Released on: 12/18/23
+#### V 3.1.74 | Released on: 12/18/2023
 * C-CDA Validator
   * Improve C-CDA R1.1/MU2 Validator uptime
   * Remove more granular race code with unpopulated data
