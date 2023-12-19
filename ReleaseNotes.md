@@ -5,8 +5,8 @@
 #### V 3.1.74 | Released on: 12/18/23
 * C-CDA Validator
   * Improve C-CDA R1.1/MU2 Validator uptime
-* ETT
   * Remove more granular race code with unpopulated data
+* ETT
   * Added USCDI v3 C-CDA Validator
 * SITE
   * Added USCDI v3 C-CDA Validator
