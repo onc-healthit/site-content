@@ -2,11 +2,20 @@
 
 ## Release Notes
 
+#### V 3.1.74 | Released on: 12/18/23
+* C-CDA Validator
+  * Improve C-CDA R1.1/MU2 Validator uptime
+  * Remove more granular race code with unpopulated data
+* ETT
+  * Added USCDI v3 C-CDA Validator
+* SITE
+  * Added USCDI v3 C-CDA Validator
+
 #### V 3.1.73 | Released on: 11/27/2023
 * C-CDA Validator
   * Apply fix for ETT GG: "Patient Kid,Happy Chest X-ray completed before birth"
   * Apply fix for ETT GG: "Community Health and Hospitals"
-  * Improve C-CDA Validator uptime
+  * Improve R2.1/USCDI C-CDA Validator uptime
 * ETT
   * Add Clear pass/fail indicators in the XDR Test Cases
   * Update SVAP 2022 to USCDI v2
