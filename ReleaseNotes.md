@@ -2,6 +2,8 @@
 
 ## Release Notes
 
+#### V 3.1.75 | Released on: 01/27/2024
+
 #### V 3.1.74 | Released on: 12/18/2023
 * C-CDA Validator
   * Improve C-CDA R1.1/MU2 Validator uptime
