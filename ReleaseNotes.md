@@ -2,7 +2,12 @@
 
 ## Release Notes
 
-#### V 3.1.75 | Released on: 01/27/2024
+#### V 3.1.75 | Released on: 01/29/2024
+* ETT
+  * Fix for GG issue granular race checking in b.1 - Alice Newman
+  * Remove reference of 2015 Edition/Cures Update from tools
+* SITE
+  * Remove reference of 2015 Edition/Cures Update from tools
 
 #### V 3.1.74 | Released on: 12/18/2023
 * C-CDA Validator
