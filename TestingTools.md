@@ -1,4 +1,4 @@
-### ONC Health IT Certification Test Tools - 2015 Edition
+### ONC Health IT Certification Test Tools
 
 * <a href="https://cda-validation.nist.gov/cda-validation/muCRV.html" target="_blank">HL7 CDA Cancer Registry Reporting Validation Tool</a>
 * <a href="https://hl7v2-ss-r2-testing.nist.gov/ss-r2/#/home" target="_blank">HL7v2 Syndromic Surveillance Test Suite</a>
