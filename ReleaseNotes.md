@@ -14,6 +14,7 @@
 * C-CDA Validator
   * Fix defects for RelatedPerson
   * Updates to USCDI v3 RelatedPerson, Specimen, SocialHistory Observations
+  * Updated USCDIv3 content validation for RelatedPerson, Specimen and Socialhistory observations 
 
 #### V 3.1.74 | Released on: 12/18/2023
 * C-CDA Validator
