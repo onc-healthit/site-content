@@ -6,7 +6,6 @@
 * ETT
   * Fix for GG issue granular race checking in b.1 - Alice Newman
   * Remove reference of 2015 Edition/Cures Update from tools
-  * New Signing Certificate value was added - GOOD_ECDSA_CERT
   * UI Table update for USCDIv3
 * SITE
   * Remove reference of 2015 Edition/Cures Update from tools
