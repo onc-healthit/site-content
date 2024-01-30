@@ -6,8 +6,11 @@
 * ETT
   * Fix for GG issue granular race checking in b.1 - Alice Newman
   * Remove reference of 2015 Edition/Cures Update from tools
+  * New Signing Certificate value was added - GOOD_ECDSA_CERT
 * SITE
   * Remove reference of 2015 Edition/Cures Update from tools
+  * New Signing Certificate value was added - GOOD_ECDSA_CERT
+* C-CDA Validator
   * Fix defects for RelatedPerson
   * Updates to USCDI v3 RelatedPerson, Specimen, SocialHistory Observations
 
