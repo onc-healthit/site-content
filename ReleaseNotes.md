@@ -2,6 +2,20 @@
 
 ## Release Notes
 
+#### V 3.1.75 | Released on: 01/29/2024
+* ETT
+  * Fix for GG issue granular race checking in b.1 - Alice Newman
+  * Remove reference of 2015 Edition/Cures Update from tools
+  * New Signing Certificate value was added - GOOD_ECDSA_CERT
+  * UI Table update for USCDIv3
+  * New Signing Certificate value was added - GOOD_ECDSA_CERT
+* SITE
+  * Remove reference of 2015 Edition/Cures Update from tools
+* C-CDA Validator
+  * Fix defects for RelatedPerson
+  * Updates to USCDI v3 RelatedPerson, Specimen, SocialHistory Observations
+  * Updated USCDIv3 content validation for RelatedPerson, Specimen and Socialhistory observations 
+
 #### V 3.1.74 | Released on: 12/18/2023
 * C-CDA Validator
   * Improve C-CDA R1.1/MU2 Validator uptime
