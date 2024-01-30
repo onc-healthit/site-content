@@ -8,6 +8,8 @@
   * Remove reference of 2015 Edition/Cures Update from tools
 * SITE
   * Remove reference of 2015 Edition/Cures Update from tools
+  * Fix defects for RelatedPerson
+  * Updates to USCDI v3 RelatedPerson, Specimen, SocialHistory Observations
 
 #### V 3.1.74 | Released on: 12/18/2023
 * C-CDA Validator
