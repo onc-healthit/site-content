@@ -6,8 +6,12 @@
 * ETT
   * UI language updates to Validator Home page
   * Removed USCDI v2 option from Direct Testing Home C-CDA Validator dropdown
+  * Use SITE API for C-CDA objectives
+  * Direct: UI Updates for send/receive messages with various ECDSA signatures
 * SITE
+  * Enable Keycloak
 * C-CDA Validator
+  * Scenario file update (EVAN)
 
 #### V 3.1.75 | Released on: 01/29/2024
 * ETT
