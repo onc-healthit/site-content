@@ -2,6 +2,13 @@
 
 ## Release Notes
 
+### V 3.1.76 | Released on: 02/26/2024
+* ETT
+  * UI language updates to Validator Home page
+  * Removed USCDI v2 option from Direct Testing Home C-CDA Validator dropdown
+* SITE
+* C-CDA Validator
+
 #### V 3.1.75 | Released on: 01/29/2024
 * ETT
   * Fix for GG issue granular race checking in b.1 - Alice Newman
