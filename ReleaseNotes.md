@@ -11,7 +11,7 @@
 * SITE
   * Enable Keycloak
 * C-CDA Validator
-  * Scenario file update (EVAN)
+  * Update 170.315_b1_toc_amb_svap_uscdiv2_sample1.xml to fix SDOH error
 
 #### V 3.1.75 | Released on: 01/29/2024
 * ETT
