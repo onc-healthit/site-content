@@ -2,6 +2,17 @@
 
 ## Release Notes
 
+### V 3.1.76 | Released on: 02/26/2024
+* ETT
+  * UI language updates to Validator Home page
+  * Removed USCDI v2 option from Direct Testing Home C-CDA Validator dropdown
+  * Use SITE API for C-CDA objectives
+  * Direct: UI Updates for send/receive messages with various ECDSA signatures
+* SITE
+  * Enable Keycloak
+* C-CDA Validator
+  * Update 170.315_b1_toc_amb_svap_uscdiv2_sample1.xml to fix SDOH error
+
 #### V 3.1.75 | Released on: 01/29/2024
 * ETT
   * Fix for GG issue granular race checking in b.1 - Alice Newman
