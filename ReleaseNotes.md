@@ -6,7 +6,6 @@
 * ETT
   * UI language updates to Validator Home page
   * Removed USCDI v2 option from Direct Testing Home C-CDA Validator dropdown
-  * Use SITE API for C-CDA objectives
   * Direct: UI Updates for send/receive messages with various ECDSA signatures
 * SITE
   * Enable Keycloak
