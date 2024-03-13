@@ -2,7 +2,7 @@
 
 *   **How to Invoke the Scorecard API which Returns JSON Data:**
     *   Endpoint
-        *   POST: https://ccda.healthit.gov/scorecard/ccdascorecardservice2
+        *   POST: https://ccda.healthit.gov/scorecard/ccdascorecardserviceinternal
     *   The POST method takes one parameter which is
         *   ccdaFile: The file that is being submitted for scoring
     *   Use the multipart/form-data to encode the file as part of the body parameters for the POST request
