@@ -8,7 +8,7 @@
 * SITE
   * Update URL in Scorecard API documentation
 * C-CDA Validator
-  * USCDIv3 vocabulary bug fixes (Prabhu to add)
+  * USCDIv3 vocabulary added validation for Gender Identity, Sexual Orientation and Specimen Type.
 
 ### V 3.1.76 | Released on: 02/26/2024
 * ETT
