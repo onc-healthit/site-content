@@ -2,6 +2,13 @@
 
 ## Release Notes
 
+### V 3.1.77 | Released on: 03/25/2024
+* ETT
+  * Update SVAP buttons b1, h1 and h2 to point to USCDIv3 instead of v2
+* SITE
+  * Update vocabulary files ??? SITE-3676
+  * Update URL in Scorecard API documentation
+
 ### V 3.1.76 | Released on: 02/26/2024
 * ETT
   * UI language updates to Validator Home page
