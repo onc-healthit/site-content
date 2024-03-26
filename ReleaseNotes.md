@@ -2,6 +2,14 @@
 
 ## Release Notes
 
+### V 3.1.77 | Released on: 03/25/2024
+* ETT
+  * Update SVAP buttons b1, h1 and h2 to point to USCDIv3 instead of v2
+* SITE
+  * Update URL in Scorecard API documentation
+* C-CDA Validator
+  * USCDIv3 vocabulary added validation for Gender Identity, Sexual Orientation and Specimen Type.
+
 ### V 3.1.76 | Released on: 02/26/2024
 * ETT
   * UI language updates to Validator Home page
