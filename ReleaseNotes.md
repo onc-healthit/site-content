@@ -2,6 +2,8 @@
 
 ## Release Notes
 
+### V 3.1.78 | Released on: 04/29/2024
+
 ### V 3.1.77 | Released on: 03/25/2024
 * ETT
   * Update SVAP buttons b1, h1 and h2 to point to USCDIv3 instead of v2
