@@ -5,6 +5,8 @@
 ### V 3.1.78 | Released on: 04/29/2024
 * ETT
   * Remove Cures Update references from USCDI v2 and v3 scenario files
+* C-CDA Validator
+  * Correct a typo in Hunger Vital Assessment Code in Newman and Larson Data sets
 
 ### V 3.1.77 | Released on: 03/25/2024
 * ETT
