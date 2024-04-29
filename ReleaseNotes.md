@@ -4,7 +4,7 @@
 
 ### V 3.1.78 | Released on: 04/29/2024
 * ETT
-  * Removes Cures Update references from USCDI v2 and v3 scenario files
+  * Remove Cures Update references from USCDI v2 and v3 scenario files
 
 ### V 3.1.77 | Released on: 03/25/2024
 * ETT
