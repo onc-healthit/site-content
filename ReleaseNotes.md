@@ -2,6 +2,17 @@
 
 ## Release Notes
 
+### V 3.1.78 | Released on: 04/29/2024
+* ETT
+  * Remove Cures Update references from USCDI v2 and v3 scenario files
+  * C-CDA Validators - Removed need to use c-cda objectves text file
+  * Updated b1 Negative testing files to reference USCDI instead of CCDS
+* SITE
+  * Update Test Data File titles and introduction to remove 2015/Cures Update.
+  * Removed USCDIv2  
+* C-CDA Validator
+  * Correct a typo in Hunger Vital Assessment Code in Newman and Larson Data sets
+
 ### V 3.1.77 | Released on: 03/25/2024
 * ETT
   * Update SVAP buttons b1, h1 and h2 to point to USCDIv3 instead of v2
