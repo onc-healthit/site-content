@@ -2,6 +2,9 @@
 
 ## Release Notes
 
+### V 3.1.79 | Released on: 05/28/2024
+* C-CDA Validator
+
 ### V 3.1.78 | Released on: 04/29/2024
 * ETT
   * Remove Cures Update references from USCDI v2 and v3 scenario files
