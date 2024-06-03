@@ -8,6 +8,7 @@
   * Update ReadMe to remove public API references and add keycloak properties
   * Fix USCDIv3 referral error
   * Fix USCDIv3 goals and health concerns error
+  * Fix health concern observation code in MDHT
 * ETT
   * Fix reference validator API call that broke scenario testing
   * Fix download button in USCDIv3 validator
