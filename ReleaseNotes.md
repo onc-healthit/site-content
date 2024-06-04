@@ -2,6 +2,18 @@
 
 ## Release Notes
 
+### V 3.1.79 | Released on: 06/03/2024
+* C-CDA Validator
+  * Update MDHT per 2018 and later errata
+  * Update ReadMe to remove public API references and add keycloak properties
+  * Fix USCDIv3 referral error
+  * Fix USCDIv3 goals and health concerns error
+  * Fix health concern observation code in MDHT
+* ETT
+  * Fix reference validator API call that broke scenario testing
+  * Fix download button in USCDIv3 validator
+  * Remove reference to "2015 Edition Cures Update"
+
 ### V 3.1.78 | Released on: 04/29/2024
 * ETT
   * Remove Cures Update references from USCDI v2 and v3 scenario files
