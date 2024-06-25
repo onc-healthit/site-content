@@ -2,6 +2,17 @@
 
 ## Release Notes
 
+### V 3.1.80 | Released on: 06/24/2024
+* Reference-ccda-calidator to 1.0.73
+  * Update MDHT assessment scale supporting observation to allow values other than "CD"
+* ETT to 2.3.6
+  * Update FAQ to remove "2015" and "2015 Edition" from title of links
+* Scorecard to 2.7.0
+  * Update jackson to 2.17.1
+  * Update postgresql driver to 42.7.3
+* FHIR Tools to 1.0.0
+  * Update dependencies of bulkr4, r4
+
 ### V 3.1.79 | Released on: 06/03/2024
 * C-CDA Validator
   * Update MDHT per 2018 and later errata
