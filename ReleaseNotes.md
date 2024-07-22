@@ -1,6 +1,8 @@
 # The Standards Testing & Implementation Environment (SITE)
 ## Release Notes
-
+#### V 3.1.62 | Released on: 09/30/2022
+* General
+  * Fixed ccda_objectives.txt requiring deletion during deployment
 #### V 3.1.61 | Released on: 08/31/2022
 * C-CDA Validator
   * Release the new C-CDA R2.1 Validator for 2015 Edition Cures Update and SVAP 2022 on SITE, ETT, and within the Reference C-CDA Validator WAR
