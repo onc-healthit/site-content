@@ -2,6 +2,18 @@
 
 ## Release Notes
 
+### 3.1.81 | Released on 7/29/2024
+* [fhir-tools](https://github.com/onc-healthit/fhir-tools) updated to version [1.0.1](https://xxx)
+  * Notes
+* [ett](https://github.com/onc-healthit/ett) updated to version [2.3.69](xxx)
+  * Notes 
+* [ccda-corecard](https://github.com/onc-healthit/ccda-scorecard) updated to version [2.7.1](xxx)
+  * Notes
+* [reference-ccda-validator](https://github.com/onc-healthit/reference-ccda-validator) updated to version [1.0.74](xxx)
+  * Notes
+ * [content-validator-api](https://github.com/onc-healthit/content-validator-api) updated to version [1.0.55](xxx)
+   * Notes
+
 ### V 3.1.80 | Released on: 06/24/2024
 * Reference-ccda-calidator to 1.0.73
   * Update MDHT assessment scale supporting observation to allow values other than "CD"
