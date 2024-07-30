@@ -2,6 +2,12 @@
 
 ## Release Notes
 
+### 3.1.81 | Released on 7/29/2024
+* [ett](https://github.com/onc-healthit/ett) updated to version [2.3.69](https://github.com/onc-healthit/ett/releases/tag/2.3.69)
+* [ccda-corecard](https://github.com/onc-healthit/ccda-scorecard) updated to version [2.7.1](https://github.com/onc-healthit/ccda-scorecard/releases/tag/2.7.1)
+* [reference-ccda-validator](https://github.com/onc-healthit/reference-ccda-validator) updated to version [1.0.74](https://github.com/onc-healthit/reference-ccda-validator/releases/tag/1.0.74)
+* [content-validator-api](https://github.com/onc-healthit/content-validator-api) updated to version [1.0.55](https://github.com/onc-healthit/content-validator-api/releases/tag/1.0.55)
+
 ### V 3.1.80 | Released on: 06/24/2024
 * Reference-ccda-calidator to 1.0.73
   * Update MDHT assessment scale supporting observation to allow values other than "CD"
