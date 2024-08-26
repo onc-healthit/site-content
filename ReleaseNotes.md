@@ -3,7 +3,6 @@
 ## Release Notes
 
 ### 3.1.82 | Released on 8/26/2024
-
 * [ETT](https://github.com/onc-healthit/ett) updated to version [2.3.70](https://github.com/onc-healthit/ett/releases/tag/2.3.70)
   * Update log4j version (SITE-4191)
 * [C-CDA Validator](https://github.com/onc-healthit/reference-ccda-validator) updated to version [1.0.75](https://github.com/onc-healthit/reference-ccda-validator/releases/tag/1.0.75)
@@ -19,9 +18,18 @@
 
 ### 3.1.81 | Released on 7/29/2024
 * [ETT](https://github.com/onc-healthit/ett) updated to version [2.3.69](https://github.com/onc-healthit/ett/releases/tag/2.3.69)
+  * Update MT 39, 40, 41 to support TLS v1.2
+  * Create README.md by to refer users to google groups for support
+  * Update release_notes.txt to refer to SITE release notes
 * [CCDA Scorecard](https://github.com/onc-healthit/ccda-scorecard) updated to version [2.7.1](https://github.com/onc-healthit/ccda-scorecard/releases/tag/2.7.1)
+  * Update README.md to refer users to google groups for support
+  * Update Scorecard API and External Tools Instructions to remove references to API access
 * [C-CDA Validator](https://github.com/onc-healthit/reference-ccda-validator) updated to version [1.0.74](https://github.com/onc-healthit/reference-ccda-validator/releases/tag/1.0.74)
+  * Update README.md to refer users to google groups for support
+  * Update MDHT value set names and pregnancy value set OID
 * [Content Validator API](https://github.com/onc-healthit/content-validator-api) updated to version [1.0.55](https://github.com/onc-healthit/content-validator-api/releases/tag/1.0.55)
+  * Create README.md to refer users to google groups for support
+  * Updated to parser name and template id for RelatedPerson
 
 ### SITE V3.1.80 | Released on: 06/24/2024
 * C-CDA Validator to 1.0.73
