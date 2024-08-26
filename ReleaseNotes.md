@@ -2,6 +2,15 @@
 
 ## Release Notes
 
+### 3.1.82 | Released on 8/26/2024
+
+* [ett](https://github.com/onc-healthit/ett) updated to version [2.3.70](https://github.com/onc-healthit/ett/releases/tag/2.3.70)
+* [reference-ccda-validator](https://github.com/onc-healthit/reference-ccda-validator) updated to version [1.0.75](https://github.com/onc-healthit/reference-ccda-validator/releases/tag/1.0.75)
+* [content-validator-scenarios](https://github.com/onc-healthit/content-validator-scenarios) updated to version [1.0.1](https://github.com/onc-healthit/content-validator-scenarios/releases/tag/1.0.1)
+* [content-validator-api](https://github.com/onc-healthit/content-validator-api) updated to version [1.0.56](https://github.com/onc-healthit/content-validator-api/releases/tag/1.0.56)
+* Is FHIR going to make it?
+
+
 ### 3.1.81 | Released on 7/29/2024
 * [ett](https://github.com/onc-healthit/ett) updated to version [2.3.69](https://github.com/onc-healthit/ett/releases/tag/2.3.69)
 * [ccda-scorecard](https://github.com/onc-healthit/ccda-scorecard) updated to version [2.7.1](https://github.com/onc-healthit/ccda-scorecard/releases/tag/2.7.1)
