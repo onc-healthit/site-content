@@ -4,13 +4,13 @@
 
 ### 3.1.82 | Released on 8/26/2024
 
-* [ett](https://github.com/onc-healthit/ett) updated to version [2.3.70](https://github.com/onc-healthit/ett/releases/tag/2.3.70)
+* [ETT](https://github.com/onc-healthit/ett) updated to version [2.3.70](https://github.com/onc-healthit/ett/releases/tag/2.3.70)
   * Update log4j version (SITE-4191)
-* [reference-ccda-validator](https://github.com/onc-healthit/reference-ccda-validator) updated to version [1.0.75](https://github.com/onc-healthit/reference-ccda-validator/releases/tag/1.0.75)
+* [C-CDA Validator](https://github.com/onc-healthit/reference-ccda-validator) updated to version [1.0.75](https://github.com/onc-healthit/reference-ccda-validator/releases/tag/1.0.75)
   * Updates to mdht version
-* [content-validator-scenarios](https://github.com/onc-healthit/content-validator-scenarios) updated to version [1.0.1](https://github.com/onc-healthit/content-validator-scenarios/releases/tag/1.0.1)
+* [Content Validator Scenarios](https://github.com/onc-healthit/content-validator-scenarios) updated to version [1.0.1](https://github.com/onc-healthit/content-validator-scenarios/releases/tag/1.0.1)
   * SDOH goal code updated to 161036002
-* [content-validator-api](https://github.com/onc-healthit/content-validator-api) updated to version [1.0.56](https://github.com/onc-healthit/content-validator-api/releases/tag/1.0.56)
+* [Content Validator API](https://github.com/onc-healthit/content-validator-api) updated to version [1.0.56](https://github.com/onc-healthit/content-validator-api/releases/tag/1.0.56)
   * Related Person TemplateIds Comparison
 * [FHIR Tools](https://github.com/onc-healthit/fhir-tools) updated to version [1.0.1](https://github.com/onc-healthit/fhir-tools/releases/tag/1.0.1)
   * Dependabot dependency update for FHIR R4
@@ -18,13 +18,13 @@
 
 
 ### 3.1.81 | Released on 7/29/2024
-* [ett](https://github.com/onc-healthit/ett) updated to version [2.3.69](https://github.com/onc-healthit/ett/releases/tag/2.3.69)
-* [ccda-scorecard](https://github.com/onc-healthit/ccda-scorecard) updated to version [2.7.1](https://github.com/onc-healthit/ccda-scorecard/releases/tag/2.7.1)
-* [reference-ccda-validator](https://github.com/onc-healthit/reference-ccda-validator) updated to version [1.0.74](https://github.com/onc-healthit/reference-ccda-validator/releases/tag/1.0.74)
-* [content-validator-api](https://github.com/onc-healthit/content-validator-api) updated to version [1.0.55](https://github.com/onc-healthit/content-validator-api/releases/tag/1.0.55)
+* [ETT](https://github.com/onc-healthit/ett) updated to version [2.3.69](https://github.com/onc-healthit/ett/releases/tag/2.3.69)
+* [CCDA Scorecard](https://github.com/onc-healthit/ccda-scorecard) updated to version [2.7.1](https://github.com/onc-healthit/ccda-scorecard/releases/tag/2.7.1)
+* [C-CDA Validator](https://github.com/onc-healthit/reference-ccda-validator) updated to version [1.0.74](https://github.com/onc-healthit/reference-ccda-validator/releases/tag/1.0.74)
+* [Content Validator API](https://github.com/onc-healthit/content-validator-api) updated to version [1.0.55](https://github.com/onc-healthit/content-validator-api/releases/tag/1.0.55)
 
 ### SITE V3.1.80 | Released on: 06/24/2024
-* Reference-ccda-calidator to 1.0.73
+* C-CDA Validator to 1.0.73
   * Update MDHT assessment scale supporting observation to allow values other than "CD"
 * ETT to 2.3.6
   * Update FAQ to remove "2015" and "2015 Edition" from title of links
