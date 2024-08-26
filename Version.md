@@ -1,1 +1,1 @@
-**SITE Version:** 3.1.81 | **Released:** 07/29/2024
+**SITE Version:** 3.1.82 | **Released:** 08/26/2024
