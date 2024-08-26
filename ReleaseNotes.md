@@ -5,10 +5,16 @@
 ### 3.1.82 | Released on 8/26/2024
 
 * [ett](https://github.com/onc-healthit/ett) updated to version [2.3.70](https://github.com/onc-healthit/ett/releases/tag/2.3.70)
+  * Update log4j version (SITE-4191)
 * [reference-ccda-validator](https://github.com/onc-healthit/reference-ccda-validator) updated to version [1.0.75](https://github.com/onc-healthit/reference-ccda-validator/releases/tag/1.0.75)
+  * Updates to mdht version
 * [content-validator-scenarios](https://github.com/onc-healthit/content-validator-scenarios) updated to version [1.0.1](https://github.com/onc-healthit/content-validator-scenarios/releases/tag/1.0.1)
+  * SDOH goal code updated to 161036002
 * [content-validator-api](https://github.com/onc-healthit/content-validator-api) updated to version [1.0.56](https://github.com/onc-healthit/content-validator-api/releases/tag/1.0.56)
-* Is FHIR going to make it?
+  * Related Person TemplateIds Comparison
+* [FHIR Tools](https://github.com/onc-healthit/fhir-tools) updated to version [1.0.1](https://github.com/onc-healthit/fhir-tools/releases/tag/1.0.1)
+  * Dependabot dependency update for FHIR R4
+  * Update README.md
 
 
 ### 3.1.81 | Released on 7/29/2024
