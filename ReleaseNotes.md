@@ -2,6 +2,19 @@
 
 ## Release Notes
 
+### 3.1.83 | Released on 9/30/2024
+* [C-CDA Validator](https://github.com/onc-healthit/reference-ccda-validator) updated to version [1.0.76](link)
+	* Updated spring core to version ?
+* [C-CDA Scorecard](https://github.com/onc-healthit/ccda-scorecard) updated to version [2.7.2](link)
+	* Updated spring core to version ?
+* [SITE-UI](https://github.com/onc-healthit/site-ui) updated to version [1.13](link)
+	* Updated broken link on direct sandbox page
+* [XDR Message Sender](https://github.com/onc-healthit/xdr-message-sender) updated to version [1.0.3](link)
+	* Updated log4j to version ?
+* [XDR Message Validator](https://github.com/onc-healthit/xdr-message-validator) updated to version [1.0.2](link)
+	* Updated spring core to version ?
+	* Updated log4j to version ?
+
 ### 3.1.82 | Released on 8/26/2024
 * [ETT](https://github.com/onc-healthit/ett) updated to version [2.3.70](https://github.com/onc-healthit/ett/releases/tag/2.3.70)
   * Update log4j version (SITE-4191)
