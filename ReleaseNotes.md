@@ -5,6 +5,10 @@
 ### 3.1.83 | Released on 9/30/2024
 * [C-CDA Validator](https://github.com/onc-healthit/reference-ccda-validator) updated to version [1.0.76](https://github.com/onc-healthit/reference-ccda-validator/releases/tag/1.0.76)
 	* Updated spring core from 4.3.30.RELEASE to 5.3.39
+* [Content Validator API](https://github.com/onc-healthit/content-validator-api) updated to version [1.0.57](https://github.com/onc-healthit/content-validator-api/releases/tag/1.0.57)
+	* Updated spring core from 4.2.4.RELEASE to 5.3.39
+* [Code Validator API](https://github.com/onc-healthit/content-validator-api) updated to version [1.0.33](https://github.com/onc-healthit/code-validator-api/releases/tag/1.0.33)
+	* Updated spring core from 4.1.0.RELEASE to 5.3.39
 * [C-CDA Scorecard](https://github.com/onc-healthit/ccda-scorecard) updated to version [2.7.2](https://github.com/onc-healthit/ccda-scorecard/releases/tag/2.7.2)
 	* Updated spring core from 4.2.4.RELEASE to 5.3.39
 * [SITE-UI](https://github.com/onc-healthit/site-ui) updated to version [1.13](https://github.com/onc-healthit/site-ui/releases/tag/1.13)
@@ -14,8 +18,7 @@
 * [XDR Message Validator](https://github.com/onc-healthit/xdr-message-validator) updated to version [1.0.2](https://github.com/onc-healthit/xdr-message-validator/releases/tag/1.0.2)
 	* Updated spring core from 4.2.4.RELEASE to 5.3.39
 	* Updated log4j from 1.2.16 to 2.18.0
-* [Content Validator API](https://github.com/onc-healthit/content-validator-api) updated to version [1.0.57](https://github.com/onc-healthit/content-validator-api/releases/tag/1.0.57)
-	* Updated spring core from 4.2.4.RELEASE to 5.3.39
+
 
 ### 3.1.82 | Released on 8/26/2024
 * [ETT](https://github.com/onc-healthit/ett) updated to version [2.3.70](https://github.com/onc-healthit/ett/releases/tag/2.3.70)
