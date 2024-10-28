@@ -2,6 +2,17 @@
 
 ## Release Notes
 
+### 3.1.84 | Released on 10/28/2024
+* [Content Validator API](https://github.com/onc-healthit/content-validator-api) updated to version [1.0.58](x)
+	* Update content validator to compare all submitted UDIs to reference CCDA regardless of order. (SITE-4123)
+	* Update SDOH assessment logic to not require social history observation wrapper around assessment scale observation. (SITE-3819)
+* [CCDA USCDI Certification Test Data](https://github.com/onc-healthit/ccda-uscdi-certification-testdata) updated to version [x](x)
+	* Update USCDIv3 b1 amb/inp, e1 amb/inp, g9 amb/inp instructions "Birth Sex" to "Sex" with values appropriate for the scenario.
+	* Update USCDIv3 e1 amb sample 1 instructions Health Concern Data from SNOMED-CT 445281000124101 to LOINC 75310-3.
+* [2015 Edition Cures Update - USCDI v3 Test Data](https://github.com/onc-healthit/2015-edition-cures-update-uscdi-v3-testdata) updated to version [x](x)
+	* Update b1 amb/inp, e1 amb/inp, g9 amb/inp instructions "Birth Sex" to "Sex" with values appropriate for the scenario.
+	* Update e1 amb sample 1 instructions Health Concern Data from SNOMED-CT 445281000124101 to LOINC 75310-3.
+
 ### 3.1.83 | Released on 9/30/2024
 * [C-CDA Validator](https://github.com/onc-healthit/reference-ccda-validator) updated to version [1.0.76](https://github.com/onc-healthit/reference-ccda-validator/releases/tag/1.0.76)
 	* Updated spring core from 4.3.30.RELEASE to 5.3.39
