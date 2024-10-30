@@ -6,7 +6,7 @@
 
 ## Latest Release
 ### SITE 4.0.0 | Released: 11/06/2024
-* SITE has undergone comprehensive enhancements to improve security, usability, functionality, and performance, offering a more intuitive and efficient user experience. These updates include:
+* The [SITE UI](https://github.com/onc-healthit/site-ui-4) has been updated to version 4! It has undergone comprehensive enhancements to improve security, usability, functionality, and performance, offering a more intuitive and efficient user experience. These updates include:
   * SITE and ETT were combined into a single unified website
   * Tools have been consolidated, and unnecessary tools removed
   * More intuitive and consistent interfaces exist throughout, with clear visual feedback
