@@ -1,12 +1,60 @@
-# The Standards Testing & Implementation Environment (SITE)
+## Historical Release Notes
 
-## Release Notes
+### 3.1.84 | Released on 10/28/2024
+* [Content Validator API](https://github.com/onc-healthit/content-validator-api) updated to version [1.0.58](https://github.com/onc-healthit/content-validator-api/releases/tag/1.0.58)
+	* Update content validator to compare all submitted UDIs to reference CCDA regardless of order. (SITE-4123)
+	* Update SDOH assessment logic to not require social history observation wrapper around assessment scale observation. (SITE-3819)
+* [CCDA USCDI Certification Test Data](https://github.com/onc-healthit/ccda-uscdi-certification-testdata) updated to version [1.0.0](https://github.com/onc-healthit/ccda-uscdi-certification-testdata/releases/tag/1.0.0)
+	* Update USCDIv3 b1 amb/inp, e1 amb/inp, g9 amb/inp instructions "Birth Sex" to "Sex" with values appropriate for the scenario.
+	* Update USCDIv3 e1 amb sample 1 instructions Health Concern Data from SNOMED-CT 445281000124101 to LOINC 75310-3.
+* [2015 Edition Cures Update - USCDI v3 Test Data](https://github.com/onc-healthit/2015-edition-cures-update-uscdi-v3-testdata) updated to version [1.0.0](https://github.com/onc-healthit/2015-edition-cures-update-uscdi-v3-testdata/releases/tag/1.0.0)
+	* Update b1 amb/inp, e1 amb/inp, g9 amb/inp instructions "Birth Sex" to "Sex" with values appropriate for the scenario.
+	* Update e1 amb sample 1 instructions Health Concern Data from SNOMED-CT 445281000124101 to LOINC 75310-3.
+
+### 3.1.83 | Released on 9/30/2024
+* [C-CDA Validator](https://github.com/onc-healthit/reference-ccda-validator) updated to version [1.0.76](https://github.com/onc-healthit/reference-ccda-validator/releases/tag/1.0.76)
+	* Update spring core from 4.3.30.RELEASE to 5.3.39
+* [Content Validator API](https://github.com/onc-healthit/content-validator-api) updated to version [1.0.57](https://github.com/onc-healthit/content-validator-api/releases/tag/1.0.57)
+	* Update spring core from 4.2.4.RELEASE to 5.3.39
+* [Code Validator API](https://github.com/onc-healthit/content-validator-api) updated to version [1.0.33](https://github.com/onc-healthit/code-validator-api/releases/tag/1.0.33)
+	* Update spring core from 4.1.0.RELEASE to 5.3.39
+* [C-CDA Scorecard](https://github.com/onc-healthit/ccda-scorecard) updated to version [2.7.2](https://github.com/onc-healthit/ccda-scorecard/releases/tag/2.7.2)
+	* Update spring core from 4.2.4.RELEASE to 5.3.39
+* [SITE-UI](https://github.com/onc-healthit/site-ui) updated to version [1.13](https://github.com/onc-healthit/site-ui/releases/tag/1.13)
+	* Update broken link on direct sandbox page
+* [XDR Message Sender](https://github.com/onc-healthit/xdr-message-sender) updated to version [1.0.3](https://github.com/onc-healthit/xdr-message-sender/releases/tag/1.0.3)
+	* Update log4j from 1.2.14 to 2.18.0
+* [XDR Message Validator](https://github.com/onc-healthit/xdr-message-validator) updated to version [1.0.2](https://github.com/onc-healthit/xdr-message-validator/releases/tag/1.0.2)
+	* Update spring core from 4.2.4.RELEASE to 5.3.39
+	* Update log4j from 1.2.16 to 2.18.0
+
+### 3.1.82 | Released on 8/26/2024
+* [ETT](https://github.com/onc-healthit/ett) updated to version [2.3.70](https://github.com/onc-healthit/ett/releases/tag/2.3.70)
+  * Update log4j version (SITE-4191)
+* [C-CDA Validator](https://github.com/onc-healthit/reference-ccda-validator) updated to version [1.0.75](https://github.com/onc-healthit/reference-ccda-validator/releases/tag/1.0.75)
+  * Updates to mdht version
+* [Content Validator Scenarios](https://github.com/onc-healthit/content-validator-scenarios) updated to version [1.0.1](https://github.com/onc-healthit/content-validator-scenarios/releases/tag/1.0.1)
+  * SDOH goal code updated to 161036002
+* [Content Validator API](https://github.com/onc-healthit/content-validator-api) updated to version [1.0.56](https://github.com/onc-healthit/content-validator-api/releases/tag/1.0.56)
+  * Related Person TemplateIds Comparison
+* [FHIR Tools](https://github.com/onc-healthit/fhir-tools) updated to version [1.0.1](https://github.com/onc-healthit/fhir-tools/releases/tag/1.0.1)
+  * Dependabot dependency update for FHIR R4
+  * Update README.md
 
 ### 3.1.81 | Released on 7/29/2024
-* [ett](https://github.com/onc-healthit/ett) updated to version [2.3.69](https://github.com/onc-healthit/ett/releases/tag/2.3.69)
-* [ccda-scorecard](https://github.com/onc-healthit/ccda-scorecard) updated to version [2.7.1](https://github.com/onc-healthit/ccda-scorecard/releases/tag/2.7.1)
-* [reference-ccda-validator](https://github.com/onc-healthit/reference-ccda-validator) updated to version [1.0.74](https://github.com/onc-healthit/reference-ccda-validator/releases/tag/1.0.74)
-* [content-validator-api](https://github.com/onc-healthit/content-validator-api) updated to version [1.0.55](https://github.com/onc-healthit/content-validator-api/releases/tag/1.0.55)
+* [ETT](https://github.com/onc-healthit/ett) updated to version [2.3.69](https://github.com/onc-healthit/ett/releases/tag/2.3.69)
+  * Update MT 39, 40, 41 to support TLS v1.2
+  * Create README.md by to refer users to google groups for support
+  * Update release_notes.txt to refer to SITE release notes
+* [C-CDA Scorecard](https://github.com/onc-healthit/ccda-scorecard) updated to version [2.7.1](https://github.com/onc-healthit/ccda-scorecard/releases/tag/2.7.1)
+  * Update README.md to refer users to google groups for support
+  * Update Scorecard API and External Tools Instructions to remove references to API access
+* [C-CDA Validator](https://github.com/onc-healthit/reference-ccda-validator) updated to version [1.0.74](https://github.com/onc-healthit/reference-ccda-validator/releases/tag/1.0.74)
+  * Update README.md to refer users to google groups for support
+  * Update MDHT value set names and pregnancy value set OID
+* [Content Validator API](https://github.com/onc-healthit/content-validator-api) updated to version [1.0.55](https://github.com/onc-healthit/content-validator-api/releases/tag/1.0.55)
+  * Create README.md to refer users to google groups for support
+  * Updated to parser name and template id for RelatedPerson
 
 ### SITE V3.1.80 | Released on: 06/24/2024
 * Reference-ccda-calidator to 1.0.73
