@@ -2,6 +2,10 @@
 
 ## Release Notes
 
+### 3.1.85 | Released on 10/31/2024
+* [Code Validator API](https://github.com/onc-healthit/code-validator-api) updated to version [1.0.34](https://github.com/onc-healthit/code-validator-api/releases/tag/1.0.34)
+	* Update interaction with SNOMED codes to fix duplicate rows error. (SITE-4361)
+
 ### 3.1.84 | Released on 10/28/2024
 * [Content Validator API](https://github.com/onc-healthit/content-validator-api) updated to version [1.0.58](https://github.com/onc-healthit/content-validator-api/releases/tag/1.0.58)
 	* Update content validator to compare all submitted UDIs to reference CCDA regardless of order. (SITE-4123)
