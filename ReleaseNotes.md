@@ -8,8 +8,6 @@
 * [Trust Anchor Uploader](https://github.com/onc-healthit/trustanchor-uploader) updated to version [1.0.1](https://github.com/onc-healthit/trustanchor-uploader/releases/tag/1.0.1)
 	* Update spring to 5.3.39. (SITE-4353)
 
-https://github.com/onc-healthit/trustanchor-uploader
-
 ### 3.1.85 | Released on 10/31/2024
 * [Code Validator API](https://github.com/onc-healthit/code-validator-api) updated to version [1.0.34](https://github.com/onc-healthit/code-validator-api/releases/tag/1.0.34)
 	* Update interaction with SNOMED codes to fix duplicate rows error. (SITE-4361)
