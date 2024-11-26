@@ -2,6 +2,10 @@
 
 ## Release Notes
 
+### 3.1.87 | Released on 11/25/2024
+* [FHIR Tools](https://github.com/onc-healthit/fhir-tools) updated to version [1.0.2](https://github.com/onc-healthit/fhir-tools/releases/tag/1.0.2)
+	* Update spring security to 5.7.13. (SITE-4357)
+
 ### 3.1.86 | Released on 11/20/2024
 * [Direct Transport Message Sender](https://github.com/onc-healthit/direct-transport-message-sender) updated to version [1.0.3](https://github.com/onc-healthit/direct-transport-message-sender/releases/tag/1.0.3)
 	* Update spring to 5.3.39. (SITE-4354)
