@@ -3,7 +3,7 @@
 ## Release Notes
 
 ### 4.0.1 | Released on 2/24/2025
-* [Edge Test Tool](https://github.com/onc-healthit/ett) updated to version [2.3.71]()
+* [Edge Test Tool](https://github.com/onc-healthit/ett) updated to version [2.3.71](https://github.com/onc-healthit/ett/releases/tag/2.3.71)
 	* Update internal .txt file generation to use single repository for all USCDI versions rather than separate repositories for each USCDI version. (SITE-4408)
 	* Fix issue with XDM validator where XDM.zip could not be downloaded. (SITE-4041)
 * [Direct Certificate Discovery Tool](https://github.com/onc-healthit/dcdt) updated to version [3.1.5](https://github.com/onc-healthit/dcdt/releases/tag/3.1.5)
