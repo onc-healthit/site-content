@@ -1,5 +1,26 @@
 ## Historical Release Notes
 
+### 4.0.1 | Released on 2/24/2025
+* [Edge Test Tool](https://github.com/onc-healthit/ett) updated to version [2.3.71](https://github.com/onc-healthit/ett/releases/tag/2.3.71)
+	* Update internal .txt file generation to use single repository for all USCDI versions rather than separate repositories for each USCDI version. (SITE-4408)
+	* Fix issue with XDM validator where XDM.zip could not be downloaded. (SITE-4041)
+* [Direct Certificate Discovery Tool](https://github.com/onc-healthit/dcdt) updated to version [3.1.5](https://github.com/onc-healthit/dcdt/releases/tag/3.1.5)
+	* Fix build issues and version page. (SITE-4463)
+
+### 3.1.87 | Released on 11/25/2024
+* [FHIR Tools](https://github.com/onc-healthit/fhir-tools) updated to version [1.0.2](https://github.com/onc-healthit/fhir-tools/releases/tag/1.0.2)
+	* Update spring security to 5.7.13. (SITE-4357)
+
+### 3.1.86 | Released on 11/20/2024
+* [Direct Transport Message Sender](https://github.com/onc-healthit/direct-transport-message-sender) updated to version [1.0.3](https://github.com/onc-healthit/direct-transport-message-sender/releases/tag/1.0.3)
+	* Update spring to 5.3.39. (SITE-4354)
+* [Trust Anchor Uploader](https://github.com/onc-healthit/trustanchor-uploader) updated to version [1.0.1](https://github.com/onc-healthit/trustanchor-uploader/releases/tag/1.0.1)
+	* Update spring to 5.3.39. (SITE-4353)
+
+### 3.1.85 | Released on 10/31/2024
+* [Code Validator API](https://github.com/onc-healthit/code-validator-api) updated to version [1.0.34](https://github.com/onc-healthit/code-validator-api/releases/tag/1.0.34)
+	* Update interaction with SNOMED codes to fix duplicate rows error. (SITE-4361)
+
 ### 3.1.84 | Released on 10/28/2024
 * [Content Validator API](https://github.com/onc-healthit/content-validator-api) updated to version [1.0.58](https://github.com/onc-healthit/content-validator-api/releases/tag/1.0.58)
 	* Update content validator to compare all submitted UDIs to reference CCDA regardless of order. (SITE-4123)
