@@ -7,11 +7,11 @@
 ## Latest Release
 ### 4.0.2 | Released on 3/3/2025
 * [Edge Test Tool](https://github.com/onc-healthit/ett) updated to version [2.3.72](https://github.com/onc-healthit/ett/releases/tag/2.3.72)
-	* Redirect ETT UI to SITE 4 via meta with JS and noscript fallbacks.
+	* Redirect ETT UI to SITE 4 UI
 * [SITE UI 4](https://github.com/onc-healthit/site-ui-4) updated to version [4.0.2](https://github.com/onc-healthit/site-ui-4/releases/tag/4.0.2)
 	* Fix broken link on DCDT version page. (SITE-4442)
 	* Support downloading sent emails and attachments in test by criteria. (SITE-4499)
-	* Update text in CCDA payload selection to indicate that only one option may be selected. (SITE-4495)
-	* Add estimated time for Direct Test by Criteria tests that take a long time to run. (SITE-4458)
+	* Update text in C-CDA payload selection to indicate that only one option may be selected. (SITE-4495)
+	* Add estimated time for Direct Test by Criteria tests (SITE-4458)
 	* Remove fhir-tools GitHub card from Docs page. (SITE-4471)
   	* Reload profile when session expires. (SITE-4418)
