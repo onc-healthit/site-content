@@ -11,6 +11,19 @@
 * [FHIR Tools](https://github.com/onc-healthit/fhir-tools) updated to version [1.0.2](https://github.com/onc-healthit/fhir-tools/releases/tag/1.0.2)
 	* Update spring security to 5.7.13. (SITE-4357)
 
+### SITE 4.0.0 | Released: 11/20/2024
+* The [SITE UI](https://github.com/onc-healthit/site-ui-4) has been updated to version 4! It has undergone comprehensive enhancements to improve security, usability, functionality, and performance, offering a more intuitive and efficient user experience. These updates include:
+  * SITE and ETT were combined into a single unified website
+  * Tools have been consolidated, and unnecessary tools removed
+  * More intuitive and consistent interfaces exist throughout, with clear visual feedback
+  * The purpose and function of different tools and features are easier to identify
+  * Consistent naming using criteria numbers has been added to make navigation easier
+  * AngularJS and Angular 4 have been updated to the latest version of Next.js (React/Node.js), vastly enhancing security and maintainability
+  * The system was designed modularly, which can be scaled up by adding more modules. This ensures that new features or tools can be added as the system grows without affecting the existing architecture.
+  * A notification panel has been added to alert users to announcements, changes, and updates
+  * C-CDA validation report results (C-CDA Validator and C-CDA Scorecard) are more comprehensive, intuitive, navigable, and can be printed and saved
+  * More consistent error messaging and form validation is provided throughout SITE
+
 ### 3.1.86 | Released on 11/20/2024
 * [Direct Transport Message Sender](https://github.com/onc-healthit/direct-transport-message-sender) updated to version [1.0.3](https://github.com/onc-healthit/direct-transport-message-sender/releases/tag/1.0.3)
 	* Update spring to 5.3.39. (SITE-4354)
