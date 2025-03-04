@@ -14,3 +14,4 @@
 	* Update text in CCDA payload selection to indicate that only one option may be selected. (SITE-4495)
 	* Add estimated time for Direct Test by Criteria tests that take a long time to run. (SITE-4458)
 	* Remove fhir-tools GitHub card from Docs page. (SITE-4471)
+  	* Reload profile when session expires. (SITE-4418)
