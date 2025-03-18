@@ -5,13 +5,14 @@
 #### Our commitment to transparency and keeping you informed about the latest updates is at the heart of this section. Whether you're a developer, an IT professional, or a healthcare stakeholder, our release notes provide valuable insights into the evolution of our platform.
 
 ## Latest Release
-### 4.0.2 | Released on 3/3/2025
-* [Edge Test Tool](https://github.com/onc-healthit/ett) updated to version [2.3.72](https://github.com/onc-healthit/ett/releases/tag/2.3.72)
-	* Redirect ETT UI to SITE 4 UI
-* [SITE UI 4](https://github.com/onc-healthit/site-ui-4) updated to version [4.0.2](https://github.com/onc-healthit/site-ui-4/releases/tag/4.0.2)
-	* Fix broken link on DCDT version page. (SITE-4442)
-	* Support downloading sent emails and attachments in test by criteria. (SITE-4499)
-	* Update text in C-CDA payload selection to indicate that only one option may be selected. (SITE-4495)
-	* Add estimated time for Direct Test by Criteria tests (SITE-4458)
-	* Remove fhir-tools GitHub card from Docs page. (SITE-4471)
-  	* Reload profile when session expires. (SITE-4418)
+### 4.1.0 | Released on 3/17/2025
+* [Reference C-CDA Validator](https://github.com/onc-healthit/reference-ccda-validator) updated to version [1.1.0](https://github.com/onc-healthit/reference-ccda-validator/releases/tag/1.1.0)
+	* Update target USCDI version to be single enum instead of multiple booleans.
+	* Add support for USCDIv4.
+* [Content Validator API](https://github.com/onc-healthit/content-validator-api) updated to version [1.1.0](https://github.com/onc-healthit/content-validator-api/releases/tag/1.1.0)
+	* Update target USCDI version to be single enum instead of multiple booleans.
+	* Add support for USCDIv4.
+* [SITE User Interface 4](https://github.com/onc-healthit/site-ui-4) updated to version [4.1.0](https://github.com/onc-healthit/site-ui-4/releases/tag/4.1.0)
+	* Add support for USCDIv4.
+ 	* Add new Industry Resources.
+	* Add new General Testing Tool: Touchstone.
