@@ -14,3 +14,5 @@
 	* Add support for USCDIv4.
 * [SITE User Interface 4](https://github.com/onc-healthit/site-ui-4) updated to version [4.1.0](x)
 	* Add support for USCDIv4.
+ 	* Add new Industry Resources.
+	* Add new General Testing Tool: Touchstone.
