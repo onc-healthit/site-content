@@ -10,5 +10,5 @@
 	* Update log4j version.
 * [Content Validator API](https://github.com/onc-healthit/content-validator-api) updated to version [1.1.1](x)
 	* Update USCDIv4 MedicationAdherences, Medication Free Text Sigs, MedicationAdherence comparison, Procedure Performance Time, and Average BP Test Data.
-	* Remove GenderIdentity and SexualOrientation comparison as per executive orders.
+	* Remove GenderIdentity and SexualOrientation comparison.
 * [SITE User Interface 4](https://github.com/onc-healthit/site-ui-4) updated to version [4.1.1](x)
