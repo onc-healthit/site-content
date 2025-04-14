@@ -1,5 +1,12 @@
 ## Historical Release Notes
 
+### 4.1.1 | Released on 3/31/2025
+* [Content Validator API](https://github.com/onc-healthit/content-validator-api) updated to version [1.1.1](https://github.com/onc-healthit/content-validator-api/releases/tag/1.1.1)
+	* Update USCDIv4 MedicationAdherences, Medication Free Text Sigs, MedicationAdherence comparison, Procedure Performance Time, and Average BP Test Data.
+	* Remove GenderIdentity and SexualOrientation comparison.
+* [SITE User Interface 4](https://github.com/onc-healthit/site-ui-4) updated to version [4.1.1](https://github.com/onc-healthit/site-ui-4/releases/tag/4.1.1)
+	* Update nextJS and others due to auth CVE
+
 ### 4.1.0 | Released on 3/17/2025
 * [Reference C-CDA Validator](https://github.com/onc-healthit/reference-ccda-validator) updated to version [1.1.0](https://github.com/onc-healthit/reference-ccda-validator/releases/tag/1.1.0)
 	* Update target USCDI version to be single enum instead of multiple booleans.
