@@ -10,5 +10,3 @@
 	* Fix page reload issue on login with empty profile list. (SITE-4541)
  	* Fix incorrect XDR TLS certificates available for XDR tests. (SITE-4491)
  	* Fix B1 SMTP test sending default file instead of selected file. (SITE-4530)
-* [Edge Test Tool](https://github.com/onc-healthit/ett) updated to version [2.3.73](https://github.com/onc-healthit/ett/releases/tag/2.3.73)
-	* Update log4j version (SITE-4540)
