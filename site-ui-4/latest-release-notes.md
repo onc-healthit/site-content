@@ -7,6 +7,6 @@
 ## Latest Release
 ### 4.1.4 | Released on 5/16/2025
 * [SITE User Interface 4](https://github.com/onc-healthit/site-ui-4) updated to version [4.1.4](https://github.com/onc-healthit/site-ui-4/releases/tag/4.1.4)
-	* xxx. (SITE-4491, SITE-4519)
+	* Fix XDR receive tests 8 and 9 returning false negative. (SITE-4491, SITE-4519)
 * [Edge Testing Tool](https://github.com/onc-healthit/ett) updated to version [2.3.73](https://github.com/onc-healthit/ett/releases/tag/2.3.73)
-	* xxx. (SITE-4491, SITE-4519)
+	* Add the renewed xdr certificate to goodkeystore and goodtruststore. (SITE-4491, SITE-4519)
