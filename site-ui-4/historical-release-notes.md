@@ -1,5 +1,9 @@
 ## Historical Release Notes
 
+### 4.1.3 | Released on 5/7/2025
+* [SITE User Interface 4](https://github.com/onc-healthit/site-ui-4) updated to version [4.1.3](https://github.com/onc-healthit/site-ui-4/releases/tag/4.1.3)
+	* Fix Check MDN for Delivery Notifications SMTP MT tests. (SITE-4588)
+
 ### 4.1.2 | Released on 4/14/2025
 * [SITE User Interface 4](https://github.com/onc-healthit/site-ui-4) updated to version [4.1.2](https://github.com/onc-healthit/site-ui-4/releases/tag/4.1.2)
 	* Fix page reload issue on login with empty profile list. (SITE-4541)
