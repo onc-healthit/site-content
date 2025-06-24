@@ -26,7 +26,7 @@
 	* [C-CDA USCDI Certification Test 1.1.0](https://github.com/onc-healthit/ccda-uscdi-certification-testdata/releases/tag/1.1.0)
 	* [Code Validator API 1.0.34](https://github.com/onc-healthit/code-validator-api/releases/tag/1.0.34)
 	* [Content Validator API 1.1.2](https://github.com/onc-healthit/content-validator-api/releases/tag/1.1.2)*
-	* [Direct Certificate Discovery Tool 3.1.6](https://github.com/onc-healthit/dcdt/releases/tag/3.1.6)
+	* [Direct Certificate Discovery Tool 3.1.6](https://github.com/onc-healthit/dcdt/releases/tag/3.1.6)*
 	* [Direct Transport Message Sender 1.0.3](https://github.com/onc-healthit/direct-transport-message-sender/releases/tag/1.0.3)
 	* [Edge Testing Tool 2.3.74](https://github.com/onc-healthit/ett/releases/tag/2.3.74)*
 	* [Reference C-CDA Validator 1.1.1](https://github.com/onc-healthit/reference-ccda-validator/releases/tag/1.1.1)*
