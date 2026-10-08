@@ -12,7 +12,7 @@
 | C-CDA Content Validator API                    | 1.1.6   | Yes                | 
 | C-CDA Reference Validator API                  | 1.1.5   | Yes                | 
 | Edge Test Tool (Direct/Direct Edge Protoocols) | 2.3.74  | No                 | 
-| SITE User Interface (site-ui-4)                | 4.1.10  | Yes                | 
+| SITE User Interface (site-ui-4)                | 4.1.9   | Yes                | 
 | XDR Message Validator                          | 1.0.2   | No                 | 
 | XDR Message Sender                             | 1.0.3   | No                 | 
 | Trust Anchor Uploader                          | 1.0.1   | No                 | 
