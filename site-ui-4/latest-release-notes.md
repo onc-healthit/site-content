@@ -19,9 +19,10 @@
 | C-CDA Scorecard                                | 2.7.2   | No                 | 
 
 
-#### C-CDA / MDHT Library  Changes:
-
+#### MDHT Library  Changes:
 Updated the MDHT CDA Consolidation library to correct a duplicate template ID that affected C-CDA document validation.
+
+#### C-CDA
 Fix facility identifier incorrectly mapped to TemplateId.
  
 **SITE User Interface (site-ui-4):**
